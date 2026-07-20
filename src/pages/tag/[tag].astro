@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import NewsletterBand from "../../components/NewsletterBand.astro";
+import { TAG_DEFS } from "../../data/tags";
+import { sortedByOrder, truncateForSEO } from "../../lib/utils";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("posts");
+  return TAG_DEFS.map((def) => ({
+    params: { tag: def.slug },
+    props: { def, allPosts },
+  }));
+}
+
+const { def, allPosts } = Astro.props;
+const posts = sortedByOrder(allPosts.filter((p) => p.data.tags?.includes(def.tag)));
+const plural = posts.length === 1 ? "property" : "properties";
+const otherTags = TAG_DEFS.filter((t) => t.slug !== def.slug);
+---
+<BaseLayout title={`${def.label} Homes Australia — The P List`} description={truncateForSEO(def.intro, 158)} path={`/tag/${def.slug}`}>
+  <div class="wrap about-hero">
+    <span class="eyebrow" data-reveal>Browse by style</span>
+    <h1 data-reveal style="margin-top:14px;transition-delay:60ms">{def.h1}</h1>
+    <p data-reveal style="transition-delay:120ms">{def.intro}</p>
+  </div>
+  <section class="listings-section">
+    <div class="wrap">
+      <div class="listings-header" data-reveal>
+        <span class="listings-count">
+          {posts.length ? `Showing ${posts.length} ${plural} tagged “${def.label}”` : `No properties tagged “${def.label}” yet`}
+        </span>
+      </div>
+      {posts.length ? (
+        <div class="grid">
+          {posts.map((p, i) => <PostCard post={p} index={i} />)}
+        </div>
+      ) : (
+        <p style="font-family:var(--mono);font-size:13px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.06em;text-align:center;padding:60px 0;">Check back soon &mdash; or <a href="/" style="color:inherit;">browse everything</a> in the meantime.</p>
+      )}
+    </div>
+  </section>
+  <div class="wrap" style="padding-top: 8px; padding-bottom: 60px;">
+    <span class="foot-coverage-label" style="display:block;margin-bottom:10px;color:var(--ink-soft);">Browse other categories</span>
+    <div class="tags">
+      {otherTags.map((t) => <a class="tag" href={`/tag/${t.slug}`}>{t.label}</a>)}
+    </div>
+  </div>
+  <NewsletterBand />
+</BaseLayout>

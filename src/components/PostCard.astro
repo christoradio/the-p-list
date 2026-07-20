@@ -1,0 +1,54 @@
+---
+import Stamp from "./Stamp.astro";
+import Tags from "./Tags.astro";
+import StatusBadge from "./StatusBadge.astro";
+import type { Post } from "../lib/utils";
+import { cardMediaSrc, firstSentence } from "../lib/utils";
+
+interface Props {
+  post: Post;
+  index?: number;
+  wide?: boolean;
+}
+const { post, index = 0, wide = false } = Astro.props;
+const cover = cardMediaSrc(post);
+const ytThumb = post.data.youtubeId
+  ? `https://i.ytimg.com/vi/${post.data.youtubeId}/hqdefault.jpg`
+  : undefined;
+---
+<a
+  class={`card${wide ? " card-wide" : ""}`}
+  href={`/post/${post.data.slug}`}
+  data-reveal
+  style={`transition-delay:${Math.min(index, 8) * 60}ms`}
+  data-tags={post.data.tags.join("|")}
+  data-status={post.data.status ?? ""}
+  data-state={post.data.state ?? ""}
+  data-country={post.data.country ?? ""}
+  data-quirk={post.data.quirk}
+  data-beds={post.data.beds}
+  data-order={post.data.order}
+>
+  <div class="card-media">
+    {cover ? (
+      <img src={cover} alt={post.data.title} loading="lazy" />
+    ) : ytThumb ? (
+      <img src={ytThumb} alt={`${post.data.title} — video thumbnail`} loading="lazy" />
+    ) : (
+      <div class="ph-placeholder">Photo / video<br />coming soon</div>
+    )}
+    {post.data.youtubeId && (
+      <div class="play-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
+      </div>
+    )}
+    <StatusBadge status={post.data.status} />
+    <div class="card-stamp"><Stamp /></div>
+  </div>
+  <div class="card-body">
+    <h3>{post.data.title}</h3>
+    <p class="verdict">{firstSentence(post.data.verdict)}</p>
+    <Tags tags={post.data.tags} />
+    <div class="card-foot">Read the file &rarr;</div>
+  </div>
+</a>

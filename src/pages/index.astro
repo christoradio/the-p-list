@@ -1,0 +1,141 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import Tags from "../components/Tags.astro";
+import StatusBadge from "../components/StatusBadge.astro";
+import NewsletterBand from "../components/NewsletterBand.astro";
+import {
+  sortedByOrder,
+  cardMediaSrc,
+  firstSentence,
+  locationLabel,
+  READ_MORE_LABELS,
+  GRID_CHUNK_HEADERS,
+} from "../lib/utils";
+
+const allPosts = sortedByOrder(await getCollection("posts"));
+const hero = allPosts[0];
+const rest = allPosts.slice(1);
+
+const readMoreLabel = READ_MORE_LABELS[Math.floor(Math.random() * READ_MORE_LABELS.length)];
+const heroSrc = hero ? cardMediaSrc(hero) : undefined;
+
+const hasIntl = allPosts.some((p) => p.data.country);
+
+const filterTabs: Array<{ f: string; label: string } | null> = [
+  { f: "all", label: "All listings" },
+  { f: "for-sale", label: "For Sale" },
+  { f: "sold", label: "Sold" },
+  { f: "not-for-sale", label: "Not for Sale" },
+  null,
+  { f: "Time Capsule", label: "Time Capsule" },
+  { f: "Luxury Excess", label: "Luxury Excess" },
+  { f: "Out Of The Ordinary", label: "Out of the Ordinary" },
+  { f: "Retro", label: "Retro" },
+  { f: "international", label: "O.S." },
+];
+
+const states = ["NSW", "VIC", "QLD", "WA", "SA"];
+
+const chunkSize = 6;
+---
+<BaseLayout path="/">
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <h1 data-reveal style="transition-delay:70ms">Properties that<br />didn't make the<br /><span>A</span>-list<span style="color:var(--rust)">.</span></h1>
+      <p class="tagline" data-reveal style="transition-delay:140ms">But should have.</p>
+    </div>
+
+    <div class="filter-bar">
+      <div class="wrap filter-bar-inner">
+        <span class="filter-label">Filter:</span>
+        {filterTabs.map((t) =>
+          t ? (
+            <button class={`filter-tab${t.f === "all" ? " active" : ""}`} data-filter={t.f}>{t.label}</button>
+          ) : (
+            <div class="filter-divider"></div>
+          )
+        )}
+      </div>
+    </div>
+    <div class="state-row">
+      <div class="wrap state-row-inner">
+        <span class="state-row-label">State:</span>
+        <button class="state-pill active" data-state="all">All</button>
+        {states.map((s) => <button class="state-pill" data-state={s}>{s}</button>)}
+        {hasIntl && <button class="state-pill" data-state="international">O.S.</button>}
+      </div>
+    </div>
+  </section>
+
+  <section class="listings-section">
+    <div class="wrap">
+      <div class="listings-header" data-reveal>
+        <span class="listings-count" id="listingsCount">Showing {allPosts.length} properties</span>
+        <select class="sort-select" id="sortSelect">
+          <option value="newest">Newest first</option>
+          <option value="quirk">Quirk rating</option>
+          <option value="beds-desc">Most bedrooms</option>
+        </select>
+      </div>
+
+      {hero && (
+        <a class="hero-listing" href={`/post/${hero.data.slug}`} data-reveal>
+          <div class="hero-listing-media">
+            {heroSrc ? <img src={heroSrc} alt={hero.data.title} loading="lazy" /> : <div class="ph-placeholder">Photo coming soon</div>}
+            {hero.data.youtubeId && (
+              <div class="play-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
+              </div>
+            )}
+            <StatusBadge status={hero.data.status} />
+          </div>
+          <div class="hero-listing-body">
+            <div class="hero-listing-eyebrow">&#9733; Featured listing</div>
+            <Tags tags={hero.data.tags} />
+            <h2>{hero.data.title}</h2>
+            <div class="place">{locationLabel(hero)}</div>
+            <div class="specs">
+              <span>{hero.data.beds} bed</span>
+              <span>{hero.data.baths} bath</span>
+              <span>{hero.data.cars} car</span>
+              <span>{hero.data.era}</span>
+            </div>
+            <p class="verdict-text">{firstSentence(hero.data.verdict)}</p>
+            <div class="read-more">{readMoreLabel} &rarr;</div>
+          </div>
+        </a>
+      )}
+
+      <div class="wrap ad-banner-wrap" style="padding-bottom: 28px;">
+        <a href="https://amzn.asia/d/0iG0b5iB" target="_blank" rel="noopener sponsored" class="home-ad-banner" aria-label="Advertisement">
+          <img src="/images/amazon-banner.png" alt="Advertisement" loading="lazy" />
+          <span class="ad-label" style="display:block;text-align:center;margin-top:6px;">Advertisement</span>
+        </a>
+      </div>
+
+      <div class="grid" id="postGrid">
+        {rest.map((post, i) => {
+          const isBreakAnchor = i % chunkSize === 0;
+          const nodes = [];
+          if (i > 0 && i % chunkSize === 0) {
+            const headerIndex = Math.floor(i / chunkSize) - 1;
+            nodes.push(
+              <div class="grid-chunk-header" data-reveal>
+                <span class="eyebrow">The list continues</span>
+                <h2>{GRID_CHUNK_HEADERS[headerIndex % GRID_CHUNK_HEADERS.length]}</h2>
+              </div>
+            );
+          }
+          nodes.push(<PostCard post={post} index={i} wide={isBreakAnchor} />);
+          return nodes;
+        })}
+      </div>
+      <p id="noMatch" style="display:none;font-family:var(--mono);font-size:13px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.06em;text-align:center;padding:60px 0;">No properties match this filter — try another one.</p>
+    </div>
+  </section>
+
+  <NewsletterBand />
+</BaseLayout>

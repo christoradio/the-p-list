@@ -1,0 +1,9 @@
+---
+import { statusBadgeClass } from "../lib/utils";
+
+interface Props {
+  status?: string;
+}
+const { status } = Astro.props;
+---
+<span class={`status-badge ${statusBadgeClass(status)}`}>{status || "For Sale"}</span>

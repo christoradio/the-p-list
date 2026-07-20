@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NewsletterBand from "../components/NewsletterBand.astro";
+---
+<BaseLayout
+  title="About The P List — Why We Celebrate Australia's Weirdest Homes"
+  description="The P List exists for one reason: the houses with the most personality almost never get the photos they deserve. Here's why we find them, film them, and write them up."
+  path="/about"
+>
+  <div class="wrap about-hero">
+    <span class="eyebrow" data-reveal>About the list</span>
+    <h1 data-reveal style="margin-top:14px;transition-delay:60ms">We champion the houses<br />everyone else scrolls past.</h1>
+    <p data-reveal style="transition-delay:120ms">The P List exists for one reason: the houses with the most personality almost never get the photos they deserve. The avocado bathrooms. The pebblecrete. The carpet that's seen things. We find them, film them, and give them the affectionate write-up they've earned.</p>
+    <p data-reveal style="transition-delay:170ms"><strong>Properties that didn't make the A-list. But should have.</strong> That's the whole pitch.</p>
+    <p data-reveal style="transition-delay:220ms">It started on <a href="https://www.instagram.com/christoradio" target="_blank" rel="noopener" style="text-decoration:underline;">Instagram</a>, and it's still happening there every day &mdash; this is where those finds get room to breathe. The full video instead of fifteen seconds. Every photo instead of one. The story that never fit in a caption. Follow along over there for the daily finds; come here when you want to go deeper on one.</p>
+    <p data-reveal style="transition-delay:270ms">Every house we feature gets a video, a write-up, a property file &mdash; and a link straight back to its real listing, because we're not here to replace agents, we're here to send them the attention they're missing out on.</p>
+    <p data-reveal style="transition-delay:300ms">A quick disclosure, because you deserve one: every video on this site is filmed, voiced and edited by an actual human (me, Christo). The write-ups are a different story &mdash; I set the framework, the voice and the tone, and AI does the actual writing, pulling it all together into the finished piece. I have a full-time job and a family, and there simply aren't enough hours to hand-write this much copy without one of those things suffering badly. Every blurb is reviewed by me and signed off by me before it goes anywhere near the site. If something's wrong or off-brand, that's on me, not the robot.</p>
+    <a href="/" class="btn btn-solid" data-reveal style="transition-delay:350ms">Back to the list</a>
+  </div>
+  <NewsletterBand />
+</BaseLayout>

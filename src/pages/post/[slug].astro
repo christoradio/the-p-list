@@ -1,0 +1,185 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Stamp from "../../components/Stamp.astro";
+import Tags from "../../components/Tags.astro";
+import QuirkDots from "../../components/QuirkDots.astro";
+import PostCard from "../../components/PostCard.astro";
+import NewsletterBand from "../../components/NewsletterBand.astro";
+import {
+  sortedByOrder,
+  postSeoTitle,
+  postSeoDescription,
+  locationLabel,
+  relatedPosts,
+} from "../../lib/utils";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+  return posts.map((post) => ({
+    params: { slug: post.data.slug },
+    props: { post, allPosts: posts },
+  }));
+}
+
+const { post, allPosts } = Astro.props;
+const { Content } = await render(post);
+const others = relatedPosts(sortedByOrder(allPosts), post, 3);
+
+const RELATED_HEADINGS = [
+  "Still Here? Brave Of You.",
+  "Somehow, There's More.",
+  "You Made It This Far. Don't Stop Now.",
+  "Congratulations, Here's More Bad Carpet",
+];
+const relatedHeading = RELATED_HEADINGS[Math.floor(Math.random() * RELATED_HEADINGS.length)];
+
+const funStat = post.data.funStat || `Quirk rating: ${post.data.quirk}/5`;
+const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+});
+---
+<BaseLayout title={postSeoTitle(post)} description={postSeoDescription(post)} image={post.data.heroImage} path={`/post/${post.data.slug}`}>
+  <div class="wrap post-header">
+    <div class="post-header-top">
+      <a href="/" class="back-link">&larr; Back to the list</a>
+      <button type="button" class="share-btn" data-share-title={post.data.title}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" /><line x1="8.6" y1="13.5" x2="15.4" y2="17.5" /><line x1="15.4" y1="6.5" x2="8.6" y2="10.5" /></svg>
+        <span data-share-label>Share</span>
+      </button>
+    </div>
+    <Tags tags={post.data.tags} linked />
+    <h1>{post.data.title}</h1>
+    <div class="post-meta">
+      <span class="place">{locationLabel(post)}</span>
+      <span class="place">&middot; {dateLabel}</span>
+    </div>
+    <div class="mobile-stats-line" data-reveal>
+      <span>{post.data.beds} bed</span><span aria-hidden="true">&middot;</span>
+      <span>{post.data.baths} bath</span><span aria-hidden="true">&middot;</span>
+      <span>{post.data.cars} car</span><span aria-hidden="true">&middot;</span>
+      <span>{funStat}</span>
+    </div>
+  </div>
+
+  <div class="wrap post-layout">
+    <div class="post-video-col">
+      <div class="video-frame" data-reveal>
+        <div class="video-window">
+          {post.data.youtubeId ? (
+            <iframe
+              src={`https://www.youtube.com/embed/${post.data.youtubeId}`}
+              title={post.data.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          ) : post.data.noVideo ? (
+            (() => {
+              const img = post.data.videoImage || post.data.heroImage || post.data.photos?.[0]?.src;
+              return img ? (
+                <img src={img} alt={post.data.title} loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+              ) : (
+                <div class="ph-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8l7-5 7 5v11a1 1 0 01-1 1h-4v-6H10v6H6a1 1 0 01-1-1z" /></svg>
+                  <span>Photos and the full story only — no video for this one</span>
+                </div>
+              );
+            })()
+          ) : (
+            <div class="ph-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8l7-5 7 5v11a1 1 0 01-1 1h-4v-6H10v6H6a1 1 0 01-1-1z" /></svg>
+              <span>Video coming soon</span>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+
+    <div class="post-body-col">
+      <div class="post-body" data-reveal>
+        <Content />
+      </div>
+
+      <div class="photo-scroll-hint">Scroll for more <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+      <div class="photo-strip-wrap">
+        <div class="photo-strip">
+          {post.data.youtubeId && (
+            <button type="button" class="video-teaser-tile" data-video-teaser data-youtube-id={post.data.youtubeId} data-video-title={post.data.title} aria-label={`Play the video for ${post.data.title}`}>
+              <img src={`https://i.ytimg.com/vi/${post.data.youtubeId}/hqdefault.jpg`} alt="" loading="lazy" />
+              <span class="vt-play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M4 2.5v11l10-5.5z" /></svg></span></span>
+              <span class="vt-label">Watch the video</span>
+            </button>
+          )}
+          {post.data.photos.length ? (
+            post.data.photos.map((p, i) => (
+              <button type="button" class="ph-tile" data-reveal style={`transition-delay:${Math.min(i, 8) * 50}ms`} data-photo-src={p.src} data-photo-caption={p.caption || post.data.title} aria-label={`View larger: ${p.caption || post.data.title}`}>
+                <img src={p.src} alt={p.caption || post.data.title} loading="lazy" />
+                <span class="zoom-hint" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="6.5" /><path d="M15 15l5 5M8 10h4M10 8v4" /></svg>
+                </span>
+              </button>
+            ))
+          ) : (
+            [1, 2, 3].map(() => (
+              <div class="ph-tile"><div class="ph-placeholder">Photos<br />coming soon</div></div>
+            ))
+          )}
+        </div>
+      </div>
+
+      <div class="listing-cta" style="margin-top:20px;" data-reveal>
+        <a href={post.data.listingUrl} target="_blank" rel="noopener" class="btn btn-solid">{post.data.listingLabel || "View the real listing (yes, it's real)"} &rarr;</a>
+      </div>
+
+      <div class="mobile-agent-link" data-reveal>
+        {post.data.status ? (
+          <div class="status-note">{post.data.status}</div>
+        ) : (
+          <a href={post.data.listingUrl} target="_blank" rel="noopener" class="btn agent-btn">Contact the agent (brave of you)</a>
+        )}
+      </div>
+    </div>
+
+    <div class="sidebar-col">
+      <aside class="file-card" data-reveal>
+        <div class="file-eyebrow">
+          <span class="eyebrow" style="color:var(--ink-soft);">Property file</span>
+          <Stamp />
+        </div>
+        <div class="file-row"><span class="k">Era</span><span class="v">{post.data.era}</span></div>
+        <div class="file-row"><span class="k">Beds</span><span class="v">{post.data.beds}</span></div>
+        <div class="file-row"><span class="k">Baths</span><span class="v">{post.data.baths}</span></div>
+        <div class="file-row"><span class="k">Car spots</span><span class="v">{post.data.cars}</span></div>
+        <div class="file-row"><span class="k">Quirk rating</span><QuirkDots n={post.data.quirk} /></div>
+        {post.data.status ? (
+          <div class="status-note">{post.data.status}</div>
+        ) : (
+          <a href={post.data.listingUrl} target="_blank" rel="noopener" class="btn agent-btn">Contact the agent (brave of you)</a>
+        )}
+      </aside>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head related-head" data-reveal>
+        <h2>{relatedHeading}</h2>
+      </div>
+      <div class="grid">
+        {others.map((p, i) => <PostCard post={p} index={i} />)}
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap ad-banner-wrap">
+    <a href="https://amzn.asia/d/0iG0b5iB" target="_blank" rel="noopener sponsored" class="home-ad-banner" aria-label="Advertisement">
+      <img src="/images/amazon-banner.png" alt="How To Raise Rich Kids by Sarah Megginson" loading="lazy" />
+      <span class="ad-label" style="display:block;text-align:center;margin-top:6px;">Advertisement</span>
+    </a>
+  </div>
+
+  <NewsletterBand />
+</BaseLayout>

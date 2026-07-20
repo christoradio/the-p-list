@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { sortedByOrder } from "../lib/utils";
+
+const allPosts = sortedByOrder(await getCollection("posts"));
+const suggestions = allPosts.slice(0, 3);
+---
+<BaseLayout title="404 — Listing Withdrawn | The P List" description="This listing's been withdrawn from sale." path="/404">
+  <div class="wrap" style="padding:80px 0 60px;text-align:center;">
+    <div data-reveal style="max-width:600px;margin:0 auto;">
+      <div style="font-family:var(--display);font-size:clamp(80px,15vw,140px);line-height:1;color:var(--rust);letter-spacing:-4px;margin-bottom:8px;">404</div>
+      <h2 style="font-size:clamp(22px,3vw,32px);margin-bottom:20px;">This listing's been withdrawn from sale.</h2>
+      <p style="color:var(--ink-soft);font-size:1.05rem;line-height:1.7;margin-bottom:12px;">
+        Either the vendor came to their senses, the agent finally had the conversation,
+        or someone bought it and is currently repainting the carpet.
+      </p>
+      <p style="color:var(--ink-soft);font-size:1.05rem;line-height:1.7;margin-bottom:36px;">
+        Whatever happened, this page is gone — but the good news is there are
+        {allPosts.length} other properties on The P List that are very much still here
+        and extremely willing to make you feel things.
+      </p>
+      <a href="/" class="btn btn-rust" style="display:inline-block;margin-bottom:60px;">Back to the list &rarr;</a>
+    </div>
+    <div class="wrap" style="border-top:1px solid rgba(0,0,0,0.08);padding-top:48px;text-align:left;">
+      <p style="font-family:var(--display);font-size:1.1rem;margin-bottom:24px;text-align:center;letter-spacing:0.02em;text-transform:uppercase;">While you're here, try one of these:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;">
+        {suggestions.map((p) => (
+          <a href={`/post/${p.data.slug}`} style="text-decoration:none;color:inherit;display:block;border:1px solid rgba(0,0,0,0.1);border-radius:4px;overflow:hidden;">
+            <div style="height:160px;overflow:hidden;background:var(--ink);">
+              <img src={p.data.heroImage} alt={p.data.title} style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <div style="padding:16px;">
+              <div style="font-size:0.75rem;color:var(--rust);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px;">{p.data.suburb}, {p.data.state}</div>
+              <div style="font-family:var(--display);font-size:1.05rem;line-height:1.3;">{p.data.title}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

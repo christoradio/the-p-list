@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NewsletterBand from "../components/NewsletterBand.astro";
+---
+<BaseLayout
+  title="Tip Us Off — Submit a Quirky Property | The P List"
+  description="Know a daggy, retro or downright wild house for sale in Australia? Send it our way."
+  path="/contact"
+>
+  <div class="wrap about-hero">
+    <span class="eyebrow" data-reveal>Get in touch</span>
+    <h1 data-reveal style="transition-delay:60ms">Reach Out!</h1>
+    <p data-reveal style="transition-delay:120ms">Got a listing we should cover? Want to advertise? Just want to complain about the foul language and our general lack of formal property knowledge? This is the spot.</p>
+    <p data-reveal style="transition-delay:170ms">We read everything. We reply to most things. We take all listing tips seriously and advertising inquiries very seriously indeed.</p>
+
+    <div class="contact-email-card" data-reveal style="transition-delay:220ms">
+      <span class="eyebrow">Email us directly</span>
+      <a href="mailto:hello@theplist.com.au" class="contact-email-link">hello@theplist.com.au</a>
+      <p class="contact-email-note">Listing tips, advertising, feedback, formal complaints about the foul language &mdash; all of it goes to the same inbox.</p>
+    </div>
+  </div>
+  <NewsletterBand />
+</BaseLayout>

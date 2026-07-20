@@ -1,0 +1,19 @@
+---
+import { TAG_DEFS } from "../data/tags";
+
+interface Props {
+  tags: string[];
+  linked?: boolean;
+}
+const { tags, linked = false } = Astro.props;
+---
+<div class="tags">
+  {tags.map((t, i) => {
+    const cls = `tag ${i === 0 ? "gold" : ""}`;
+    if (linked) {
+      const def = TAG_DEFS.find((d) => d.tag === t);
+      if (def) return <a class={cls} href={`/tag/${def.slug}`}>{t}</a>;
+    }
+    return <span class={cls}>{t}</span>;
+  })}
+</div>

@@ -1,0 +1,9 @@
+---
+interface Props {
+  n: number;
+}
+const { n } = Astro.props;
+---
+<div class="quirk-rating">
+  {[1, 2, 3, 4, 5].map((i) => <span class={i <= n ? "on" : ""}></span>)}
+</div>
