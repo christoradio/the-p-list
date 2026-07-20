@@ -14,35 +14,35 @@ quirk: 5
 status: Sold
 verdict: Made the list for being an actual functioning nightclub that also happens to come with 5 acres, a tennis court and a cricket practice wicket. Red carpet climbs two matching curved staircases under crystal chandeliers hung low enough to touch, there's a full disco with dance floor, mirror ball and its own bar, and — because apparently that wasn't enough entertaining — a recording studio next door. Two kitchens, one of them frozen somewhere around 1988. Bathrooms tiled by someone we can only assume was denied access to a colour wheel, including a red hexagonal spa bath that looks like it's been poached from a wedding cake. There's also a squash court. We have questions about the squash court.
 youtubeId: CJJ4SDqV3yA
-heroImage: /images/kenthurst-robson-road-exterior-porte-cochere.jpg
+heroImage: https://images.theplist.com.au/kenthurst-robson-road-exterior-porte-cochere.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-kenthurst-114413451
 listingLabel: View sold listing
 photos:
-  - src: /images/kenthurst-robson-road-exterior-porte-cochere.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-exterior-porte-cochere.jpg
     caption: The entrance — a full disc of a porte-cochere held up on columns thick enough to hug, a wraparound balcony above, and enough driveway out front to valet park for an actual event
-  - src: /images/kenthurst-robson-road-entry-lounge-red-carpet-staircase.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-entry-lounge-red-carpet-staircase.jpg
     caption: The entry lounge — twin curved staircases, wall-to-wall red carpet, and not one but two crystal chandeliers hung low enough to genuinely worry a tall guest
-  - src: /images/kenthurst-robson-road-upper-landing-chandeliers.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-upper-landing-chandeliers.jpg
     caption: The upstairs landing — a third chandelier joins the party, red-carpeted stairs curling away in both directions, and a bar visible below for when the walk down gets thirsty
-  - src: /images/kenthurst-robson-road-rock-garden-archway.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-rock-garden-archway.jpg
     caption: A rockery water feature tucked under the stairs, because the red carpet apparently needed a landscaped foil, with the grand staircase glowing away through the archway beyond
-  - src: /images/kenthurst-robson-road-disco-dance-floor.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-disco-dance-floor.jpg
     caption: The disco — sprung dance floor, mirror ball, exposed brick, and its own red-carpeted stairs up to a private bar, for houses that felt a home theatre wasn't quite enough
-  - src: /images/kenthurst-robson-road-kitchen-1980s.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-kitchen-1980s.jpg
     caption: The kitchen — cream cabinetry, biscuit-coloured tile, and a decor era we're placing somewhere around 1988, doing valiant, unbothered work next door to a literal nightclub
-  - src: /images/kenthurst-robson-road-recording-studio.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-recording-studio.jpg
     caption: The recording studio — soundproofed booth, green textured wall padding, and red carpet underfoot, because if you're already running a disco you may as well cut the live album
-  - src: /images/kenthurst-robson-road-squash-court.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-squash-court.jpg
     caption: The squash court — yes, an actual squash court, tucked into the floor plan like it's no big deal, with a couple of circular windows for good measure
-  - src: /images/kenthurst-robson-road-bathroom-red-spa.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-bathroom-red-spa.jpg
     caption: One of the bathrooms — a red hexagonal spa bath surrounded by rose-print tile, looking less like a place to wash and more like a wedding cake you could bathe in
-  - src: /images/kenthurst-robson-road-bathroom-bronze-tile.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-bathroom-bronze-tile.jpg
     caption: Another bathroom, this one in bronze mirror tile with a floral motif floor to ceiling, plus its own sunken spa — proof no two bathrooms in this house were designed by the same person
-  - src: /images/kenthurst-robson-road-pool-red-bridge.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-pool-red-bridge.jpg
     caption: The pool — twin curved spas linked by a little red footbridge, ringed by a small forest of palms, for when the disco closes and you need somewhere quieter to recover
-  - src: /images/kenthurst-robson-road-rooftop-terrace.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-rooftop-terrace.jpg
     caption: The rooftop terrace — patterned tile, a scalloped brick balustrade, and a clear shot over the treetops toward the Blue Mountains
-  - src: /images/kenthurst-robson-road-bbq-pavilion.jpg
+  - src: https://images.theplist.com.au/kenthurst-robson-road-bbq-pavilion.jpg
     caption: A round brick BBQ pavilion with its own chimney column, because obviously the entertaining didn't stop at the disco, the pool or the tennis court
 date: '2026-07-10'
 order: 6

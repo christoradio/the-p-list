@@ -14,27 +14,27 @@ quirk: 3
 status: Sold
 verdict: Made the list for a swirling green-and-gold carpet that runs uninterrupted from the front hallway clean through to the formal lounge, a built-in red leather bar still standing at attention for guests who stopped arriving decades ago, a bathroom committed head to toe in peach floral tile with gold tapware and a bidet on standby, and a backyard so vast the agent had to mention the rear laneway just to give it an exit. There is, we assume, a hills hoist back there somewhere, quietly waiting to launch someone's kid into low orbit.
 youtubeId: rQ45EsOrX2w
-heroImage: /images/moonee-ponds-californian-bungalow-facade.jpg
+heroImage: https://images.theplist.com.au/moonee-ponds-californian-bungalow-facade.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-vic-moonee+ponds-150427800
 listingLabel: View sold listing
 photos:
-  - src: /images/moonee-ponds-californian-bungalow-facade.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-californian-bungalow-facade.jpg
     caption: The street facade — red brick, timbered gable ends, a deep verandah, and a front garden that has clearly been tended by somebody who takes it seriously
-  - src: /images/moonee-ponds-hallway-swirl-carpet.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-hallway-swirl-carpet.jpg
     caption: The hallway — an antique hall stand, a pendant light, and a swirling green-gold carpet that continues, uninterrupted, into every room this house has to offer
-  - src: /images/moonee-ponds-bedroom-time-capsule.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-bedroom-time-capsule.jpg
     caption: A bedroom — leadlight bay window, ornate ceiling rose, a burl wood wardrobe, and the same carpet from the hallway, still going strong
-  - src: /images/moonee-ponds-red-leather-bar-lounge.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-red-leather-bar-lounge.jpg
     caption: The bar room — a built-in red leather bar with matching stools, two carved armchairs standing guard, and stained-glass doors leading off in three directions
-  - src: /images/moonee-ponds-dining-room.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-dining-room.jpg
     caption: The dining room — polished timber floorboards, sheer lace curtains, and a clear sightline straight through to the red bar beyond, in case dinner runs long
-  - src: /images/moonee-ponds-original-kitchen-laminate.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-original-kitchen-laminate.jpg
     caption: The kitchen — timber laminate cabinetry, a copper-look rangehood, granite benchtops, and a window dressed in florals that match absolutely nothing else in the room, on principle
-  - src: /images/moonee-ponds-peach-tile-bathroom.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-peach-tile-bathroom.jpg
     caption: The bathroom — peach floral tile floor to ceiling, gold tapware, and a bidet included for anyone feeling formal about it
-  - src: /images/moonee-ponds-covered-alfresco-patio.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-covered-alfresco-patio.jpg
     caption: The covered alfresco — terracotta tile, a zig-zag iron balustrade, and a straight shot out over a backyard that does not appear to end
-  - src: /images/moonee-ponds-backyard-brick-house.jpg
+  - src: https://images.theplist.com.au/moonee-ponds-backyard-brick-house.jpg
     caption: The rear of the house and yard — red brick, a wide lawn, fruit trees, and enough space back here to lose a sibling in an argument over whose turn it is on the swing
 date: '2025-09-14'
 order: 31

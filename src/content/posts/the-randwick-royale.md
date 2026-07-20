@@ -13,28 +13,28 @@ cars: 3
 quirk: 4
 verdict: Made the list for an upstairs landing dressed in full gold leaf and marble columns, a blue bathroom going head to head with a rust bathroom for supremacy, and a basement bar with its own five-stool lineup and granite wet bar. R3 zoning included, decor not included.
 youtubeId: NgpHHpa058w
-heroImage: /images/rand5.jpg
+heroImage: https://images.theplist.com.au/rand5.jpg
 listingUrl: https://www.realestate.com.au/property-house-nsw-randwick-151234356
 photos:
-  - src: /images/rand5.jpg
+  - src: https://images.theplist.com.au/rand5.jpg
     caption: The front façade — three brick arches, a wraparound balustrade balcony, and a front garden doing its absolute best impression of a rainforest
-  - src: /images/rand1.jpg
+  - src: https://images.theplist.com.au/rand1.jpg
     caption: The corner elevation — a rare triple garage tucked under a second balustrade balcony, with the original arched portico just visible at the side
-  - src: /images/rand2.jpg
+  - src: https://images.theplist.com.au/rand2.jpg
     caption: The front lounge — swagged curtains, blue floral carpet, and a formal sitting arrangement that means business
-  - src: /images/rand3.jpg
+  - src: https://images.theplist.com.au/rand3.jpg
     caption: The entry hall — timber panelling, terracotta hex tiles, and a staircase that's clearly seen some Christmas Eve traffic
-  - src: /images/rand4.jpg
+  - src: https://images.theplist.com.au/rand4.jpg
     caption: The kitchen — a granite island the length of a bowling lane, timber cabinetry, and four bar stools standing by
-  - src: /images/rand6.jpg
+  - src: https://images.theplist.com.au/rand6.jpg
     caption: Bathroom one — committed head to toe in cool ocean blue, mosaic accents included
-  - src: /images/rand7.jpg
+  - src: https://images.theplist.com.au/rand7.jpg
     caption: Bathroom two — the rust terracotta answer to bathroom one, timber ceiling and all
-  - src: /images/rand8.jpg
+  - src: https://images.theplist.com.au/rand8.jpg
     caption: The upstairs landing — marbled columns, gold leaf walls, crystal chandeliers. A corridor doing the most.
-  - src: /images/rand9.jpg
+  - src: https://images.theplist.com.au/rand9.jpg
     caption: The downstairs living zone — exposed brick arches and timber beams, styled here to show the bones underneath the bling
-  - src: /images/rand10.jpg
+  - src: https://images.theplist.com.au/rand10.jpg
     caption: The games room — pebble flooring, timber beams, and a five-stool bar setup ready for its next big night
 date: '2026-06-30'
 order: 14

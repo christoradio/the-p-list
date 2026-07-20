@@ -13,34 +13,34 @@ cars: 2
 quirk: 5
 verdict: Made the list for stained-glass doors that belong in a cathedral, a kitchen frozen somewhere between 1955 and the invention of wallpaper, and the fact that a developer wants to knock the whole thing down and build something beige. We riot at dawn.
 youtubeId: 4WwoFyqr6BA
-heroImage: /images/heri1.jpg
+heroImage: https://images.theplist.com.au/heri1.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-burwood-147164768
 listingLabel: View the sold listing
 status: Sold
 photos:
-  - src: /images/heri1.jpg
+  - src: https://images.theplist.com.au/heri1.jpg
     caption: The side elevation — red brick, green gables, a century of garden growth, and not a beige apartment block in sight. Yet.
-  - src: /images/heri2.jpg
+  - src: https://images.theplist.com.au/heri2.jpg
     caption: The street frontage — 20 metres of Federation character, hedged garden, and a high-rise visible in the background doing its best to make the point
-  - src: /images/her3.jpg
+  - src: https://images.theplist.com.au/her3.jpg
     caption: The front verandah — tessellated tile, stained glass, ironwork screen, and a name plate that says Moonya. She has a name.
-  - src: /images/heri4.jpg
+  - src: https://images.theplist.com.au/heri4.jpg
     caption: The verandah looking out — brick piers, timber ceiling, and enough front garden to feel like somewhere else entirely
-  - src: /images/heri5.jpg
+  - src: https://images.theplist.com.au/heri5.jpg
     caption: The main living room — patchwork carpet, ornate plasterwork ceiling, original fireplace. Needs nothing. Except saving.
-  - src: /images/heri6.jpg
+  - src: https://images.theplist.com.au/heri6.jpg
     caption: The second bathroom — painted floor-to-ceiling in aqua and fully committed to it
-  - src: /images/heri7.jpg
+  - src: https://images.theplist.com.au/heri7.jpg
     caption: The original bathroom — white subway tiles, pedestal basin, clawfoot bath, lace curtains. Practically a museum piece.
-  - src: /images/heri8.jpg
+  - src: https://images.theplist.com.au/heri8.jpg
     caption: The main kitchen — cream cabinetry, lace curtains, gas stove. The 1950s called and they want it back.
-  - src: /images/heri9.jpg
+  - src: https://images.theplist.com.au/heri9.jpg
     caption: An internal stained glass door — Art Nouveau tulips in red, green and gold. One of several.
-  - src: /images/heri10.jpg
+  - src: https://images.theplist.com.au/heri10.jpg
     caption: The plasterwork ceiling — close up, still perfect, still there, still waiting
-  - src: /images/heri11.jpg
+  - src: https://images.theplist.com.au/heri11.jpg
     caption: The back sunroom — patterned lino, original pendant lamp, 70s wallpaper peeking through from the kitchen beyond
-  - src: /images/heri12.jpg
+  - src: https://images.theplist.com.au/heri12.jpg
     caption: The 70s kitchen — olive-and-brown geometric wallpaper, red curtains, green tiles. The wallpaper is load-bearing.
 date: '2026-06-29'
 order: 12

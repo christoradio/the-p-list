@@ -14,21 +14,21 @@ quirk: 5
 status: Sold
 verdict: Made the list for a living room where the wallpaper and the carpet are both doing maximalist florals simultaneously and somehow neither one blinked first, a home office that appears to have been designed for a Victorian-era villain, and an exterior that promises Beverly Hills California and delivers Beverly Hills NSW, which is its own very specific thing.
 youtubeId: urL8l2vGVkc
-heroImage: /images/bev1.jpg
+heroImage: https://images.theplist.com.au/bev1.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-beverly+hills-139138215
 listingLabel: View sold listing
 photos:
-  - src: /images/bev1.jpg
+  - src: https://images.theplist.com.au/bev1.jpg
     caption: The F.A.C. Manor from the street — Tudor half-timbering, a stone fountain, circular drive, and a small plaque above the door that appears to name the property after its owners, which is a power move we respect
-  - src: /images/bev2.jpg
+  - src: https://images.theplist.com.au/bev2.jpg
     caption: The lounge room — damask floral wallpaper meets magenta floral carpet in a confrontation with no referee and no surrender
-  - src: /images/bev3.jpg
+  - src: https://images.theplist.com.au/bev3.jpg
     caption: The home office — striped wallpaper, cathedral ceiling with exposed beams, a heraldic shield above the fireplace, and a Chesterfield desk that once belonged to someone important in their own mind
-  - src: /images/bev4.jpg
+  - src: https://images.theplist.com.au/bev4.jpg
     caption: The formal dining room — carved buffet, red velvet drapes, Gothic arched doorways, and a chandelier doing the absolute most
-  - src: /images/bev5.jpg
+  - src: https://images.theplist.com.au/bev5.jpg
     caption: The kitchen — where the timber cabinetry and lattice windows offer a brief, tasteful respite from the carpets
-  - src: /images/bev6.jpg
+  - src: https://images.theplist.com.au/bev6.jpg
     caption: The master bedroom — gold baroque bed frame, matching ottomans, damask wallpaper, and the floral carpet making its final curtain call
 date: '2026-06-25'
 order: 16

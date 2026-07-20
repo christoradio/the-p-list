@@ -13,18 +13,18 @@ cars: 4
 quirk: 5
 verdict: Made the list for a doll collection so large it has its own floor-to-ceiling shelving system in not one but two rooms, a doll perched on the kitchen bench supervising breakfast, and at least two jukeboxes we counted before we stopped being able to focus on anything except the eyes. So many eyes.
 youtubeId: x27jyf872iI
-heroImage: /images/doll1.jpg
+heroImage: https://images.theplist.com.au/doll1.jpg
 listingUrl: https://www.realestate.com.au/property-house-qld-parkhurst-150430900
 photos:
-  - src: /images/doll1.jpg
+  - src: https://images.theplist.com.au/doll1.jpg
     caption: The games room — jukebox, brick archways, and a doll shelving system running floor to ceiling around two full walls
-  - src: /images/doll2.jpg
+  - src: https://images.theplist.com.au/doll2.jpg
     caption: More of the games room — a star on the wall, a skylight overhead, and dolls watching from every available surface
-  - src: /images/doll3.jpg
+  - src: https://images.theplist.com.au/doll3.jpg
     caption: A bedroom — twin beds, terracotta tile, and a doll lineup running the entire length of the wall above the headboard
-  - src: /images/doll4.jpg
+  - src: https://images.theplist.com.au/doll4.jpg
     caption: The kitchen — sleek white cabinetry, a smart fridge, and one (1) doll keeping watch from the breakfast bar
-  - src: /images/doll6.jpg
+  - src: https://images.theplist.com.au/doll6.jpg
     caption: The second kitchen — brick arches, a second jukebox, and yet more brick. This property does not believe in plasterboard.
 date: '2026-06-25'
 order: 15

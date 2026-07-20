@@ -13,31 +13,31 @@ cars: 2
 quirk: 5
 verdict: Made the list for being an actual 1849 church, designed by the same architect as St Andrew's Cathedral, converted into a house without anyone bothering to tone down the vibe. There's a fireplace where an altar could easily have gone, red carpet wall to wall like it's still hosting christenings, a full theatre pipe organ standing in what is now, we assume, a living room, and stained-glass flamingos in a door, which is a combination of words we did not expect to type today. Potential to start your own religion strictly optional.
 youtubeId: p1VSfO8pB9c
-heroImage: /images/greendale-church-exterior-twilight-facade.jpg
+heroImage: https://images.theplist.com.au/greendale-church-exterior-twilight-facade.jpg
 listingUrl: https://www.realestate.com.au/property-house-nsw-greendale-150759484
 listingLabel: View listing
 photos:
-  - src: /images/greendale-church-exterior-twilight-facade.jpg
+  - src: https://images.theplist.com.au/greendale-church-exterior-twilight-facade.jpg
     caption: The church at dusk — twin sandstone gables, a stone belfry, dormer windows with scalloped bargeboards, and an arched timber door under a gable-roofed porch
-  - src: /images/greendale-church-main-hall-red-carpet-staircase.jpg
+  - src: https://images.theplist.com.au/greendale-church-main-hall-red-carpet-staircase.jpg
     caption: The main hall — exposed dark timber beams, a red enamel wood fire, wall-to-wall red carpet, and a timber staircase rising past a front door still dated 1848
-  - src: /images/greendale-church-red-parlour-fireplace.jpg
+  - src: https://images.theplist.com.au/greendale-church-red-parlour-fireplace.jpg
     caption: A sitting nook off the main hall — the same red carpet, a second red fireplace, exposed sandstone walls, leadlight windows, and a bugle propped up for reasons the listing does not explain
-  - src: /images/greendale-church-staircase-stone-walls.jpg
+  - src: https://images.theplist.com.au/greendale-church-staircase-stone-walls.jpg
     caption: The staircase and parquet landing — original sandstone walls rising into timber-lined ceilings, with leadlight windows catching the light on the way up
-  - src: /images/greendale-church-stone-room-parquet-floor.jpg
+  - src: https://images.theplist.com.au/greendale-church-stone-room-parquet-floor.jpg
     caption: A ground-floor room — bare sandstone walls, herringbone parquet flooring, a crystal chandelier, and a small stone alcove that was very likely doing something ecclesiastical once
-  - src: /images/greendale-church-kitchen-stained-glass.jpg
+  - src: https://images.theplist.com.au/greendale-church-kitchen-stained-glass.jpg
     caption: The kitchen — timber cabinetry, dark stone benchtops, exposed stone walls, and a stained-glass apple motif window that is, against stiff competition, one of the more restrained details in this house
-  - src: /images/greendale-church-glass-conservatory.jpg
+  - src: https://images.theplist.com.au/greendale-church-glass-conservatory.jpg
     caption: A glazed sunroom addition — steel-framed glass roof and walls, sandstone half-walls, and a step out to the paved courtyard beyond
-  - src: /images/greendale-church-ensuite-timber-lined.jpg
+  - src: https://images.theplist.com.au/greendale-church-ensuite-timber-lined.jpg
     caption: An ensuite bathroom — timber-lined walls and ceiling following the roofline down to a point, with a timber vanity fitted neatly into the gable
-  - src: /images/greendale-church-flamingo-stained-glass-door.jpg
+  - src: https://images.theplist.com.au/greendale-church-flamingo-stained-glass-door.jpg
     caption: A stained-glass door — two flamingos, rendered in leadlight, in a timber-panelled hallway. We have no notes. This is perfect and should never be changed
-  - src: /images/greendale-church-pipe-organ-room.jpg
+  - src: https://images.theplist.com.au/greendale-church-pipe-organ-room.jpg
     caption: The organ room — a full theatre pipe organ console sitting on its own dais, under a soaring timber ceiling and a run of stained-glass clerestory windows
-  - src: /images/greendale-church-loft-gallery-speakers.jpg
+  - src: https://images.theplist.com.au/greendale-church-loft-gallery-speakers.jpg
     caption: A mezzanine gallery — built-in speaker cabinets, polished timber flooring, and a staircase up to what was very possibly once a choir loft
 date: '2026-07-08'
 order: 8

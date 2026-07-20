@@ -13,30 +13,30 @@ cars: 5
 quirk: 5
 verdict: Made the list for a fully themed Crusader meeting room — armour, banners and a round table built for chivalry — and that's before you even reach the private theatre.
 youtubeId: zMRxeAtvh2c
-heroImage: /images/priestdale-02-crusader-room.jpg
+heroImage: https://images.theplist.com.au/priestdale-02-crusader-room.jpg
 listingUrl: https://www.domain.com.au/property-profile/437-441-ford-road-priestdale-qld-4127
 listingLabel: View property history on Domain
 status: Not currently for sale
 photos:
-  - src: /images/priestdale-01-aerial.jpg
+  - src: https://images.theplist.com.au/priestdale-01-aerial.jpg
     caption: The estate at dusk, footbridge and all
-  - src: /images/priestdale-02-crusader-room.jpg
+  - src: https://images.theplist.com.au/priestdale-02-crusader-room.jpg
     caption: The Crusader room — round table, full armour, banners and all
-  - src: /images/priestdale-03-dining.jpg
+  - src: https://images.theplist.com.au/priestdale-03-dining.jpg
     caption: The formal dining room, set for a banquet
-  - src: /images/priestdale-04-lounge-piano.jpg
+  - src: https://images.theplist.com.au/priestdale-04-lounge-piano.jpg
     caption: A second formal lounge, complete with grand piano
-  - src: /images/priestdale-05-mirror-stairwell.jpg
+  - src: https://images.theplist.com.au/priestdale-05-mirror-stairwell.jpg
     caption: The mirrored stairwell, doubling everything in sight
-  - src: /images/priestdale-06-family-room.jpg
+  - src: https://images.theplist.com.au/priestdale-06-family-room.jpg
     caption: A more modest family room — only mildly opulent
-  - src: /images/priestdale-07-bedroom.jpg
+  - src: https://images.theplist.com.au/priestdale-07-bedroom.jpg
     caption: One of six bedrooms, draped to match
-  - src: /images/priestdale-08-theatre.jpg
+  - src: https://images.theplist.com.au/priestdale-08-theatre.jpg
     caption: A private stage, curtains and all
-  - src: /images/priestdale-09-kitchen.jpg
+  - src: https://images.theplist.com.au/priestdale-09-kitchen.jpg
     caption: The yellow kitchen that gave the video its name
-  - src: /images/priestdale-10-bridge-dusk.jpg
+  - src: https://images.theplist.com.au/priestdale-10-bridge-dusk.jpg
     caption: The footbridge, lit up for the walk in
 date: '2026-06-21'
 order: 19

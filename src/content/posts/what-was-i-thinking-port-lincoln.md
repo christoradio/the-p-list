@@ -13,28 +13,28 @@ cars: 3
 quirk: 5
 verdict: 'Made the list for being two completely different houses stacked on top of each other: a gold-and-marble chandelier palace upstairs, and a full 1970s brick entertainment bunker downstairs, united only by a staircase with a golden nude on the newel post.'
 youtubeId: IWMWlvPBmoI
-heroImage: /images/port1.jpg
+heroImage: https://images.theplist.com.au/port1.jpg
 listingUrl: https://www.realestate.com.au/property-house-sa-port+lincoln-130817762
 photos:
-  - src: /images/port1.jpg
+  - src: https://images.theplist.com.au/port1.jpg
     caption: The formal dining room — gold ceiling, crystal chandelier, marble fireplace, tufted red velvet chairs. Understated.
-  - src: /images/port5.jpg
+  - src: https://images.theplist.com.au/port5.jpg
     caption: The grand staircase — stained glass, ornate front door, and the gold figure who greets everyone on arrival
-  - src: /images/port3.jpg
+  - src: https://images.theplist.com.au/port3.jpg
     caption: The curved bar — walnut cabinetry, mirrored walls, harbour views, crystal decanters at the ready
-  - src: /images/port4.jpg
+  - src: https://images.theplist.com.au/port4.jpg
     caption: The kitchen — arched window framing a palm tree and the harbour beyond, yellow ceiling included
-  - src: /images/port7.jpg
+  - src: https://images.theplist.com.au/port7.jpg
     caption: The ensuite — raised spa bath on a podium, gold tapware, mirror on every surface
-  - src: /images/port6.jpg
+  - src: https://images.theplist.com.au/port6.jpg
     caption: The master bedroom — crimson velvet canopy bed, damask curtains, fur bench. Committed.
-  - src: /images/port8.jpg
+  - src: https://images.theplist.com.au/port8.jpg
     caption: The peach bedroom — quilted wallpaper, hand-painted French armoire, rococo bed frame
-  - src: /images/port9.jpg
+  - src: https://images.theplist.com.au/port9.jpg
     caption: The downstairs rumpus — brick, timber ceiling, circular fireplace, rattan furniture. A different house entirely.
-  - src: /images/port10.jpg
+  - src: https://images.theplist.com.au/port10.jpg
     caption: The downstairs kitchen — avocado green cabinetry, mosaic tiles, brick arch. 1974 calling.
-  - src: /images/port2.jpg
+  - src: https://images.theplist.com.au/port2.jpg
     caption: The blue bathroom — hand-painted floral tiles, gold accessories, sauna door. Peak daggy.
 date: '2026-06-23'
 order: 26

@@ -13,28 +13,28 @@ cars: 4
 quirk: 5
 verdict: Made the list for two bars (one with a keg, one with banana-leaf wallpaper), a yellow water slide off the upper deck, brolgas painted across every wall of the kitchen, and an open-plan ensuite arrangement that assumes a lot about your relationship.
 youtubeId: pCPzqygV3G8
-heroImage: /images/palm8.jpg
+heroImage: https://images.theplist.com.au/palm8.jpg
 listingUrl: https://www.realestate.com.au/property-house-nsw-palm+beach-143896328
 photos:
-  - src: /images/palm8.jpg
+  - src: https://images.theplist.com.au/palm8.jpg
     caption: The dining room — brolgas on every wall, red velvet curved banquette, marble table, the actual waterway outside
-  - src: /images/palm2.jpg
+  - src: https://images.theplist.com.au/palm2.jpg
     caption: The exterior — pink walls, candy-stripe awning, cacti, and GIGET etched into the stone
-  - src: /images/palm13.jpg
+  - src: https://images.theplist.com.au/palm13.jpg
     caption: The rear — yellow water slide, lawn, pink surfboard against the stone annexe
-  - src: /images/palm1.jpg
+  - src: https://images.theplist.com.au/palm1.jpg
     caption: The upstairs bar — banana-leaf wallpaper, blue-and-gold counter, terrazzo floor, full spirit selection
-  - src: /images/palm10.jpg
+  - src: https://images.theplist.com.au/palm10.jpg
     caption: The kitchen — hot pink cabinetry, gold uppers, green marble island, more brolgas
-  - src: /images/palm9.jpg
+  - src: https://images.theplist.com.au/palm9.jpg
     caption: The downstairs bar — pink dot LED front, timber panelling, sandstone fireplace
-  - src: /images/palm3.jpg
+  - src: https://images.theplist.com.au/palm3.jpg
     caption: The living room — pink sofas, water views, the dot bar in the background doing its thing
-  - src: /images/palm5.jpg
+  - src: https://images.theplist.com.au/palm5.jpg
     caption: The master — floral wallpaper, green carpet, pink ceiling, open ensuite arrangement
-  - src: /images/palm4.jpg
+  - src: https://images.theplist.com.au/palm4.jpg
     caption: The pink bathroom — blush tiles, brass sink, hexagon shower. Very committed.
-  - src: /images/palm12.jpg
+  - src: https://images.theplist.com.au/palm12.jpg
     caption: The blue bedroom — floral wallpaper, cobalt walls, green carpet. A different vibe, same commitment.
 date: '2026-06-23'
 order: 13

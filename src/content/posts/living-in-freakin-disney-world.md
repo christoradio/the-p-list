@@ -14,41 +14,41 @@ quirk: 5
 status: Sold
 verdict: Made the list for being inside Golden Oak, the only residential neighbourhood Disney has ever let anyone actually live in, complete with a home cinema built as a full-scale Millennium Falcon cockpit, an exact replica of the marble fireplace from Cinderella's Castle apartment, and an outdoor pizza oven shaped like Toothless. Disney's own designers reportedly worked on this house, which either means the theming is unimpeachably accurate or that somebody's mouse-eared consultancy fee got very, very out of hand. Disney Adults, Disnerds, Disneyphiles, Park Rats — whatever you're calling yourselves this week, this is your final form.
 youtubeId: lk0NXw67SoQ
-heroImage: /images/golden-oak-disney-mansion-exterior-dusk.webp
+heroImage: https://images.theplist.com.au/golden-oak-disney-mansion-exterior-dusk.webp
 listingUrl: https://www.sothebysrealty.com/eng/sales/detail/180-l-2813406-o6143312/10151-enchanted-oak-drive-golden-oak-fl-32836
 listingLabel: View sold listing
 photos:
-  - src: /images/golden-oak-disney-mansion-exterior-dusk.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-exterior-dusk.webp
     caption: The estate at dusk — a nearly 11,000 square foot Mediterranean facade, stacked stone chimneys, and a courtyard driveway on a private 0.79-acre lot backing onto conservation land
-  - src: /images/golden-oak-disney-mansion-entry-staircase.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-entry-staircase.webp
     caption: The entry — a sweeping curved staircase, a custom crystal chandelier, and wrought-iron double doors setting the tone for absolutely everything that follows
-  - src: /images/golden-oak-disney-mansion-hallway-stained-glass.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-hallway-stained-glass.webp
     caption: The gallery hallway — a row of Disney-themed stained-glass windows overlooking the courtyard and pool, because even the glazing here is doing a bit
-  - src: /images/golden-oak-disney-mansion-great-room-fish-tank.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-great-room-fish-tank.webp
     caption: The great room — vaulted beamed ceilings, a carved stone fireplace, and a built-in saltwater aquarium standing in for the TV console
-  - src: /images/golden-oak-disney-mansion-great-room-pool-view.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-great-room-pool-view.webp
     caption: The great room, second angle — pocketing glass doors opening straight onto the pool terrace, with the kitchen and a private balcony just visible beyond
-  - src: /images/golden-oak-disney-mansion-dining-room.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-dining-room.webp
     caption: The formal dining room — a hand-carved stone mantel, a tray ceiling picked out in blue, and a table set for ten under a wrought-iron chandelier
-  - src: /images/golden-oak-disney-mansion-millennium-falcon-bar.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-millennium-falcon-bar.webp
     caption: The Millennium Falcon theatre, bar area — a full Star Wars set build, complete with a life-size Chewbacca and a lit cantina-style bar
-  - src: /images/golden-oak-disney-mansion-millennium-falcon-theater-seats.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-millennium-falcon-theater-seats.webp
     caption: The Millennium Falcon theatre, screen end — black leather recliners facing a full-width screen under a hand-painted starfield ceiling
-  - src: /images/golden-oak-disney-mansion-millennium-falcon-theater-wide.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-millennium-falcon-theater-wide.webp
     caption: The Millennium Falcon theatre, wide shot — a suspended cockpit-style projector pod, riveted panelling, and Chewbacca keeping watch from the back bar
-  - src: /images/golden-oak-disney-mansion-wine-cellar.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-wine-cellar.webp
     caption: The temperature-controlled wine room — a backlit onyx feature wall, a fully stocked spirits bar, and racking for several hundred bottles
-  - src: /images/golden-oak-disney-mansion-kitchen.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-kitchen.webp
     caption: The chef's kitchen — hand-carved white cabinetry, a professional range under an ornate stone hood, and the aquarium from the great room glowing through the archway
-  - src: /images/golden-oak-disney-mansion-powder-room.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-powder-room.webp
     caption: A powder room — deep red walls, a hand-carved onyx vessel sink, and enough restraint to almost make you forget which house you're in
-  - src: /images/golden-oak-disney-mansion-primary-bedroom.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-primary-bedroom.webp
     caption: The first-floor primary suite — vaulted beamed ceilings, a scalloped velvet headboard, and one of two gas fireplaces in this room alone
-  - src: /images/golden-oak-disney-mansion-primary-bathroom.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-primary-bathroom.webp
     caption: The primary ensuite — a freestanding soaking tub, a walk-through rain shower, and a dual vanity long enough to require its own postcode
-  - src: /images/golden-oak-disney-mansion-outdoor-kitchen-toothless-oven.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-outdoor-kitchen-toothless-oven.webp
     caption: The outdoor kitchen — a full summer kitchen and covered dining area, presided over by a wood-fired pizza oven built to look exactly like Toothless from How To Train Your Dragon
-  - src: /images/golden-oak-disney-mansion-pool-grotto-slide.webp
+  - src: https://images.theplist.com.au/golden-oak-disney-mansion-pool-grotto-slide.webp
     caption: The pool — a rock grotto, waterfall, slide, and spa, tucked beside a covered lounge terrace under mature palms
 date: '2025-08-02'
 order: 34

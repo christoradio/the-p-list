@@ -14,25 +14,25 @@ quirk: 4
 status: Sold
 verdict: Made the list for a lounge room in dusty coral velvet facing a full sandstone fireplace wall, a kitchen wallpapered in orange florals bold enough to read from the rooftop three storeys up, a powder room committed entirely to red damask and a gold-rimmed orange sink basin, and a rooftop terrace over Diamond Bay Reserve so good the agent needed four different words for ‘view.’ Every original surface in this apartment has survived completely intact. Honestly, the only thing missing is a sunken conversation pit — otherwise, this is about as close to perfect as it gets.
 youtubeId: 63hOync81Ow
-heroImage: /images/vaucluse-living-room-coral-velvet-lounge.jpg
+heroImage: https://images.theplist.com.au/vaucluse-living-room-coral-velvet-lounge.jpg
 listingUrl: https://www.realestate.com.au/sold/property-apartment-nsw-vaucluse-145138032
 listingLabel: View sold listing
 photos:
-  - src: /images/vaucluse-living-room-coral-velvet-lounge.jpg
+  - src: https://images.theplist.com.au/vaucluse-living-room-coral-velvet-lounge.jpg
     caption: The living room — a full coral velvet lounge suite, a Persian rug, and glass doors opening onto a balcony with sandstone cliffs and ocean beyond
-  - src: /images/vaucluse-living-room-stone-fireplace-wall.jpg
+  - src: https://images.theplist.com.au/vaucluse-living-room-stone-fireplace-wall.jpg
     caption: The living room, other end — a full-height sandstone fireplace wall, exposed timber beams, and an archway leading straight through to the original kitchen
-  - src: /images/vaucluse-dining-room-chandelier-timber-beam.jpg
+  - src: https://images.theplist.com.au/vaucluse-dining-room-chandelier-timber-beam.jpg
     caption: The dining room — a crystal chandelier, cane-back gilt chairs, and copper damask wallpaper that continues, undisturbed, across every wall in the room
-  - src: /images/vaucluse-dining-room-display-cabinet.jpg
+  - src: https://images.theplist.com.au/vaucluse-dining-room-display-cabinet.jpg
     caption: The dining room, second angle — a carved timber display cabinet, gilt-framed mirror, and a dining setting that looks ready for guests who were expected decades ago
-  - src: /images/vaucluse-original-kitchen-orange-floral.jpg
+  - src: https://images.theplist.com.au/vaucluse-original-kitchen-orange-floral.jpg
     caption: The original kitchen — dark timber cabinetry, a lattice-tiled orange splashback, terracotta floor tiles, and floral wallpaper committing to the bit with real conviction
-  - src: /images/vaucluse-main-bedroom-gold-damask.jpg
+  - src: https://images.theplist.com.au/vaucluse-main-bedroom-gold-damask.jpg
     caption: The main bedroom — gold damask wallpaper, a coral tufted bedhead and matching bench seat, and an ornate mirrored vanity fit for a much fancier morning routine
-  - src: /images/vaucluse-second-bedroom-built-in-shelving.jpg
+  - src: https://images.theplist.com.au/vaucluse-second-bedroom-built-in-shelving.jpg
     caption: A second bedroom — built-in timber shelving holding a small collection of figurines and books, a Persian rug, and wallpaper that ties the whole apartment together
-  - src: /images/vaucluse-powder-room-red-damask.jpg
+  - src: https://images.theplist.com.au/vaucluse-powder-room-red-damask.jpg
     caption: The powder room — deep red damask walls, a gold-framed mirror, and a sink basin in matching orange, because subtlety was never really on the table here
 date: '2025-05-19'
 order: 33

@@ -7,7 +7,7 @@ export const DEFAULT_TITLE =
   "The P List — Quirky, Daggy & Downright Wild Real Estate Across Australia";
 export const DEFAULT_DESC =
   "An affectionate, slightly cheeky tour of Australia's oddest, retro-est, most characterful homes for sale — quirky real estate, championed one Shorts video at a time.";
-export const DEFAULT_IMAGE = `${SITE_URL}/images/og-share-card.png`;
+export const DEFAULT_IMAGE = "https://images.theplist.com.au/og-share-card.png";
 
 export function truncateForSEO(str: string | undefined, max: number): string {
   if (!str) return "";

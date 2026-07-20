@@ -13,20 +13,20 @@ cars: 1
 quirk: 5
 verdict: Made the list for a matador mural behind the home bar and roughly half an acre of teal-and-gold carpet that has no intention of going anywhere.
 youtubeId: __pQZIQGMw0
-heroImage: /images/hamilton-hill-03-dining-bar.jpg
+heroImage: https://images.theplist.com.au/hamilton-hill-03-dining-bar.jpg
 listingUrl: https://www.realestate.com.au/property-house-wa-hamilton+hill-150340500
 photos:
-  - src: /images/hamilton-hill-01-exterior.jpg
+  - src: https://images.theplist.com.au/hamilton-hill-01-exterior.jpg
     caption: The street view that started it all
-  - src: /images/hamilton-hill-02-lounge.jpg
+  - src: https://images.theplist.com.au/hamilton-hill-02-lounge.jpg
     caption: The formal lounge, mid pattern-clash perfection
-  - src: /images/hamilton-hill-03-dining-bar.jpg
+  - src: https://images.theplist.com.au/hamilton-hill-03-dining-bar.jpg
     caption: Dining room, complete with matador mural and full bar
-  - src: /images/hamilton-hill-04-bedroom.jpg
+  - src: https://images.theplist.com.au/hamilton-hill-04-bedroom.jpg
     caption: A bedroom, wallpapered within an inch of its life
-  - src: /images/hamilton-hill-05-recroom.jpg
+  - src: https://images.theplist.com.au/hamilton-hill-05-recroom.jpg
     caption: The rec room — pool table, wood panelling, no notes
-  - src: /images/hamilton-hill-06-ensuite.jpg
+  - src: https://images.theplist.com.au/hamilton-hill-06-ensuite.jpg
     caption: The ensuite, starring a fully committed yellow suite
 date: '2026-06-21'
 order: 20

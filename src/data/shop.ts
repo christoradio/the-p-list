@@ -18,7 +18,7 @@ export const SHOP_ITEMS: ShopItem[] = [
     connectedTo: { title: "Step Into 1980", slug: "step-into-1980-jamboree-heights" },
     tag: "As vaguely seen on The P List",
     url: "https://amzn.to/4ancNqn",
-    image: "/images/orange_touch_lamp.jpg",
+    image: "https://images.theplist.com.au/orange_touch_lamp.jpg",
   },
   {
     name: "Throw Pillows With Opinions",
@@ -28,7 +28,7 @@ export const SHOP_ITEMS: ShopItem[] = [
     connectedTo: { title: "Knights of the Yellow Kitchen Table", slug: "knights-of-the-yellow-kitchen-table" },
     tag: "Inspired by the list",
     url: "https://amzn.to/4eJxcXW",
-    image: "/images/retro_throw_pillows.jpg",
+    image: "https://images.theplist.com.au/retro_throw_pillows.jpg",
   },
   {
     name: "The Groovy Mirror",
@@ -38,7 +38,7 @@ export const SHOP_ITEMS: ShopItem[] = [
     connectedTo: { title: "Gidget Goes to Palm Springs", slug: "gidget-goes-to-palm-springs-palm-beach" },
     tag: "Inspired by the list",
     url: "https://amzn.to/4oWgY2j",
-    image: "/images/groovy_mirror.jpg",
+    image: "https://images.theplist.com.au/groovy_mirror.jpg",
   },
   {
     name: "Starbursts for the Wall",
@@ -48,7 +48,7 @@ export const SHOP_ITEMS: ShopItem[] = [
     connectedTo: { title: "WA’s Retro Wonder", slug: "was-retro-wonder-hamilton-hill" },
     tag: "As seen on The P List (spiritually)",
     url: "https://amzn.to/444wIH3",
-    image: "/images/retro_decorations.jpg",
+    image: "https://images.theplist.com.au/retro_decorations.jpg",
   },
   {
     name: "The Clock That Ties It All Together",
@@ -58,6 +58,6 @@ export const SHOP_ITEMS: ShopItem[] = [
     connectedTo: { title: "POV: 1975", slug: "pov-1975-dianella" },
     tag: "As vaguely seen on The P List",
     url: "https://amzn.to/4w9OPHA",
-    image: "/images/star_clock.jpg",
+    image: "https://images.theplist.com.au/star_clock.jpg",
   },
 ];

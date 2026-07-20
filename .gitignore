@@ -20,5 +20,8 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# images now live in R2 (images.theplist.com.au), not the repo
+public/images/
+
 # jetbrains setting folder
 .idea/

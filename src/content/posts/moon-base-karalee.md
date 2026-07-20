@@ -15,43 +15,43 @@ funStat: 'Round portal windows: lost count somewhere past a dozen'
 status: Auction
 verdict: Made the list for being a cluster of concrete domes on a riverfront block that reads less like a floor plan and more like a lunar landing that decided to stay and start a cult. You enter through an actual tunnel. There's a star medallion set into the floor, which either means someone loved geometry or someone loved a secret handshake, we genuinely cannot rule either out. There's a bathroom where the spa is so aggressively front-and-centre the toilet looks like it's been demoted to a witness. There's a fireplace hanging from the ceiling like it's mid-abduction. There's a slide. An actual slide, inside a library, above a floor plan that also lists an outdoor Golf Tee angled straight at the neighbour's roofline, in a house with a room literally labelled 'Porte Cochere' like we're all fluent in 1980s French real estate flex. The agent's blurb mentions stone benchtops and a sports bar as if this is a normal house that happens to have a nice kitchen. It is not that. It's five domes, a tunnel, a spa throne, a slide and a driving range aimed at the fence line, sitting on 5,109m² of riverfront in Ipswich, heading to auction with an absolutely straight face.
 youtubeId: eBkIFcEfTDk
-heroImage: /images/karalee-dome-house-exterior-wide-driveway-cluster.jpg
+heroImage: https://images.theplist.com.au/karalee-dome-house-exterior-wide-driveway-cluster.jpg
 listingUrl: https://www.realestate.com.au/property-house-qld-karalee-151755948
 listingLabel: View listing
 photos:
-  - src: /images/karalee-dome-house-exterior-wide-driveway-cluster.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-exterior-wide-driveway-cluster.jpg
     caption: The full cluster from the driveway — five-plus concrete domes clustered together like they're huddling for warmth, with a garden of red and gold cordyline doing its level best to distract you
-  - src: /images/karalee-dome-house-porthole-entrance-close-up.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-porthole-entrance-close-up.jpg
     caption: A closer look at one of the porthole entrances — a domed capsule with its own ring of glass, bolted onto the side of the main dome like an airlock. Because apparently one front door wasn't going to cut it
-  - src: /images/karalee-dome-house-aerial-view-riverfront-block.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-aerial-view-riverfront-block.jpg
     caption: From above, on the full 5,109m² block, next to a very normal-looking neighbour with a pool — whose view, every single day, is this
-  - src: /images/karalee-dome-house-tunnel-entrance-star-medallion-floor.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-tunnel-entrance-star-medallion-floor.jpg
     caption: The entry tunnel — a full concrete portal leading to a star medallion set into the tiled floor, because a welcome mat was never going to do this justice
-  - src: /images/karalee-dome-house-spiral-staircase-overhead-pebbles.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-spiral-staircase-overhead-pebbles.jpg
     caption: Looking straight down a spiral staircase wrapped around two chrome poles rising out of a bed of river pebbles — somewhere between a stairwell and a very confident spa feature
-  - src: /images/karalee-dome-house-red-carpet-office-bookshelves.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-red-carpet-office-bookshelves.jpg
     caption: An upstairs sitting room in deep red carpet, built-in timber shelving curving with the dome, and an oval desk that's seen a few decades of decisions made at it
-  - src: /images/karalee-dome-house-timber-loft-library-keyhole-cutouts.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-timber-loft-library-keyhole-cutouts.jpg
     caption: The timber-panelled library loft — arched doorways, keyhole-shaped cutouts in the balustrade, and, just visible bottom right, an actual slide leading back down to the entry
-  - src: /images/karalee-dome-house-round-ensuite-spa-bath.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-round-ensuite-spa-bath.jpg
     caption: A bathroom built entirely around a circular spa — toilet and vanity relegated to supporting roles either side of what is very clearly the main event
-  - src: /images/karalee-dome-house-suspended-fireplace-living-room.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-suspended-fireplace-living-room.jpg
     caption: A suspended dome fireplace hanging from a skylight in the middle of the room, because a wall-mounted one apparently wasn't dramatic enough for this house
-  - src: /images/karalee-dome-house-kitchen-scalloped-ceiling.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-kitchen-scalloped-ceiling.jpg
     caption: The kitchen ceiling — a full scalloped dome of built-in shelving rising overhead, doing a very convincing impression of the inside of a very organised spaceship
-  - src: /images/karalee-dome-house-kitchen-island-orange-cabinetry.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-kitchen-island-orange-cabinetry.jpg
     caption: The kitchen itself — stone benchtops and burnt-orange cabinetry, curved to match the dome, with a porthole window over the sink for river views while you do the dishes
-  - src: /images/karalee-dome-house-porthole-fan-detail-wall.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-porthole-fan-detail-wall.jpg
     caption: One of the smaller domed rooms, mid-renovation limbo, with a fan-shaped porthole window and three mounted TVs that have clearly given up on ever being turned on again
-  - src: /images/karalee-dome-house-red-entry-lobby-staircase.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-red-entry-lobby-staircase.jpg
     caption: The main lobby — a red feature wall, a mirrored chrome staircase surround, and round archways leading off in three directions, none of which give any hint what's behind them
-  - src: /images/karalee-dome-house-reception-desk-unfinished-room.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-reception-desk-unfinished-room.jpg
     caption: A curved reception-style desk in what looks like it was once, briefly, a business of some description — exactly what kind of business remains one of this house's better-kept secrets
-  - src: /images/karalee-dome-house-floor-plan.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-floor-plan.jpg
     caption: The floor plan, for anyone who still doubts any of this — a Porte Cochere, a Golf Tee, a Sportsbar, an Alfresco, a Water Pond and a basement Workshop, none of which line up in a straight wall anywhere
-  - src: /images/karalee-dome-house-living-room-timber-floor-arched-window.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-living-room-timber-floor-arched-window.jpg
     caption: An upper-level living space with herringbone timber flooring, an arched glass door onto a balcony, and a domed ceiling with a very visible patch job where something used to be
-  - src: /images/karalee-dome-house-exterior-terrace-purple-domes.jpg
+  - src: https://images.theplist.com.au/karalee-dome-house-exterior-terrace-purple-domes.jpg
     caption: The terrace level, ringed in mauve-rendered domes with a round timber door glowing amber from the inside — built-in barbeque included, presumably for entertaining fellow Storm Troopers
 date: '2026-07-17'
 order: 1

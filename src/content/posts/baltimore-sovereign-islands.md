@@ -15,37 +15,37 @@ status: For sale
 price: Asking $15,900,000+
 verdict: Made the list for having a fully operational casino in the living room — roulette wheel, card tables, custom bar stools embroidered with 'Baltimore Casino' in gold, and a carpet that could only have been chosen by someone who had just returned from a very good time at Star City. There is also a 17-metre indoor pool, a 6,000-litre freshwater aquarium, a 1,500-bottle red wine cellar, and a 15-car basement garage currently occupied by three Ferraris, a Maserati, a blue sports car and a yellow Porsche. The house seats twelve at dinner and approximately the whole suburb at the roulette table.
 youtubeId: XMFJaULrvWc
-heroImage: /images/casino1.jpg
+heroImage: https://images.theplist.com.au/casino1.jpg
 listingUrl: https://www.realestate.com.au/property-house-qld-sovereign+islands-150550676
 listingLabel: View listing
 photos:
-  - src: /images/casino1.jpg
+  - src: https://images.theplist.com.au/casino1.jpg
     caption: Baltimore from the air at sunset — four levels of glass and white render, two red columns glowing from within, supercars visible through the garage level, and a sky the photographer did not deserve to get this lucky with
-  - src: /images/casino2.jpg
+  - src: https://images.theplist.com.au/casino2.jpg
     caption: The waterfront terrace — wicker lounges, a red column doing its structural and aesthetic best simultaneously, and a Stradbroke Island sunset that comes with the house whether you wanted it or not
-  - src: /images/casino3.jpg
+  - src: https://images.theplist.com.au/casino3.jpg
     caption: The bar lounge — black polished granite floors, Baltimore Casino bar stools in gold embroidery lined up at the counter, blue LED backlit shelving on red, and a white sofa that has absolutely no idea what room it's in
-  - src: /images/casino4.jpg
+  - src: https://images.theplist.com.au/casino4.jpg
     caption: The casino — card tables, swirling blue-gold-pink carpet at maximum confidence, pendant lights over the felt, and floor-to-ceiling glass framing the waterway at dusk. This is a private home. We just want to keep saying that.
-  - src: /images/casino5.jpg
+  - src: https://images.theplist.com.au/casino5.jpg
     caption: The roulette table — red felt, full wheel, a leather dealer's chair, and a view of the neighbours' boats through the glass. The neighbours presumably know this is here. We hope they've been invited.
-  - src: /images/casino6.jpg
+  - src: https://images.theplist.com.au/casino6.jpg
     caption: The dining room — zebra-print chairs reflected in a black glass table, red columns framing open water beyond, and a sculpture in the corner doing its best not to compete with the chairs. It is not succeeding.
-  - src: /images/casino13.jpg
+  - src: https://images.theplist.com.au/casino13.jpg
     caption: The cinema — tiered leather power recliners, the same swirling carpet reprising its role from the casino next door, and Moraine Lake on the screen providing the only moment of visual restraint in the building
-  - src: /images/casino12.jpg
+  - src: https://images.theplist.com.au/casino12.jpg
     caption: The wine cellar — 1,500 bottles stored in a room where every surface has been lacquered red, because if you're going to keep wine somewhere climate-controlled, it might as well look like the inside of a very committed Valentine's Day card
-  - src: /images/casino11.jpg
+  - src: https://images.theplist.com.au/casino11.jpg
     caption: The gym — mirrored walls, waterfront views, and a 6,000-litre freshwater aquarium running the full length of the wall so the fish can watch you work out. Motivating or unsettling. Possibly both.
-  - src: /images/casino9.jpg
+  - src: https://images.theplist.com.au/casino9.jpg
     caption: The indoor pool — 17 metres under blue LED lighting, open to the waterfront at the far end, a pool float for scale, and a blue inflatable pool toy that has absolutely nailed the vibe
-  - src: /images/casino8.jpg
+  - src: https://images.theplist.com.au/casino8.jpg
     caption: The walk-in wardrobe — floor-to-ceiling black gloss cabinetry with glass doors, a central island, a red chandelier, and luxury shopping bags arranged on the shelves as display objects. The Cartier bag is load-bearing.
-  - src: /images/casino7.jpg
+  - src: https://images.theplist.com.au/casino7.jpg
     caption: The kitchen — red and black high-gloss dual islands, Miele appliances, an island rangehood, and waterfront views through full-height glass that you will absolutely not be looking at while trying to cook
-  - src: /images/casino15.jpg
+  - src: https://images.theplist.com.au/casino15.jpg
     caption: The bar close-up — blue LED shelving on red, a full bottle collection, two Aperol spritzes staged for the shoot, and the Baltimore Casino chairs front and centre in gold lettering confirming this is not a bar. It is an institution.
-  - src: /images/casino14.jpg
+  - src: https://images.theplist.com.au/casino14.jpg
     caption: The garage — 15-car capacity, red walls, and a current inventory that includes two red Ferraris, a blue sports car, a yellow Porsche GT3, and a Maserati SUV. The sensible black car at the back is having a moment of quiet reflection.
 date: '2026-03-20'
 order: 27

@@ -14,35 +14,35 @@ quirk: 5
 status: Sold
 verdict: Made the list for a hand-corbelled limestone turret nobody wanted to build, a moat you cross on stepping stones because apparently the drawbridge budget ran out, gothic light fittings the owner spotted at Disneyland and simply had to have, and a cheetah-skin runner laid down the spiral stair for reasons the listing does not attempt to explain. Also there is a Great Dane gazing out to sea like a ship's figurehead, and no, before you ask, he does not come with the house.
 youtubeId: WZxI6v_AKfc
-heroImage: /images/branksome10.jpg
+heroImage: https://images.theplist.com.au/branksome10.jpg
 listingUrl: https://www.realestate.com.au/property/64-branksome-gdns-city-beach-wa-6015/
 listingLabel: View property
 photos:
-  - src: /images/branksome10.jpg
+  - src: https://images.theplist.com.au/branksome10.jpg
     caption: The castle at blue hour — hand-laid limestone turret, corbelled stonework, and a driveway that curves like it knows it's being photographed
-  - src: /images/branksome1.jpg
+  - src: https://images.theplist.com.au/branksome1.jpg
     caption: The exterior by day — rounded stone walls, a conical turret roof, wrought iron balustrades, and twin staircases that appear to have wandered in from separate castles entirely
-  - src: /images/branksome12.jpg
+  - src: https://images.theplist.com.au/branksome12.jpg
     caption: From above — the full compound tucked into a City Beach block, gothic arches, turret and all, doing its absolute best not to look like the neighbours
-  - src: /images/branksome2.jpg
+  - src: https://images.theplist.com.au/branksome2.jpg
     caption: The sunroom — stone archways framing the Indian Ocean, a chandelier, and a Great Dane keeping watch that we would like officially noted as a dog and not a small horse
-  - src: /images/branksome3.jpg
+  - src: https://images.theplist.com.au/branksome3.jpg
     caption: The sunroom, table set — a hand-mosaicked glass dining table under three gothic arch windows, sunset and scrub running straight down to the ocean
-  - src: /images/branksome4.jpg
+  - src: https://images.theplist.com.au/branksome4.jpg
     caption: The rooftop gazebo — timber-lined dome roof, wrought iron rail, Norfolk pine, and a front-row seat to the sunset over the dunes
-  - src: /images/branksome5.jpg
+  - src: https://images.theplist.com.au/branksome5.jpg
     caption: The courtyard pool — twin gothic stone arches, a wrought iron spiral staircase, and a plunge pool that has clearly read the room
-  - src: /images/branksome6.jpg
+  - src: https://images.theplist.com.au/branksome6.jpg
     caption: The Moroccan lounge nook — red and gold velvet drapery, a stone fireplace set into a pointed archway, and a day bed for anyone who has had enough of the 21st century
-  - src: /images/branksome11.jpg
+  - src: https://images.theplist.com.au/branksome11.jpg
     caption: The main living room — chesterfield leather armchairs, a gothic arch fireplace surround, and a chandelier presiding over the whole arrangement
-  - src: /images/branksome7.jpg
+  - src: https://images.theplist.com.au/branksome7.jpg
     caption: A second sitting room — more leather club chairs, an antique carved cabinet, and parquet flooring that has seen some very serious conversations
-  - src: /images/branksome9.jpg
+  - src: https://images.theplist.com.au/branksome9.jpg
     caption: The kitchen — dark timber cabinetry, stone benchtop, and an antique carved sideboard doing double duty as the good china cabinet
-  - src: /images/branksome8.jpg
+  - src: https://images.theplist.com.au/branksome8.jpg
     caption: The stairwell — a restored stained-glass window of the Madonna and Child, sourced overseas and installed like the castle had been waiting for it
-  - src: /images/branksome13.jpg
+  - src: https://images.theplist.com.au/branksome13.jpg
     caption: The spiral stair, with cheetah — a full cheetah-skin runner laid down the internal staircase, because at this point why not
 date: '2025-11-08'
 order: 30

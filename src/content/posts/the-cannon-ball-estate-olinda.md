@@ -14,21 +14,21 @@ quirk: 5
 status: Not for sale
 verdict: Made the list for an indoor rock pool with a waterfall, under a glass rotunda dome, overlooked by a second-storey balcony strung entirely in coloured fairy lights, which is either the greatest thing we have ever seen in a private residence or the second greatest thing, depending on how you feel about wagon wheel furniture.
 youtubeId: lXhOA6bhKcc
-heroImage: /images/mon1.jpg
+heroImage: https://images.theplist.com.au/mon1.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-vic-olinda-142038116
 listingLabel: View sold listing
 photos:
-  - src: /images/mon1.jpg
+  - src: https://images.theplist.com.au/mon1.jpg
     caption: The indoor rock pool — glass rotunda dome overhead, stone waterfall feature, palm tree growing indoors, and a second-storey mezzanine balcony for those who prefer to enter by air
-  - src: /images/mon2.jpg
+  - src: https://images.theplist.com.au/mon2.jpg
     caption: The pool from above — multicoloured fairy lights strung the full length of the balcony railing, because if you're going to have an indoor tropical lagoon, you're going to light it properly
-  - src: /images/mon5.jpg
+  - src: https://images.theplist.com.au/mon5.jpg
     caption: The mezzanine balcony — vintage telescope, table for two, fairy lights, and a view straight down into the lagoon. This is where you eat breakfast.
-  - src: /images/mon3.jpg
+  - src: https://images.theplist.com.au/mon3.jpg
     caption: The main living and dining area — exposed timber beams, floor-to-ceiling bush views on three sides, and a taxidermied deer head doing its best not to make it weird
-  - src: /images/mon4.jpg
+  - src: https://images.theplist.com.au/mon4.jpg
     caption: The study — timber ceiling, floor-to-ceiling bookshelves, stained glass panels, and a cuckoo clock, because of course there's a cuckoo clock
-  - src: /images/mon6.jpg
+  - src: https://images.theplist.com.au/mon6.jpg
     caption: The rumpus room — slate flagstone floors, timber ceiling, and wagon wheel furniture that has committed to a theme and is not taking questions
 date: '2026-07-02'
 order: 11

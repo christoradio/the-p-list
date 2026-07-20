@@ -13,24 +13,24 @@ cars: 0
 quirk: 5
 verdict: Made the list for being so narrow a tape measure is the most alarming thing about the listing — and for hiding a clawfoot bath in the side passage that no plumber could fully explain.
 youtubeId: 0DXkr7tIcoo
-heroImage: /images/blue1.jpg
+heroImage: https://images.theplist.com.au/blue1.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-erskineville-150521188
 listingLabel: View the sold listing
 status: Sold
 photos:
-  - src: /images/blue1.jpg
+  - src: https://images.theplist.com.au/blue1.jpg
     caption: The street frontage — 3.4 metres of bold blue conviction
-  - src: /images/blue6.jpg
+  - src: https://images.theplist.com.au/blue6.jpg
     caption: The side passage. Yes, that is a bath. Outside. Between the walls.
-  - src: /images/blue3.jpg
+  - src: https://images.theplist.com.au/blue3.jpg
     caption: The corridor — exposed brick, skylight, and the sensation of walking through a very stylish tunnel
-  - src: /images/blue4.jpg
+  - src: https://images.theplist.com.au/blue4.jpg
     caption: The living room — what it lacks in width it more than makes up for in actual taste
-  - src: /images/blue5.jpg
+  - src: https://images.theplist.com.au/blue5.jpg
     caption: The kitchen, proving small doesn’t have to mean ordinary
-  - src: /images/blue7.jpg
+  - src: https://images.theplist.com.au/blue7.jpg
     caption: The bathroom — terrazzo tiles and that blue door doing the heavy lifting
-  - src: /images/blue2.jpg
+  - src: https://images.theplist.com.au/blue2.jpg
     caption: The rear garden — quietly a bit dreamy
 date: '2026-06-22'
 order: 18

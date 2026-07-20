@@ -13,28 +13,28 @@ cars: 10+
 quirk: 5
 verdict: Made the list for amber cathedral-glass doors, a powder-blue bathroom suite, and a real estate blurb that name-checks Yiayia, Nonna and Pappous before it gets to the floor plan.
 youtubeId: 6yIxD6rL1Dw
-heroImage: /images/dianella-02-verandah.jpg
+heroImage: https://images.theplist.com.au/dianella-02-verandah.jpg
 listingUrl: https://www.realestate.com.au/sold/property-house-wa-dianella-149824580
 listingLabel: View the sold listing
 status: Sold
 photos:
-  - src: /images/dianella-01-exterior.jpg
+  - src: https://images.theplist.com.au/dianella-01-exterior.jpg
     caption: The street view at dusk, scrollwork and all
-  - src: /images/dianella-02-verandah.jpg
+  - src: https://images.theplist.com.au/dianella-02-verandah.jpg
     caption: The veranda — the listing's self-declared emotional highlight
-  - src: /images/dianella-03-sconce.jpg
+  - src: https://images.theplist.com.au/dianella-03-sconce.jpg
     caption: One of the amber lantern sconces, up close
-  - src: /images/dianella-04-lounge-doors.jpg
+  - src: https://images.theplist.com.au/dianella-04-lounge-doors.jpg
     caption: Gold textured doors into the formal lounge
-  - src: /images/dianella-05-hallway.jpg
+  - src: https://images.theplist.com.au/dianella-05-hallway.jpg
     caption: The hallway, fully carpeted in matching pattern
-  - src: /images/dianella-06-formal-lounge.jpg
+  - src: https://images.theplist.com.au/dianella-06-formal-lounge.jpg
     caption: The formal lounge, gold sofa included
-  - src: /images/dianella-07-entry-view.jpg
+  - src: https://images.theplist.com.au/dianella-07-entry-view.jpg
     caption: Looking back through to the entry
-  - src: /images/dianella-08-kitchen.jpg
+  - src: https://images.theplist.com.au/dianella-08-kitchen.jpg
     caption: The kitchen, brick chimney breast and all
-  - src: /images/dianella-09-bathroom.jpg
+  - src: https://images.theplist.com.au/dianella-09-bathroom.jpg
     caption: The bathroom, in full powder blue
 date: '2026-06-21'
 order: 21

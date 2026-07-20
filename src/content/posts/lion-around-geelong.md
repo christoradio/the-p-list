@@ -13,20 +13,20 @@ cars: 2
 quirk: 5
 verdict: Made the list for fourteen lion statues, a billiard room where the photos have colonised the ceiling, a garage named The Stables with a coat of arms above the door, and a wine cellar with a porthole window looking up through the floor of the pool.
 youtubeId: b8RgDzq3QJA
-heroImage: /images/geelong1.jpg
+heroImage: https://images.theplist.com.au/geelong1.jpg
 listingUrl: https://www.realestate.com.au/property-house-vic-geelong-150235116
 photos:
-  - src: /images/geelong1.jpg
+  - src: https://images.theplist.com.au/geelong1.jpg
     caption: The arrival — fairy lights in the trees, lions on the path, chandelier in the portico. Understated.
-  - src: /images/geelong7.jpg
+  - src: https://images.theplist.com.au/geelong7.jpg
     caption: The entry hall — red carpet (literally), oil paintings in gold frames the size of dining tables, a chandelier
-  - src: /images/geelong2.jpg
+  - src: https://images.theplist.com.au/geelong2.jpg
     caption: The billiard room — framed photos on every wall, every inch of ceiling, and a Real Madrid shirt for good measure
-  - src: /images/geelong3.jpg
+  - src: https://images.theplist.com.au/geelong3.jpg
     caption: The Stables — a royal crest, a Ferrari with its bonnet up, more framed photos
-  - src: /images/geelong5.jpg
+  - src: https://images.theplist.com.au/geelong5.jpg
     caption: The conservatory — zebra-print sofas, a taxidermy elk, a Lyons Coffee sign
-  - src: /images/geelong4.jpg
+  - src: https://images.theplist.com.au/geelong4.jpg
     caption: The glass bath ensuite — transparent sides, stained glass window, Versace chair
 date: '2026-06-23'
 order: 17

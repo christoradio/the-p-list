@@ -14,41 +14,41 @@ quirk: 5
 status: For sale
 verdict: 'Made the list for being a 110-metre certified Passivhaus that also runs as a working farm, a greenhouse and a cooking school for 120 people — a concept so ambitious the marketing copy needed the phrase ''architecture of enduring significance'' just to keep a straight face. There''s over 60 metres of internal garden that needs watering daily whether you feel like it or not, a herd of cattle, goats and pigs that don''t care that you just spent $7 million, and a walk from one end of the house to the other long enough to register as a workout on your fitness tracker. Buy this and the ''27kW solar array, dual bores and gas reserves'' stop being a flex and start being a job description. And after a decade of architectural restraint, cypress pine and considered gravitas, someone stood in one specific bedroom and said: salmon-pink walls, three copper disco balls, done. Somewhere, a Robin Boyd judge is having a moment.'
 youtubeId: zbcAeiAbQOM
-heroImage: /images/daylesford-longhouse-elevated-plains-exterior-110m-shed-hillside.jpg
+heroImage: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-exterior-110m-shed-hillside.jpg
 listingUrl: https://www.realestate.com.au/property-house-vic-elevated+plains-149148864
 listingLabel: View listing
 photos:
-  - src: /images/daylesford-longhouse-elevated-plains-exterior-110m-shed-hillside.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-exterior-110m-shed-hillside.jpg
     caption: The full 110-metre run of it, cut into the hillside on the elevated plains outside Daylesford — allow a genuine 30 minutes if you're walking from one end to the other
-  - src: /images/daylesford-longhouse-elevated-plains-timber-barn-door-entrance.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-timber-barn-door-entrance.jpg
     caption: The front door, more or less — sliding cypress pine barn doors opening onto a courtyard, giving zero indication of the actual scale of what's behind them
-  - src: /images/daylesford-longhouse-elevated-plains-greenhouse-garden-walkway.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-greenhouse-garden-walkway.jpg
     caption: One stretch of the 60-plus metres of internal garden that runs the length of the house, watered daily, because when your house is also a greenhouse, that's just Tuesday
-  - src: /images/daylesford-longhouse-elevated-plains-garden-kitchen-deck-view.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-garden-kitchen-deck-view.jpg
     caption: The Garden Kitchen from the deck — wood ovens, open grills and a kitchen built to feed up to 120 people, which puts most ‘entertainer's kitchens’ firmly in their place
-  - src: /images/daylesford-longhouse-elevated-plains-garden-kitchen-wood-oven-island.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-garden-kitchen-wood-oven-island.jpg
     caption: The Garden Kitchen properly — hanging copper pots, shelves of preserves, and a scullery built for cooking classes as much as dinner parties
-  - src: /images/daylesford-longhouse-elevated-plains-dining-nook-shelving-banquette.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-dining-nook-shelving-banquette.jpg
     caption: A dining nook tucked into the kitchen's edge, curated down to the last ceramic — proof the design intensity doesn't let up once you're past the impressive bits
-  - src: /images/daylesford-longhouse-elevated-plains-disco-bedroom-pink-copper-pendants.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-disco-bedroom-pink-copper-pendants.jpg
     caption: The primary bedroom, and the one photo that makes you double-check you're still looking at the same house — salmon-pink padded walls, three copper disco balls, and a wood stove for when the mirror ball isn't warming you enough
-  - src: /images/daylesford-longhouse-elevated-plains-blue-loft-bedroom-desk-bed.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-blue-loft-bedroom-desk-bed.jpg
     caption: A second bedroom, considerably calmer — a built-in bed-desk combo and timber-framed windows looking straight out over the paddocks
-  - src: /images/daylesford-longhouse-elevated-plains-stairwell-hallway-kitchenette-view.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-stairwell-hallway-kitchenette-view.jpg
     caption: A stairwell inside The Lodge, with a ceiling rose that looks like it wandered in from a completely different, much older house — and somehow works
-  - src: /images/daylesford-longhouse-elevated-plains-terracotta-brick-bathroom-tub.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-terracotta-brick-bathroom-tub.jpg
     caption: One of the bathrooms — glazed brick in white and terracotta, a slot skylight, and a tub that gets full sun for most of the day
-  - src: /images/daylesford-longhouse-elevated-plains-timber-exterior-jungle-foliage.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-timber-exterior-jungle-foliage.jpg
     caption: Another face of the house, all but swallowed by the internal garden — the line between ‘house’ and ‘greenhouse’ basically stops existing this deep in
-  - src: /images/daylesford-longhouse-elevated-plains-ivy-covered-internal-structure.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-ivy-covered-internal-structure.jpg
     caption: A timber stair buried in ivy, somewhere inside the greenhouse envelope — genuinely hard to tell if you're looking at a garden feature or a building
-  - src: /images/daylesford-longhouse-elevated-plains-disco-bedroom-kitchenette-curtains.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-disco-bedroom-kitchenette-curtains.jpg
     caption: The primary suite's own curtained kitchenette, complete with more copper globe pendants, because apparently one disco-ball moment wasn't enough
-  - src: /images/daylesford-longhouse-elevated-plains-loft-bunk-room-skylight.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-loft-bunk-room-skylight.jpg
     caption: A bunk room under the eaves — cypress pine, a skylight, and enough beds for the farm's rotating cast of guests, workers and WWOOFers
-  - src: /images/daylesford-longhouse-elevated-plains-farm-pig-corrugated-shelter.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-farm-pig-corrugated-shelter.jpg
     caption: One of the resident pigs, doing farm things a few hundred metres from the architecture press clippings — this is a genuinely working farm, not a styling exercise
-  - src: /images/daylesford-longhouse-elevated-plains-aerial-driveway-loop.jpg
+  - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-aerial-driveway-loop.jpg
     caption: The approach by drone — a driveway that curls in on itself like a comma, giving you plenty of time to reconsider how far you're about to have to walk once you park
 date: '2026-07-13'
 order: 5

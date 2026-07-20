@@ -13,20 +13,20 @@ cars: 4
 quirk: 5
 verdict: Made the list for having functional drawbridges, a cascading indoor waterfall, a secret room behind the wine cellar, and a living grass roof you can do yoga on while overlooking the valley. Among other things.
 youtubeId: WB0rurjRV7E
-heroImage: /images/earth1.jpg
+heroImage: https://images.theplist.com.au/earth1.jpg
 listingUrl: https://www.realestate.com.au/property-house-wa-bullsbrook-150881832
 photos:
-  - src: /images/earth1.jpg
+  - src: https://images.theplist.com.au/earth1.jpg
     caption: The Earth Castle at dusk, reflected in its private lake — not a render
-  - src: /images/earth3.jpg
+  - src: https://images.theplist.com.au/earth3.jpg
     caption: The great hall — flagstone floors, timber beams, antique chaises and a resident cat
-  - src: /images/earth4.jpg
+  - src: https://images.theplist.com.au/earth4.jpg
     caption: The undercroft corridor — gothic arches, a tree-trunk column, and the wine cellar with the secret room beyond
-  - src: /images/earth2.jpg
+  - src: https://images.theplist.com.au/earth2.jpg
     caption: The kitchen — arched windows, lion-head handles, a chef’s stove that means business
-  - src: /images/earth5.jpg
+  - src: https://images.theplist.com.au/earth5.jpg
     caption: Master bedroom — freestanding bath, sunrise over the lake, no neighbours
-  - src: /images/earth6.jpg
+  - src: https://images.theplist.com.au/earth6.jpg
     caption: A second bedroom — four-poster bed, candelabra floor lamp, door to the stone archway terrace
 date: '2026-06-23'
 order: 25

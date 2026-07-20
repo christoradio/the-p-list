@@ -13,25 +13,25 @@ cars: 4
 quirk: 5
 verdict: Made the list for an entire hand-built Wild West town — saloon, jail, church, courthouse, general store, theatre and brothel included — sitting on 12.5 acres behind a perfectly normal modern three-bedroom home. Yee. Haw.
 youtubeId: ySPKtp_pZSw
-heroImage: /images/west2.webp
+heroImage: https://images.theplist.com.au/west2.webp
 listingUrl: https://www.domain.com.au/35-mystic-drive-yandoit-vic-3461-2018435291
 listingLabel: Listing has since been removed — read the original news coverage
 photos:
-  - src: /images/west2.webp
+  - src: https://images.theplist.com.au/west2.webp
     caption: Main Street, Cross Creek — general store, blacksmith and booking office, with a horse out front for atmosphere
-  - src: /images/west7.webp
+  - src: https://images.theplist.com.au/west7.webp
     caption: Cross Creek General Store flanked by the blacksmith and the Cobb & Co booking office
-  - src: /images/west5.webp
+  - src: https://images.theplist.com.au/west5.webp
     caption: The Cobb & Co Booking Office — weathered signage, a working blacksmith forge, and a gunslinger keeping watch
-  - src: /images/west8.webp
+  - src: https://images.theplist.com.au/west8.webp
     caption: The church — white picket fence, timber spire, cross on the door. Built for the wedding business the agents reckon it could run.
-  - src: /images/west1.webp
+  - src: https://images.theplist.com.au/west1.webp
     caption: Inside the saloon — full bar, whiskey bottles, a barkeep mannequin in a bowler hat, and a saloon girl out back
-  - src: /images/west6.webp
+  - src: https://images.theplist.com.au/west6.webp
     caption: The actual house — a wraparound-verandah homestead with solar, a circular drive and 12.5 acres to play with
-  - src: /images/west4.webp
+  - src: https://images.theplist.com.au/west4.webp
     caption: The real kitchen — marble benchtops, white cabinetry, mint splashback. Civilisation, for when you need a break from the frontier.
-  - src: /images/west3.webp
+  - src: https://images.theplist.com.au/west3.webp
     caption: The home theatre — velvet armchairs, a taxidermy lion, and a Titanic model standing guard over movie night
 date: '2026-04-02'
 order: 29

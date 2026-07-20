@@ -15,33 +15,33 @@ funStat: 'Rooms with a direct sightline into the pool: kitchen, at least one bat
 status: For Sale
 verdict: Made the list because somewhere in the design process, someone looked at a two-storey void running through the middle of a castle and thought 'yes, that's where the pool goes' and nobody in the room disagreed. This is a genuine sandstone-clad, double-brick castle — barn doors, chandeliers, the works — built around seven bedrooms, six bathrooms, and one full lap pool sitting wide open in the middle of it all, visible from the kitchen bench, from at least one shower, and from the entire upstairs hallway on your way to bed. The agent calls it 'as secure as Fort Knox,' which is true right up until you remember Fort Knox has never had a shower door that opens directly onto a swimming pool. This is a house that spent its whole budget on turrets and sandstone and simply forgot that pools and plumbing don't usually share a wall with the good towels.
 youtubeId: oEyGKy2axk8
-heroImage: /images/bridgeman-downs-castle-pool-mezzanine-overview.jpg
+heroImage: https://images.theplist.com.au/bridgeman-downs-castle-pool-mezzanine-overview.jpg
 listingUrl: https://www.realestate.com.au/property-house-qld-bridgeman+downs-147711016
 listingLabel: View listing
 photos:
-  - src: /images/bridgeman-downs-castle-pool-mezzanine-overview.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-pool-mezzanine-overview.jpg
     caption: Looking straight down from the upstairs mezzanine into the indoor pool — kidney-shaped, brick-edged, and ringed by a glass balustrade that's doing the actual safety work here, not the little pool fence below it
-  - src: /images/bridgeman-downs-castle-pool-skylight-corridor.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-pool-skylight-corridor.jpg
     caption: The upstairs corridor running the full length of the pool void, lit by a pyramid skylight, with drapes on the windows doing their best to make this feel like a hallway and not a viewing gallery
-  - src: /images/bridgeman-downs-castle-pool-ground-level-fenced.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-pool-ground-level-fenced.jpg
     caption: Ground level, where the pool gets a proper compliant fence — which feels almost quaint given the entire upstairs floor is already looking straight down into the water anyway
-  - src: /images/bridgeman-downs-castle-sandstone-lounge-room.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-sandstone-lounge-room.jpg
     caption: One of three lounge rooms — sandstone-block walls, a chandelier, maroon marble floor tiles, and a front door that opens straight onto the garden, in case the pool wasn't giving you enough water access already
-  - src: /images/bridgeman-downs-castle-barn-doors-formal-room.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-barn-doors-formal-room.jpg
     caption: A formal room behind a genuine set of barn doors, complete with ornate curtain pelmets on every window — castle on the outside, rural produce store on the inside
-  - src: /images/bridgeman-downs-castle-archway-chandelier-room.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-archway-chandelier-room.jpg
     caption: Another sandstone archway, another chandelier, another room with absolutely no furniture in it to explain what it's actually for
-  - src: /images/bridgeman-downs-castle-bedroom-carpet.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-bedroom-carpet.jpg
     caption: One of seven bedrooms — large enough to lose a queen bed in the middle of the floor with room to spare on every side
-  - src: /images/bridgeman-downs-castle-kitchen-overlooking-pool.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-kitchen-overlooking-pool.jpg
     caption: The kitchen, complete with a sandstone pillar and an uninterrupted view straight through to the pool — because nothing says 'family dinner' like watching someone do laps mid-plate-up
-  - src: /images/bridgeman-downs-castle-upstairs-hallway-pool-gate.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-upstairs-hallway-pool-gate.jpg
     caption: The upstairs hallway again, this time with the wrought-iron pool gate propped open — the one thing in this house standing between the bedrooms and a very damp shortcut downstairs
-  - src: /images/bridgeman-downs-castle-bathroom-shower-pool-view.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-bathroom-shower-pool-view.jpg
     caption: A bathroom vanity with the shower door left open, framing a clean view straight through to the pool fence beyond — shower, then swim, no towel required in between
-  - src: /images/bridgeman-downs-castle-floor-plan.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-floor-plan.jpg
     caption: The hand-drawn floor plan, where the pool is labelled, simply and ominously, 'VOID' — which feels like the most honest word in this entire listing
-  - src: /images/bridgeman-downs-castle-small-bathroom.jpg
+  - src: https://images.theplist.com.au/bridgeman-downs-castle-small-bathroom.jpg
     caption: One of six bathrooms that, mercifully, does not look directly at the pool — included here as proof that at least one room in this house respects a closed door
 date: '2026-07-19'
 order: 0

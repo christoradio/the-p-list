@@ -14,27 +14,27 @@ quirk: 4
 status: For sale
 verdict: Made the list for a 1022sqm Gold Coast mansion that the listing calls 'a canvas for your dreams' and the photos call 'a very large project.' The pool is brown. Half the tennis court is dirty. The mouldy walls have uninterrupted ocean views. There are six garages, a billiard room, a wine cellar, a sauna, a gym, a home cinema, and a helipad. It needs a few million dollars of work. But it's got a helipad.
 youtubeId: k9PLmio-i8Q
-heroImage: /images/mansh8.jpg
+heroImage: https://images.theplist.com.au/mansh8.jpg
 listingUrl: https://www.realestate.com.au/property-house-qld-worongary-148448748
 listingLabel: View listing
 photos:
-  - src: /images/mansh8.jpg
+  - src: https://images.theplist.com.au/mansh8.jpg
     caption: Quambone Castle from the air — terracotta roof, sandstone balconies, seven-plus east-facing balconies, a helipad in the forecourt, and a pool that the drone camera is being deliberately diplomatic about
-  - src: /images/mansh1.jpg
+  - src: https://images.theplist.com.au/mansh1.jpg
     caption: The wider estate — 1.5 hectares of Gold Coast hinterland hillside, a tennis court of debatable cleanliness, and a castle that the native bush is quietly beginning to reclaim
-  - src: /images/mansh2.jpg
+  - src: https://images.theplist.com.au/mansh2.jpg
     caption: The kitchen — granite benchtops, integrated appliances, red splashback, dual islands, and a commercial cool room out back. The kitchen is doing fine. The kitchen did not get the memo about the rest of the house.
-  - src: /images/mansh3.jpg
+  - src: https://images.theplist.com.au/mansh3.jpg
     caption: The home cinema — dark ceiling, crimson drapes, gold and black carpet, and a striped sofa that is going to outlast all of us
-  - src: /images/mansh4.jpg
+  - src: https://images.theplist.com.au/mansh4.jpg
     caption: The bathroom — a raised black granite bath platform with Gold Coast skyline views, a shower with backlit coral reef photography on the wall, and a TV because of course there's a TV
-  - src: /images/mansh5.jpg
+  - src: https://images.theplist.com.au/mansh5.jpg
     caption: A bedroom — satin pink bedspread, hinterland views, a New York City canvas print, and a ceiling fan that dates the entire room to within three years
-  - src: /images/mansh6.jpg
+  - src: https://images.theplist.com.au/mansh6.jpg
     caption: The upper hallway — wallpapered, wainscoted, and lit like the corridor of a boutique hotel that peaked in 2003 and has been waiting ever since
-  - src: /images/mansh7.jpg
+  - src: https://images.theplist.com.au/mansh7.jpg
     caption: The entry hall — polished hardwood floors, arched doorways, wrought iron staircase, and a framed print of a man diving into lava, which is a choice
-  - src: /images/mansh9.jpg
+  - src: https://images.theplist.com.au/mansh9.jpg
     caption: The games room bar — Chesterfield bar front, mirrored back bar, a Gottlieb pinball machine in the corner, and carpet that is giving everything it has
 date: '2026-03-15'
 order: 28

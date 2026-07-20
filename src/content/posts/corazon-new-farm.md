@@ -13,26 +13,26 @@ cars: 6
 quirk: 5
 verdict: Made the list for a staircase that spirals through three storeys like a piece of sculpture, a bedroom with its own indoor climbing wall, and a “wellness retreat” tucked inside the garage.
 youtubeId: GtWTnvXZSs4
-heroImage: /images/corazon-04-staircase.jpg
+heroImage: https://images.theplist.com.au/corazon-04-staircase.jpg
 listingUrl: https://www.realestate.com.au/property-house-qld-new+farm-151221944
 photos:
-  - src: /images/corazon-01-street.jpg
+  - src: https://images.theplist.com.au/corazon-01-street.jpg
     caption: The street view — Queenslander bones, full renovation
-  - src: /images/corazon-02-rear-twilight.jpg
+  - src: https://images.theplist.com.au/corazon-02-rear-twilight.jpg
     caption: The rear at twilight, hanging gardens and all
-  - src: /images/corazon-03-pool.jpg
+  - src: https://images.theplist.com.au/corazon-03-pool.jpg
     caption: The pool, signed like the house
-  - src: /images/corazon-04-staircase.jpg
+  - src: https://images.theplist.com.au/corazon-04-staircase.jpg
     caption: The staircase that, by all accounts, goes for days
-  - src: /images/corazon-05-great-room.jpg
+  - src: https://images.theplist.com.au/corazon-05-great-room.jpg
     caption: The great room, marble island included
-  - src: /images/corazon-06-kitchen.jpg
+  - src: https://images.theplist.com.au/corazon-06-kitchen.jpg
     caption: The kitchen — Miele, Gaggenau, more marble
-  - src: /images/corazon-07-primary-suite.jpg
+  - src: https://images.theplist.com.au/corazon-07-primary-suite.jpg
     caption: The primary suite, glass-encased and garden-immersed
-  - src: /images/corazon-08-ensuite.jpg
+  - src: https://images.theplist.com.au/corazon-08-ensuite.jpg
     caption: One of six ensuites
-  - src: /images/corazon-09-rooftop.jpg
+  - src: https://images.theplist.com.au/corazon-09-rooftop.jpg
     caption: The rooftop bar, city skyline included
 date: '2026-06-21'
 order: 23

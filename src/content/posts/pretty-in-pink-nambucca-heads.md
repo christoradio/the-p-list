@@ -13,26 +13,26 @@ cars: 2
 quirk: 5
 verdict: Made the list for being three bedrooms with three completely different colour philosophies — and not one of them is white.
 youtubeId: GhyEfPR_2_4
-heroImage: /images/nambucca-02-pink-bedroom.jpg
+heroImage: https://images.theplist.com.au/nambucca-02-pink-bedroom.jpg
 listingUrl: https://www.realestate.com.au/property-apartment-nsw-nambucca+heads-149832992
 photos:
-  - src: /images/nambucca-05-exterior.jpg
+  - src: https://images.theplist.com.au/nambucca-05-exterior.jpg
     caption: The building itself — hard to miss from the street
-  - src: /images/nambucca-01-kitchen.jpg
+  - src: https://images.theplist.com.au/nambucca-01-kitchen.jpg
     caption: The kitchen, fully committed to lime green
-  - src: /images/nambucca-02-pink-bedroom.jpg
+  - src: https://images.theplist.com.au/nambucca-02-pink-bedroom.jpg
     caption: One bedroom, fully committed to hot pink
-  - src: /images/nambucca-04-blue-bedroom.jpg
+  - src: https://images.theplist.com.au/nambucca-04-blue-bedroom.jpg
     caption: A third bedroom, blue overhead and bear-skin below
-  - src: /images/nambucca-03-bathroom.jpg
+  - src: https://images.theplist.com.au/nambucca-03-bathroom.jpg
     caption: The green-tiled bathroom, glass shower included
-  - src: /images/nambucca-09-dining.jpg
+  - src: https://images.theplist.com.au/nambucca-09-dining.jpg
     caption: The dining room, with a fully rigged ship for company
-  - src: /images/nambucca-07-balcony-view.jpg
+  - src: https://images.theplist.com.au/nambucca-07-balcony-view.jpg
     caption: The view that justifies “penthouse”
-  - src: /images/nambucca-08-balcony-sunset.jpg
+  - src: https://images.theplist.com.au/nambucca-08-balcony-sunset.jpg
     caption: Sunset from the wrap-around balcony
-  - src: /images/nambucca-06-aerial.jpg
+  - src: https://images.theplist.com.au/nambucca-06-aerial.jpg
     caption: 'From above: penthouse, ocean, and not much in between'
 date: '2026-06-21'
 order: 24

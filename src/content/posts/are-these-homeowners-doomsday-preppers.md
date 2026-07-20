@@ -14,25 +14,25 @@ quirk: 4
 status: Sold
 verdict: Made the list for a 12.8kW solar system running 32 panels, a 20kW battery bank, floodlights and security cameras bolted to every shed on the property, and not one but several fully self-contained outbuildings with their own plumbing, power, and living space. The house itself is white, more white, and then a bit more white again, to the point where we'd suggest sunglasses indoors. Somewhere on this property there is almost certainly a bunker stocked floor to ceiling with Watties tins and Pineapple Lumps, and we are prepared to die on that hill.
 youtubeId: YIMdBJlDmww
-heroImage: /images/pakaraka-aerial-solar-panels-roof.jpg
+heroImage: https://images.theplist.com.au/pakaraka-aerial-solar-panels-roof.jpg
 listingUrl: https://www.barfoot.co.nz/property/residential/far-north-district/pakaraka/lifestyle/929119
 listingLabel: View sold listing
 photos:
-  - src: /images/pakaraka-aerial-solar-panels-roof.jpg
+  - src: https://images.theplist.com.au/pakaraka-aerial-solar-panels-roof.jpg
     caption: The house from above — 32 solar panels covering both roof faces, elevated rural views for miles, and not a single neighbour close enough to ask what all the batteries are for
-  - src: /images/pakaraka-covered-bbq-deck-sheds.jpg
+  - src: https://images.theplist.com.au/pakaraka-covered-bbq-deck-sheds.jpg
     caption: The covered BBQ zone — a built-in barbecue, a basketball hoop, picnic tables, and a small village of dark steel sheds and shipping containers standing by in the background
-  - src: /images/pakaraka-white-marble-kitchen.jpg
+  - src: https://images.theplist.com.au/pakaraka-white-marble-kitchen.jpg
     caption: The main kitchen — white cabinetry, marble benchtops, and a gas cooktop, photographed in enough natural light to require the sunglasses we mentioned
-  - src: /images/pakaraka-living-room-valley-view.jpg
+  - src: https://images.theplist.com.au/pakaraka-living-room-valley-view.jpg
     caption: A living area — white walls, white ceiling, and a view over the valley that's doing most of the emotional work in this room
-  - src: /images/pakaraka-covered-deck-spa-pool.jpg
+  - src: https://images.theplist.com.au/pakaraka-covered-deck-spa-pool.jpg
     caption: The covered deck and spa pool — built-in seating for the hot tub, uninterrupted views over the hills, and enough decking to host the entire street, if the entire street knew this place existed
-  - src: /images/pakaraka-open-plan-kitchen-dining.jpg
+  - src: https://images.theplist.com.au/pakaraka-open-plan-kitchen-dining.jpg
     caption: The open-plan kitchen and dining — white cabinetry, a glass-top dining table, and sightlines straight through to the lounge and out to the valley beyond
-  - src: /images/pakaraka-shed-exterior-security-floodlights.jpg
+  - src: https://images.theplist.com.au/pakaraka-shed-exterior-security-floodlights.jpg
     caption: One of the sheds — floodlights, a security camera, an outdoor wash station, and a satellite dish, all mounted to a building that also happens to contain a fully fitted-out media room
-  - src: /images/pakaraka-band-room-shed-interior.jpg
+  - src: https://images.theplist.com.au/pakaraka-band-room-shed-interior.jpg
     caption: Inside the shed — a full band room with six guitars on the wall, an electronic drum kit, and enough amps stacked up to make the neighbours (there are none) reconsider
 date: '2026-07-07'
 order: 9
