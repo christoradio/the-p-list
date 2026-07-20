@@ -13,6 +13,7 @@ import {
   locationLabel,
   relatedPosts,
 } from "../../lib/utils";
+import { postJsonLd } from "../../lib/structuredData";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -41,7 +42,7 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
   year: "numeric",
 });
 ---
-<BaseLayout title={postSeoTitle(post)} description={postSeoDescription(post)} image={post.data.heroImage} path={`/post/${post.data.slug}`}>
+<BaseLayout title={postSeoTitle(post)} description={postSeoDescription(post)} image={post.data.heroImage} path={`/post/${post.data.slug}`} jsonLd={postJsonLd(post)}>
   <div class="wrap post-header">
     <div class="post-header-top">
       <a href="/" class="back-link">&larr; Back to the list</a>

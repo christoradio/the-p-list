@@ -4,15 +4,17 @@ import Footer from "../components/Footer.astro";
 import Lightboxes from "../components/Lightboxes.astro";
 import "../styles/global.css";
 import { SITE_URL, DEFAULT_TITLE, DEFAULT_DESC, DEFAULT_IMAGE, absoluteImage } from "../lib/utils";
+import { jsonLdScript, siteJsonLd } from "../lib/structuredData";
 
 interface Props {
   title?: string;
   description?: string;
   image?: string;
   path?: string;
+  jsonLd?: unknown;
 }
 
-const { title, description, image, path = Astro.url.pathname } = Astro.props;
+const { title, description, image, path = Astro.url.pathname, jsonLd } = Astro.props;
 
 const fullTitle = title || DEFAULT_TITLE;
 const fullDesc = description || DEFAULT_DESC;
@@ -53,6 +55,9 @@ const fullUrl = SITE_URL + (path === "/" ? "/" : path.replace(/\/+$/, ""));
   gtag('config', 'G-E45JL4S7NP');
 </script>
 <script is:inline id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/67129d45c846104fc09476e4d/897165a155d76c69b857ad37e.js");</script>
+
+<script type="application/ld+json" set:html={jsonLdScript(siteJsonLd())} />
+{jsonLd && <script type="application/ld+json" set:html={jsonLdScript(jsonLd)} />}
 </head>
 <body>
 
