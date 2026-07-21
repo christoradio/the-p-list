@@ -48,7 +48,7 @@ photos:
   - src: https://images.theplist.com.au/casino14.jpg
     caption: The garage — 15-car capacity, red walls, and a current inventory that includes two red Ferraris, a blue sports car, a yellow Porsche GT3, and a Maserati SUV. The sensible black car at the back is having a moment of quiet reflection.
 date: '2026-03-20'
-order: 27
+order: 28
 ---
 
 There is a casino in this house. A real one. Not a poker table in the rumpus room, not a novelty roulette wheel someone got for a 50th birthday and never assembled — a dedicated, designed, carpeted casino lounge with a full roulette wheel, multiple card tables, custom leather bar stools embroidered in gold with the words 'Baltimore Casino,' pendant lights on brass fittings positioned over the felt at regulation height, and the kind of swirling blue-gold-and-pink carpet that exists in exactly two places on earth: this room, and the floor of every RSL between Penrith and Palm Beach circa 1994. The roulette wheel is not decorative. The chairs have gold writing on them. The house has a name.

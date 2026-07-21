@@ -51,7 +51,7 @@ photos:
   - src: https://images.theplist.com.au/golden-oak-disney-mansion-pool-grotto-slide.webp
     caption: The pool — a rock grotto, waterfall, slide, and spa, tucked beside a covered lounge terrace under mature palms
 date: '2025-08-02'
-order: 34
+order: 35
 ---
 
 Golden Oak is the only neighbourhood Disney has ever allowed inside the actual boundary of Walt Disney World Resort, which tells you everything about the kind of buyer this listing was fishing for. This particular effort sits deep in the Carolwood enclave on a private 0.79-acre lot, coming in at nearly 11,000 square feet, because apparently a mere 10,000 wasn't going to say what needed saying. Seven bedrooms, seven bathrooms, four garages — three on lifts, stacking up to seven cars — and a fully detached apartment over the garage, presumably so the in-laws can be theming-adjacent without being theming-immediate.

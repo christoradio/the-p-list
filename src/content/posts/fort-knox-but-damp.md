@@ -44,7 +44,7 @@ photos:
   - src: https://images.theplist.com.au/bridgeman-downs-castle-small-bathroom.jpg
     caption: One of six bathrooms that, mercifully, does not look directly at the pool — included here as proof that at least one room in this house respects a closed door
 date: '2026-07-19'
-order: 0
+order: 1
 ---
 
 121 Ridley Road, Bridgeman Downs opens with the line 'every man's home is his castle' and then, unusually, means it with your actual wallet. This is a genuine sandstone-clad, double-brick castle with seven bedrooms, six bathrooms, three lounge rooms, two offices, and a hand-drawn floor plan that labels its centrepiece — in the architect's own handwriting — as 'VOID.' The void, it turns out, is a full indoor swimming pool, dropped into an open two-storey atrium in the dead centre of the house, and this is the one detail the agent's blurb somehow manages to skip entirely. Does the house come with a pool, or does the pool come with a house that's been reluctantly built around it as an afterthought? Genuinely, coin toss.

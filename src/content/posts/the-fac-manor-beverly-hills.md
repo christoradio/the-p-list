@@ -31,7 +31,7 @@ photos:
   - src: https://images.theplist.com.au/bev6.jpg
     caption: The master bedroom — gold baroque bed frame, matching ottomans, damask wallpaper, and the floral carpet making its final curtain call
 date: '2026-06-25'
-order: 16
+order: 17
 ---
 
 Beverly Hills, NSW is not Beverly Hills, California. We want to be very clear about that upfront, because The F.A.C. Manor — yes, it has a nameplate above the front door, yes it is named after its owners, no we do not take questions — is operating on a set of references that belong entirely to Beverly Hills, NSW, and Beverly Hills, NSW alone. The exterior is Tudor Gothic revival: half-timbering, diamond-pane leadlight windows, a circular paved driveway, a two-tiered stone fountain in the middle of the front lawn, and wrought iron gates. It is a lot of house. It knows it is a lot of house.
