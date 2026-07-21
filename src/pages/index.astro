@@ -38,7 +38,10 @@ const filterTabs: Array<{ f: string; label: string } | null> = [
 
 const states = ["NSW", "VIC", "QLD", "WA", "SA"];
 
-const chunkSize = 6;
+// Each chunk is 1 wide featured card + this many normal cards. Since the
+// grid is 3 columns, this needs to be a multiple of 3 so the normal cards
+// fill even rows instead of leaving a dangling row of 1 or 2.
+const chunkSize = 7;
 ---
 <BaseLayout path="/">
   <section class="hero">
