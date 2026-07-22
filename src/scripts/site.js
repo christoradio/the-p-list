@@ -16,12 +16,26 @@
 })();
 
 /* ---------- scroll-triggered reveal ---------- */
+function isInInitialView(el) {
+  const r = el.getBoundingClientRect();
+  return r.top < window.innerHeight && r.bottom > 0;
+}
+
 function initReveal() {
   const els = document.querySelectorAll("[data-reveal]");
   if (!("IntersectionObserver" in window)) {
     els.forEach((el) => el.classList.add("is-visible"));
     return;
   }
+
+  // Reveal above-the-fold content immediately, with no animation delay —
+  // don't wait on IntersectionObserver for what's already on screen at load.
+  const toObserve = [];
+  els.forEach((el) => {
+    if (isInInitialView(el)) el.classList.add("is-visible");
+    else toObserve.push(el);
+  });
+
   const io = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -33,7 +47,18 @@ function initReveal() {
     },
     { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
   );
-  els.forEach((el) => io.observe(el));
+  toObserve.forEach((el) => io.observe(el));
+
+  // Some in-app browsers (e.g. the one Messages/Instagram open links in)
+  // don't reliably fire IntersectionObserver callbacks, which left text
+  // stuck invisible below the fold until the visitor scrolled. Force-reveal
+  // anything still hidden shortly after load as a safety net.
+  setTimeout(() => {
+    document.querySelectorAll("[data-reveal]:not(.is-visible)").forEach((el) => {
+      el.classList.add("is-visible");
+      io.unobserve(el);
+    });
+  }, 600);
 }
 initReveal();
 
