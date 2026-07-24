@@ -15,7 +15,7 @@ funStat: Original furniture still in place, every single stick of it
 verdict: Made the list because somewhere out there is a woman who bought an entire new apartment's worth of furniture rather than bring a single lamp from this one, and left five fully-furnished bedrooms, a wet bar and a teddy bear behind without a second thought. This is a genuine, unrenovated 1970s time capsule on a 689sqm Belrose block — avocado velvet lounge suite, a dining room with a fully wallpapered ceiling, timber kitchen cabinetry, and two bathrooms committed entirely to floral wallpaper, one with a bathtub that's rusted clean through to something resembling art. The agent's blurb calls it a "demolish & dominate" knockdown-rebuild opportunity and never once mentions any of that. It's on the market for what it could become rather than what it currently, gloriously, still is — so if 70s floral core is your thing, this is your last look before someone very sensibly bulldozes it.
 youtubeId: dqEWX3Q-jxc
 heroImage: https://images.theplist.com.au/belrose-charleroi-road-exterior-driveway-facade.jpg
-listingUrl: https://app.sales.reapit.com.au/novak/contact-6de9f612941935421ed15f209ad23035-1P15627
+listingUrl: https://novak.com.au/listings/residential_sale-1P15627-belrose
 listingLabel: View listing
 photos:
   - src: https://images.theplist.com.au/belrose-charleroi-road-exterior-driveway-facade.jpg
