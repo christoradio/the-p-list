@@ -35,7 +35,7 @@ photos:
   - src: https://images.theplist.com.au/corazon-09-rooftop.jpg
     caption: The rooftop bar, city skyline included
 date: '2026-06-21'
-order: 25
+order: 26
 ---
 
 Every now and then The P List finds a house that didn't need rescuing from beige — it needed three firms (architecture, construction, and the property group behind it), a rebuild down to the studs, and apparently no upper limit on the marble budget. ‘Corazón’ started life as a classic Queenslander. It does not look like one anymore, beyond a nod to the old roofline kept on as a hint of where it came from.

@@ -31,7 +31,7 @@ photos:
   - src: https://images.theplist.com.au/mon6.jpg
     caption: The rumpus room — slate flagstone floors, timber ceiling, and wagon wheel furniture that has committed to a theme and is not taking questions
 date: '2026-07-02'
-order: 13
+order: 14
 ---
 
 Somewhere in the Dandenong Ranges, on 3.7 acres of rolling hills, Sequoia redwood forest, and apparently commercially-licensed natural spring water, someone built a house with an indoor rock pool under a glass rotunda dome. Not a spa. Not a lap pool. An indoor tropical lagoon with a stone waterfall feature, a palm tree, yellow mosaic tile edging, and — hanging directly above it from the mezzanine balcony — a full string of multicoloured fairy lights. We have questions about the fairy lights. We have many questions about the fairy lights. We are going to move past the fairy lights.
