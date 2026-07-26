@@ -98,4 +98,49 @@ export const SHOP_ITEMS: ShopItem[] = [
     url: "https://www.amazon.com/dp/B0G2BYXVPS?tag=theplist-20",
     image: "https://images.theplist.com.au/resin_leaf_mirror.jpg",
   },
+  {
+    name: "Kitty Kat Clock",
+    author: "Classic Black Kit-Cat Klock",
+    blurb:
+      "The eyes move. The tail swings. It has been unsettling and delighting kitchens since the 1930s and it is not stopping now. Every retro house on this list needs one and about half of them already have it.",
+    tag: "As vaguely seen on The P List",
+    url: "https://amzn.to/4fVGAti",
+    image: "https://images.theplist.com.au/kitcat_klock.jpg",
+  },
+  {
+    name: "Stuff To Put Stuff On",
+    author: "upsimples 4 Pcs 15in Acrylic Floating Shelves, Orange",
+    blurb:
+      "Four bright orange acrylic shelves for the perfume, the skincare, the nail polish, the ornaments-shaped-like-flowers — whatever your particular collection has become. Every house on this list needed more of these and never had enough.",
+    tag: "Inspired by the list",
+    url: "https://amzn.to/4x7L7yM",
+    image: "https://images.theplist.com.au/acrylic_shelves.jpg",
+  },
+  {
+    name: "Wall Hanging",
+    author: "\"This Is A High Class Joint\" Retro Typography Poster, Olive Green",
+    blurb:
+      "Unframed, olive green, deeply confident about a claim nobody asked it to make. The exact energy every room on this list is quietly going for. Now it can go for it too.",
+    tag: "As seen on The P List (spiritually)",
+    url: "https://amzn.to/45kyzbg",
+    image: "https://images.theplist.com.au/high_class_joint_poster.jpg",
+  },
+  {
+    name: "Orange Clock",
+    author: "Zaoniy Silent Quartz Wall Clock, Big 3D Numbers, 10-Inch, Orange",
+    blurb:
+      "Big, orange, silent, and entirely unbothered by whatever else is happening on that wall. Tells the time without ticking. Commits to the colour without apology. We approve.",
+    tag: "Inspired by the list",
+    url: "https://amzn.to/4yH4K20",
+    image: "https://images.theplist.com.au/orange_wall_clock.jpg",
+  },
+  {
+    name: "A Vase For Oat Milk Lovers",
+    author: "ban.do Rise and Shine Decorative Ceramic Vase, Oat Milk",
+    blurb:
+      "A ceramic vase shaped like a carton of oat milk, because of course that's a thing now. Deeply silly, entirely charming, exactly the kind of object that ends up on a kitchen bench on this list and never leaves.",
+    tag: "As vaguely seen on The P List",
+    url: "https://amzn.to/3Tlo6JX",
+    image: "https://images.theplist.com.au/oat_milk_vase.jpg",
+  },
 ];
