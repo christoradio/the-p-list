@@ -60,4 +60,42 @@ export const SHOP_ITEMS: ShopItem[] = [
     url: "https://amzn.to/4w9OPHA",
     image: "https://images.theplist.com.au/star_clock.jpg",
   },
+  {
+    name: "Karate Chopped Pillows",
+    author: "MIULEE Corduroy Striped Farmhouse Throw Pillow Covers, Set of 4",
+    blurb:
+      "Sage green corduroy, perfectly karate-chopped down the middle the way every styled sofa on this list seems to manage and yours somehow doesn't. Four covers, one crease, endless smugness.",
+    tag: "Inspired by the list",
+    url: "https://amzn.to/4vJjpad",
+    image: "https://images.theplist.com.au/karate_chop_pillows.jpg",
+  },
+  {
+    name: "Toilet Art",
+    author: "FKRYTYB Vintage Framed Duck Wall Art Wearing Toilet Paper Hat",
+    blurb:
+      "A duck. Wearing a toilet paper hat. Framed, vintage, entirely sincere about it. Every bathroom on this list has earned art exactly this unhinged — now yours can too.",
+    connectedTo: { title: "The Toilet's Right There: Glebe", slug: "the-toilets-right-there-glebe" },
+    tag: "As vaguely seen on The P List",
+    url: "https://amzn.to/4vLRDKt",
+    image: "https://images.theplist.com.au/toilet_duck_art.jpg",
+  },
+  {
+    name: "Melted Disco Ball",
+    author: "Handmade Mirror Ball Sculpture, 12in, Silver",
+    blurb:
+      "A disco ball that's given up on being spherical and we respect it. Mirrored glass, fully melted, deeply committed to the bit. The party's over. This is what's left.",
+    connectedTo: { title: "Studio 54: Kenthurst", slug: "studio-54-kenthurst" },
+    tag: "Inspired by the list",
+    url: "https://amzn.to/44PaOIi",
+    image: "https://images.theplist.com.au/melted_disco_ball.jpg",
+  },
+  {
+    name: "Mirror, Mirror On The Wall",
+    author: "TEIPAI Resin Leaf Frame Wall Mirror, Yellow-Orange",
+    blurb:
+      "A wavy resin leaf frame in a yellow-orange flocked finish that looks like it grew there rather than got hung. Every hallway on this list needed one of these. Now yours has one.",
+    tag: "As seen on The P List (spiritually)",
+    url: "https://www.amazon.com/dp/B0G2BYXVPS?tag=theplist-20",
+    image: "https://images.theplist.com.au/resin_leaf_mirror.jpg",
+  },
 ];
