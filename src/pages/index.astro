@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
+import AdUnit from "../components/AdUnit.astro";
 import Tags from "../components/Tags.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import NewsletterBand from "../components/NewsletterBand.astro";
@@ -131,6 +132,7 @@ const chunkSize = 7;
                 <h2>{GRID_CHUNK_HEADERS[headerIndex % GRID_CHUNK_HEADERS.length]}</h2>
               </div>
             );
+            nodes.push(<AdUnit slot="0000000001" className="grid-ad" />);
           }
           nodes.push(<PostCard post={post} index={i} wide={isBreakAnchor} />);
           return nodes;

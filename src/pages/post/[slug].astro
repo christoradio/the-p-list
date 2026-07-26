@@ -6,6 +6,7 @@ import Tags from "../../components/Tags.astro";
 import QuirkDots from "../../components/QuirkDots.astro";
 import PostCard from "../../components/PostCard.astro";
 import NewsletterBand from "../../components/NewsletterBand.astro";
+import AdUnit from "../../components/AdUnit.astro";
 import {
   sortedByOrder,
   postSeoTitle,
@@ -103,6 +104,8 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
       <div class="post-body" data-reveal>
         <Content />
       </div>
+
+      <AdUnit slot="0000000002" />
 
       <div class="photo-scroll-hint">Scroll for more <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
       <div class="photo-strip-wrap">

@@ -805,6 +805,7 @@
     .post-body-col .photo-scroll-hint{ order:1; margin-top:0; }
     .post-body-col .photo-strip-wrap{ order:2; }
     .post-body-col .post-body{ order:3; }
+    .post-body-col .ad-unit{ order:3; }
     .post-body-col .listing-cta{ order:4; }
     .post-body-col .mobile-agent-link{ order:5; }
     .mid-article-photo{ display:block; margin: 4px 0 22px; }
@@ -965,6 +966,8 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23574E3F' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat; background-position: right 10px center;
   }
+
+  .grid .ad-unit.grid-ad{ grid-column: 1 / -1; margin: 0 0 8px; }
 
   /* ---------- chunk headers that break up the endless grid ---------- */
   .grid-chunk-header{
