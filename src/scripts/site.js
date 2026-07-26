@@ -368,3 +368,29 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
     });
   }
 })();
+
+/* ---------- mid-article photo (mobile only; reuses a photo from the strip below) ---------- */
+(function () {
+  const body = document.querySelector(".post-body");
+  const strip = document.querySelector(".photo-strip");
+  if (!body || !strip) return;
+  const paragraphs = body.querySelectorAll(":scope > p");
+  if (paragraphs.length < 3) return;
+  const tile = strip.querySelector(".ph-tile[data-photo-src]");
+  if (!tile) return;
+
+  const figure = document.createElement("figure");
+  figure.className = "mid-article-photo";
+  const img = document.createElement("img");
+  img.src = tile.getAttribute("data-photo-src");
+  img.alt = tile.getAttribute("data-photo-caption") || "";
+  img.loading = "lazy";
+  figure.appendChild(img);
+  const caption = tile.getAttribute("data-photo-caption");
+  if (caption) {
+    const figcaption = document.createElement("figcaption");
+    figcaption.textContent = caption;
+    figure.appendChild(figcaption);
+  }
+  paragraphs[1].insertAdjacentElement("afterend", figure);
+})();
