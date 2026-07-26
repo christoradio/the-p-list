@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/palm12.jpg
     caption: The blue bedroom — floral wallpaper, cobalt walls, green carpet. A different vibe, same commitment.
 date: '2026-06-23'
-order: 16
+order: 17
 ---
 
 The house is called Giget — etched right into the stone facade, in case there was any doubt about the energy being aimed for. It sits on Iluka Road in Palm Beach, one of Sydney’s most valuable strips of sand and money, and it has chosen to spend that postcode on a yellow water slide, two fully stocked bars, and enough brolgas painted across the kitchen walls to constitute a flock. We respect this enormously.

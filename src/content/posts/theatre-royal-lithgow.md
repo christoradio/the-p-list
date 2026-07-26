@@ -45,7 +45,7 @@ photos:
   - src: https://images.theplist.com.au/theatre-royal-lithgow-back-office.jpg
     caption: The back office — fax machine, cork board, one very tired armchair, and green paint doing absolutely nothing to compete with the rest of the building. Every theatre needs a room like this
 date: '2026-07-21'
-order: 2
+order: 3
 ---
 
 There's a building in the middle of Lithgow that's been a theatre, a cinema, a boxing arena, a nightclub, a restaurant and — going by the agent's own description — a 'cultural chameleon,' which is real estate for 'we're not entirely sure what to call it either.' It's called the Theatre Royal, it's circa 1920, and as of right now, it's yours for the right price.

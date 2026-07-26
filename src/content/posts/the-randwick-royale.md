@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/rand10.jpg
     caption: The games room — pebble flooring, timber beams, and a five-stool bar setup ready for its next big night
 date: '2026-06-30'
-order: 17
+order: 18
 ---
 
 Two Glen Avenue sits on one of Randwick's best corners doing its best impression of a small Mediterranean embassy — three brick arches out front, a wraparound balustrade balcony, and a three-car garage tucked underneath like a vault. Seven bedrooms, five bathrooms, and a footprint big enough to lose a teenager in for an entire school holidays. This is the kind of house multi-generational families built when “the kids will never move out” was less a fear and more a floor plan requirement.

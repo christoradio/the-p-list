@@ -39,7 +39,7 @@ photos:
   - src: https://images.theplist.com.au/priestdale-10-bridge-dusk.jpg
     caption: The footbridge, lit up for the walk in
 date: '2026-06-21'
-order: 22
+order: 23
 ---
 
 From the air, it already looks like more than a house: a tiled Mediterranean roofline rising out of four hectares of Queensland bushland, a white wrought-iron footbridge arcing over the front lawn, and a pool tucked in behind a shed that's bigger than most inner-city apartments. Built in 1975, it has had a very long time to commit to a vision. It used that time well.

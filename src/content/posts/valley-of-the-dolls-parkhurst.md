@@ -27,7 +27,7 @@ photos:
   - src: https://images.theplist.com.au/doll6.jpg
     caption: The second kitchen — brick arches, a second jukebox, and yet more brick. This property does not believe in plasterboard.
 date: '2026-06-25'
-order: 18
+order: 19
 ---
 
 Fifty-four Alfred Road bills itself as a once-in-a-generation 10-acre holding, and on paper that's exactly right: a seven-bedroom double-brick main residence, plus a separate three-bedroom house, a two-bedroom house, and two self-contained one-bedroom units, all behind electric gates and a full security camera system. There's a four-bay garage, a horse shed, paddocks, a limestone lake, and an industrial laundry with four commercial washers and four dryers, because apparently somewhere on this property there is enough laundry to require commercial equipment. We have not located the source of that laundry. We have theories.

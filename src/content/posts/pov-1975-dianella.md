@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/dianella-09-bathroom.jpg
     caption: The bathroom, in full powder blue
 date: '2026-06-21'
-order: 24
+order: 25
 ---
 
 “POV: It's 1975 and you just got home,” says the video title, and the veranda backs it up completely — terracotta tile underfoot, an amber lantern sconce by the door, and decorative steel scrollwork holding panes of amber cathedral glass. The listing calls it “the emotional highlight of the home.” We're not going to argue.
