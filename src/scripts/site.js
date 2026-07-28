@@ -298,9 +298,9 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
     const country = card.getAttribute("data-country") || "";
 
     let ok = true;
-    if (filter === "for-sale") ok = !status;
+    if (filter === "for-sale") ok = !status || ["for sale", "auction", "under contract"].includes(status);
     else if (filter === "sold") ok = status === "sold";
-    else if (filter === "not-for-sale") ok = status.includes("not") || status.includes("contract");
+    else if (filter === "not-for-sale") ok = status.includes("not");
     else if (filter === "international") ok = !!country;
     else if (filter !== "all") ok = tags.some((t) => t.toLowerCase() === filter.toLowerCase());
 
