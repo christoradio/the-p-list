@@ -29,7 +29,7 @@ photos:
   - src: https://images.theplist.com.au/hamilton-hill-06-ensuite.jpg
     caption: The ensuite, starring a fully committed yellow suite
 date: '2026-06-21'
-order: 24
+order: 25
 ---
 
 From the street, you get the overture: a double-storey façade in cream and burgundy brick, an upstairs balcony with enough turned balustrade to furnish a small cathedral, and a wrought-iron gate flanked by stone lions who have clearly been guarding this property since the Fraser government. It is, by any measure, a lot of house. It has not finished making its point.

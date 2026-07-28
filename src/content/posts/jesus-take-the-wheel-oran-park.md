@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/oran7.jpg
     caption: The master bedroom — wave ceiling coving in black and white, curved glass wall looking out to the street, and a life-size Sacred Heart of Jesus statue standing in the corner watching over proceedings
 date: '2026-07-03'
-order: 14
+order: 15
 ---
 
 Ten Davidson Street, Oran Park is a 540 square metre custom home with five bedrooms, three bathrooms, and a design philosophy that can be summarised as: more. More ceiling. More curve. More marble. More iron scrollwork. More Jesus. The exterior alone features two curved glass towers, a copper-orange feature box cantilevered from the second storey, glass brick panels, LED fence lights in red and green, and a full-size Virgin Mary statue on the front lawn. The fence is white picket. It is doing its best.

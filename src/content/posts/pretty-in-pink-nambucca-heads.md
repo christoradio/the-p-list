@@ -35,7 +35,7 @@ photos:
   - src: https://images.theplist.com.au/nambucca-06-aerial.jpg
     caption: 'From above: penthouse, ocean, and not much in between'
 date: '2026-06-21'
-order: 28
+order: 29
 ---
 
 “Penthouse” gets used loosely in real estate, but 7/4 Small Street earns it honestly: top floor, a wrap-around balcony, and an ocean view that doesn't need creative photography to sell itself. The building wears its colour scheme proudly from the street, too — a three-storey wash of pink that's visible, we'd wager, from the water.

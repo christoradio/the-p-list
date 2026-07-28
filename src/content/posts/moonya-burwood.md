@@ -43,7 +43,7 @@ photos:
   - src: https://images.theplist.com.au/heri12.jpg
     caption: The 70s kitchen — olive-and-brown geometric wallpaper, red curtains, green tiles. The wallpaper is load-bearing.
 date: '2026-06-29'
-order: 16
+order: 17
 ---
 
 Her name is Moonya. It’s right there on the name plate between the tessellated tiles and the stained-glass door, in the kind of serif lettering that suggests the original owners took naming their house very seriously, as all people should. She’s a double-fronted Federation home on Woodside Avenue, Burwood — five bedrooms, two bathrooms, a 1,011 square metre block with a 20-metre frontage, and roughly 84 years of continuous occupation by the same family without being meaningfully touched. The agent calls this “largely untouched.” We call it a miracle.

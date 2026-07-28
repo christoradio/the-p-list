@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/mansh9.jpg
     caption: The games room bar — Chesterfield bar front, mirrored back bar, a Gottlieb pinball machine in the corner, and carpet that is giving everything it has
 date: '2026-03-15'
-order: 32
+order: 33
 ---
 
 Quambone Castle is a 1022 square metre, seven-bedroom, six-garage, helipad-equipped Gold Coast hillside mansion with 180-degree uninterrupted ocean views, a full-size tennis court, a home cinema, a gym, a sauna, a billiard room, a wine cellar, a commercial cool room, and a pool. The pool is brown. We want to get that out of the way early, because the listing photographs it from a very respectful distance and the drone makes it look more contemplative than it is. The pool is not contemplative. The pool needs attention.

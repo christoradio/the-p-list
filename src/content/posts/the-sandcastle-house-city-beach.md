@@ -45,7 +45,7 @@ photos:
   - src: https://images.theplist.com.au/branksome13.jpg
     caption: The spiral stair, with cheetah — a full cheetah-skin runner laid down the internal staircase, because at this point why not
 date: '2025-11-08'
-order: 34
+order: 35
 ---
 
 Sixty-four Branksome Gardens, City Beach, is what happens when someone wants a castle and refuses to be talked out of it by, in order: several builders, the local council, and her own father, who is an architect and presumably knows a thing or two about what a wall can and cannot do. Tani Richards wanted rounded stone walls, cathedral windows, a turret, and a moat, on a block small enough to save the Norfolk pines out front. Everyone told her no. The council tried to use her own plans as an excuse to slap a two-storey height limit on the whole street, which is either paranoia or the highest compliment a local government has ever paid a renovation. She won anyway, hired architect James Shaw, and got her castle: six bedrooms, four bathrooms, one contractor's receivership weathered along the way, and, we assume, a lot of people finally admitting she'd been right the whole time.

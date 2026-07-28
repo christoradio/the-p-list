@@ -54,7 +54,7 @@ photos:
   - src: https://images.theplist.com.au/karalee-dome-house-exterior-terrace-purple-domes.jpg
     caption: The terrace level, ringed in mauve-rendered domes with a round timber door glowing amber from the inside — built-in barbeque included, presumably for entertaining fellow Storm Troopers
 date: '2026-07-17'
-order: 5
+order: 6
 ---
 
 Every so often a listing lands that makes the agent copy feel like a hostage note. This is one of those. The blurb for 79 Elanora Way, Karalee talks about a 5,109m² riverfront allotment, stone benchtops, a sports bar and ‘relaxed waterfront living,’ and at no point — not once, not even in passing — does it mention that the house itself is a cluster of concrete domes bolted together like a decommissioned Moon base that got lonely and moved to the Bremer River. We have so many questions. We are not confident a single one gets answered before auction day, and we're not sure we'd survive the answers anyway.

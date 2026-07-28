@@ -35,7 +35,7 @@ photos:
   - src: https://images.theplist.com.au/vaucluse-powder-room-red-damask.jpg
     caption: The powder room — deep red damask walls, a gold-framed mirror, and a sink basin in matching orange, because subtlety was never really on the table here
 date: '2025-05-19'
-order: 37
+order: 38
 ---
 
 Six Kimberley Street, Vaucluse, is a secure block of just eleven apartments tucked beside Diamond Bay Reserve, and this particular 336 square metre unit is one of only six sharing its entry. The agent's copy leans hard into renovation potential, and sure, if that's your thing, go for it. But we'd argue the actual drawcard here is what's already in place: a completely intact original interior that hasn't been touched since it was finished, and hasn't needed to be.
