@@ -86,7 +86,15 @@ const chunkSize = 7;
       </div>
 
       {hero && (
-        <a class="hero-listing" href={`/post/${hero.data.slug}`} data-reveal>
+        <a
+          class="hero-listing"
+          href={`/post/${hero.data.slug}`}
+          data-reveal
+          data-tags={hero.data.tags.join("|")}
+          data-status={hero.data.status ?? ""}
+          data-state={hero.data.state ?? ""}
+          data-country={hero.data.country ?? ""}
+        >
           <div class="hero-listing-media">
             {heroSrc ? <img src={heroSrc} alt={hero.data.title} loading="lazy" /> : <div class="ph-placeholder">Photo coming soon</div>}
             {hero.data.youtubeId && (

@@ -281,6 +281,7 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
 
   const grid = document.getElementById("postGrid");
   const cards = grid ? Array.from(grid.querySelectorAll(".card[data-order]")) : [];
+  const hero = document.querySelector(".hero-listing");
   const countLabel = document.getElementById("listingsCount");
   const noMatch = document.getElementById("noMatch");
   const chunkHeaders = grid ? Array.from(grid.querySelectorAll(".grid-chunk-header")) : [];
@@ -327,6 +328,12 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
       card.style.display = show ? "" : "none";
       if (show) visibleCount++;
     });
+
+    if (hero) {
+      const showHero = matches(hero);
+      hero.style.display = showHero ? "" : "none";
+      if (showHero) visibleCount++;
+    }
 
     let sorted;
     if (sort === "quirk" || sort === "beds-desc") {
