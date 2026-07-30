@@ -1,6 +1,6 @@
 ---
 slug: star-clock-count-faulconbridge
-title: 'How Many Star Clocks Is Too Many?: Faulconbridge''s Anti-Greige Manifesto'
+title: 'Anything But Greige: Faulconbridge''s Retro Fever Dream'
 suburb: Faulconbridge
 state: NSW
 tags:
@@ -45,9 +45,9 @@ date: '2026-07-30'
 order: 0
 ---
 
-Faulconbridge sits up in the Blue Mountains, elevated enough that the trees start at eye level and stay there. 5 Shirlow Avenue makes the most of it — a split-level mid-century place that could have coasted on the view alone and instead decided to also have opinions about colour.
+Faulconbridge sits high in the Blue Mountains, elevated enough that the trees start at eye level — which is handy, because it gives you something to look at that isn't the honeycomb wallpaper. 5 Shirlow Avenue had a view worth selling on its own. It sold on the wallpaper instead.
 
-The question the listing photos raise, and the one we can't actually answer, is whether this is a retro house that's been furnished with retro furniture, or a retro house that just never stopped being itself. The kitchen has honeycomb wallpaper and checkerboard lino that reads original. The vintage bar upstairs and the tiki figure minding the front porch read like someone went shopping. Either way, the design brief was clearly circulated and clearly said one thing: anything but greige. Green kitchen, teal stairwell, gold-ceilinged lounge with a jungle mural, a green room with a red door, a bedroom that's gone all-in on cobalt blue with mustard curtains standing their ground next to it. Nobody in this house has ever been talked into a feature wall in "warm oatmeal."
+Retro house furnished with retro furniture, or retro house that simply never got the memo the seventies ended? We can't tell, and at this point we've stopped trying. What we can tell is that somewhere along the way, someone drew a line in the sand marked "no greige" and then set it on fire for good measure. The kitchen is green. The stairwell is teal. The lounge ceiling is gold with a jungle mural in it. There's a room that's black and lime with a red door, like someone lost a bet. One bedroom has gone full cobalt blue and backed it up with mustard curtains, and somehow — genuinely, we checked twice — it works. Nobody in this house has ever been talked into a feature wall in "warm oatmeal."
 
 Then there's the clocks. We counted a starburst clock in the kitchen, another in the timber-panelled sitting room, and lost the thread after that — this is a house where checking the time is less a necessity and more a design motif that recurs whether you need it to or not. We are formally raising the question of how many starburst clocks constitute a problem, and formally declining to answer it, because at some point admiration and concern become the same feeling.
 
