@@ -35,7 +35,7 @@ photos:
   - src: https://images.theplist.com.au/glebe-ferry-road-living-room-spiral-staircase.jpg
     caption: The living room and spiral staircase — sculptural, curved, extremely photogenic, and doing an excellent job of distracting you from the fact there's a toilet with zero privacy just up those stairs
 date: '2026-07-09'
-order: 12
+order: 13
 ---
 
 Ferry Road in Glebe is lined with well-behaved Federation terraces — iron lace, hedges, the odd sandstone retaining wall — which is exactly what makes number 38 look like it wandered in from a different suburb entirely. The owners bulldozed the original cottage on their 374sqm block and handed the whole thing to Chenchow Little, architects who apparently do not know how to design the same house twice. What came back in 2019 promptly won the 2020 Wilkinson Award for Residential Architecture. What the street got was two storeys of white cladding carved into arches big enough to reverse a car through, assuming your car has excellent depth perception and no shame.
