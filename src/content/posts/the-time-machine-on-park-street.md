@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/moonee-ponds-backyard-brick-house.jpg
     caption: The rear of the house and yard — red brick, a wide lawn, fruit trees, and enough space back here to lose a sibling in an argument over whose turn it is on the swing
 date: '2025-09-14'
-order: 38
+order: 39
 ---
 
 Eighty-four Park Street sits on one of Moonee Ponds' most photographed strips, and the agent's copy is very clear about why: a north-facing Californian Bungalow on a genuinely enormous 1255 square metre block, with leadlight windows, ceiling roses, picture rails, and every other period detail a renovator's heart could ask for. The listing calls it a one-of-one renovation opportunity. We'd agree, with one addition — before anyone renovates a single thing, somebody should be documenting this interior for posterity, because it is, floor to ceiling, an entirely intact time capsule.

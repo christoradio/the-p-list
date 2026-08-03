@@ -34,7 +34,7 @@ photos:
   - src: https://images.theplist.com.au/st-ives-jungle-house-backyard-algae-pool-jungle.jpg
     caption: The pool, or what used to be one — now a solid sheet of green from edge to edge, with the house barely visible through the jungle that's grown up around it
 date: '2026-07-14'
-order: 10
+order: 11
 ---
 
 Behind a high walled frontage in St Ives sits a house facing the three big questions of any serious renovator's dream: do you demolish, do you renovate, or do you quietly ring a production company and offer the place up as a set for something post-apocalyptic? Because that's genuinely the vibe. Palms and vines have worked the brick facade over so thoroughly that the handsome red double front doors now read less like an entrance and more like a sealed bunker hatch, the kind a nervous survivor prises open in act one. It is, allegedly, still a family home. Whether it currently agrees with that assessment is a separate question.

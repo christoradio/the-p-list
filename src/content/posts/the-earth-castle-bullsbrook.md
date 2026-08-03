@@ -29,7 +29,7 @@ photos:
   - src: https://images.theplist.com.au/earth6.jpg
     caption: A second bedroom — four-poster bed, candelabra floor lamp, door to the stone archway terrace
 date: '2026-06-23'
-order: 32
+order: 33
 ---
 
 There is a moment, when you first see The Earth Castle from across the water at dusk, when your brain gently declines to process what it’s looking at. Stone arches glowing amber. A structure that appears to have grown out of the hillside rather than been built onto it. A private lake in the foreground doing its best with the reflection. You think: that can’t be a house. It is a house. A 1,400-square-metre, 25-hectare, six-bedroom, seven-bathroom house in Bullsbrook, WA, and it has drawbridges.

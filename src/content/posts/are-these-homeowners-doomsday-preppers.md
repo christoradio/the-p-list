@@ -35,7 +35,7 @@ photos:
   - src: https://images.theplist.com.au/pakaraka-band-room-shed-interior.jpg
     caption: Inside the shed — a full band room with six guitars on the wall, an electronic drum kit, and enough amps stacked up to make the neighbours (there are none) reconsider
 date: '2026-07-07'
-order: 16
+order: 17
 ---
 
 This one came to us from the Far North of New Zealand, out past Kerikeri on a rural block near Pakaraka, and it was originally built for someone else entirely — a job Christo took on, not a house he sought out. The brief was straightforward: elevated views, room for stock, space for hobbies, serious entertaining. What actually got built is a white weatherboard home sitting under a 12.8kW solar array with 20kW of battery storage, ringed by multiple fully self-contained sheds with their own power, plumbing, and living space, all of it watched over by floodlights and security cameras. Nobody used the word 'prepper' in the listing. We are using it now.

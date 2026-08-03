@@ -44,7 +44,7 @@ photos:
   - src: https://images.theplist.com.au/sarsfield-train-house-floor-plan.jpg
     caption: The floor plan — kitchen, dining, living and bedroom laid out in a single straight line, because when your house used to run on rails, open-plan was never really a choice
 date: '2026-07-22'
-order: 5
+order: 6
 ---
 
 Somewhere between 1981 and 2004, this exact carriage spent its working life doing laps of Melbourne's suburban rail network, hauling commuters through peak hour with the enthusiasm you'd expect from public transport. Now it sits, fully retired, on two acres of hillside bush in Sarsfield, ten minutes from Bairnsdale and a very comfortable 3.5 hours from the city it used to serve daily. By any reasonable measure, it has had a better run than most of us will.

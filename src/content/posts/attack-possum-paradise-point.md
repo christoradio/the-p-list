@@ -49,7 +49,7 @@ photos:
   - src: https://images.theplist.com.au/paradisepoint15.jpg
     caption: Another bathroom — brown marble this time, gold ceiling, toilet and bidet standing at attention
 date: '2026-07-30'
-order: 0
+order: 1
 ---
 
 Who did this? Genuinely, who? We need a name. Was it Donald Trump? Did Donald Trump come to Paradise Point, Queensland, and quietly design a house, and then leave without telling anyone? We're not saying it was him. We're saying somebody with the exact same relationship to the colour gold got their hands on 2,982 square metres of Gold Coast waterfront and did not hold back for one single second of it.
