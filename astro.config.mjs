@@ -37,6 +37,7 @@ const buildDate = new Date();
 // https://astro.build/config
 export default defineConfig({
   site: 'https://theplist.com.au',
+  trailingSlash: 'never',
   integrations: [
     sitemap({
       serialize(item) {
