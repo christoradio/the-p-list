@@ -300,19 +300,19 @@
     text-transform:uppercase;
   }
 
-  /* ---------- shop band (bottom CTA) ---------- */
-  .shop-band{
+  /* ---------- cta band (bottom CTA) ---------- */
+  .cta-band{
     padding: 56px 0;
     border-top: 3px solid var(--ink);
   }
-  .shop-band-inner{
+  .cta-band-inner{
     display:flex; align-items:center; justify-content:space-between;
     gap: 32px; flex-wrap:wrap;
   }
-  .shop-band-text{ flex:1; min-width:260px; }
-  .shop-band h2{ font-size: clamp(26px,4vw,40px); color: var(--paper); max-width:480px; margin: 8px 0 10px; }
-  .shop-band p{ color: var(--paper); opacity:0.85; max-width: 440px; font-size:15px; margin:0; }
-  .shop-band-btn{ flex-shrink:0; white-space:nowrap; }
+  .cta-band-text{ flex:1; min-width:260px; }
+  .cta-band h2{ font-size: clamp(26px,4vw,40px); color: var(--paper); max-width:480px; margin: 8px 0 10px; }
+  .cta-band p{ color: var(--paper); opacity:0.85; max-width: 440px; font-size:15px; margin:0; }
+  .cta-band-btn{ flex-shrink:0; white-space:nowrap; }
 
   /* ---------- footer ---------- */
   footer.site{
@@ -664,48 +664,13 @@
   .about-hero p{ font-size:18px; color: var(--ink-soft); margin:0 0 18px; }
   .about-hero p strong{ color:var(--ink); }
 
-  /* p-shop */
-  .shop-hero{ padding-top: 60px; padding-bottom: 32px; }
-  .shop-intro{ max-width: 620px; color: var(--ink-soft); margin-top:14px; }
-  .shop-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 24px;
-    padding-bottom: 48px;
-  }
-  .shop-card{
-    background: var(--paper-soft);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: box-shadow .3s ease;
-  }
-  .shop-card:hover{ box-shadow: var(--shadow); }
-  .shop-img{
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
-    background: #fff;
-    border-bottom: 1px solid var(--line);
-    display: block;
-  }
-  .shop-body{ padding: 20px 22px 24px; display:flex; flex-direction:column; flex:1; gap:8px; }
-  .shop-tag{ color: var(--rust); }
-  .shop-name{ font-family: var(--display); font-size: 22px; font-weight:900; text-transform:uppercase; margin:0; line-height:1.1; }
-  .shop-author{ font-family: var(--mono); font-size:11px; color: var(--ink-soft); letter-spacing:.04em; }
-  .shop-blurb{ font-size:15px; color:var(--ink-soft); line-height:1.6; margin: 4px 0 8px; flex:1; }
-  .shop-link-ref{ font-family: var(--mono); font-size:11px; letter-spacing:.04em; }
-  .shop-link-ref a{ color: var(--rust); text-decoration:none; }
-  .shop-link-ref a:hover{ text-decoration:underline; }
-  .shop-btn{ align-self:flex-start; margin-top:12px; font-size:13px; }
-  .shop-disclaimer{
-    padding-bottom: 48px;
-    border-top: 1px dashed var(--line);
-    padding-top: 24px;
-  }
-  .shop-disclaimer p{ font-family: var(--mono); font-size:11px; color:var(--ink-soft); line-height:1.7; max-width:620px; }
+  /* legal / privacy page */
+  .legal-page{ padding-top: 60px; padding-bottom: 60px; max-width: 720px; }
+  .legal-page h2{ font-family: var(--display); font-size: 22px; text-transform: uppercase; margin: 32px 0 10px; }
+  .legal-page p{ color: var(--ink-soft); line-height: 1.7; margin: 0 0 14px; }
+  .legal-page ul{ color: var(--ink-soft); line-height: 1.7; margin: 0 0 14px; padding-left: 22px; }
+  .legal-page a{ color: var(--rust); }
+  .legal-updated{ font-family: var(--mono); font-size: 11px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.06em; }
 
   /* contact page */
   .contact-hero p{ max-width: 580px; }
@@ -849,8 +814,8 @@
     .post-body p:first-of-type::first-letter{ font-size: 48px; padding-right: 7px; }
     .photo-strip .ph-tile{ flex-basis: 260px; }
 
-    .shop-band-inner{ flex-direction:column; align-items:flex-start; }
-    .shop-band-btn{ width:100%; text-align:center; justify-content:center; }
+    .cta-band-inner{ flex-direction:column; align-items:flex-start; }
+    .cta-band-btn{ width:100%; text-align:center; justify-content:center; }
 
     /* always show the zoom affordance — there's no hover on touch */
     button.ph-tile .zoom-hint{ opacity: 0.9; }

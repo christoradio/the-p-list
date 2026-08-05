@@ -121,13 +121,6 @@ const chunkSize = 7;
         </a>
       )}
 
-      <div class="wrap ad-banner-wrap" id="heroAdBanner" style="padding-bottom: 28px;">
-        <a href="https://amzn.asia/d/0iG0b5iB" target="_blank" rel="noopener sponsored" class="home-ad-banner" aria-label="Advertisement">
-          <img src="https://images.theplist.com.au/amazon-banner.png" alt="Advertisement" loading="lazy" />
-          <span class="ad-label" style="display:block;text-align:center;margin-top:6px;">Advertisement</span>
-        </a>
-      </div>
-
       <div class="grid" id="postGrid">
         {rest.map((post, i) => {
           const isBreakAnchor = i % chunkSize === 0;
@@ -149,6 +142,13 @@ const chunkSize = 7;
       <p id="noMatch" style="display:none;font-family:var(--mono);font-size:13px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.06em;text-align:center;padding:60px 0;">No properties match this filter — try another one.</p>
     </div>
   </section>
+
+  <div class="wrap ad-banner-wrap">
+    <a href="https://amzn.asia/d/0iG0b5iB" target="_blank" rel="noopener sponsored" class="home-ad-banner" aria-label="Advertisement">
+      <img src="https://images.theplist.com.au/amazon-banner.png" alt="Advertisement" loading="lazy" />
+      <span class="ad-label" style="display:block;text-align:center;margin-top:6px;">Advertisement</span>
+    </a>
+  </div>
 
   <NewsletterBand />
 </BaseLayout>

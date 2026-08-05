@@ -282,7 +282,6 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   const grid = document.getElementById("postGrid");
   const cards = grid ? Array.from(grid.querySelectorAll(".card[data-order]")) : [];
   const hero = document.querySelector(".hero-listing");
-  const heroAdBanner = document.getElementById("heroAdBanner");
   const countLabel = document.getElementById("listingsCount");
   const noMatch = document.getElementById("noMatch");
   const chunkHeaders = grid ? Array.from(grid.querySelectorAll(".grid-chunk-header")) : [];
@@ -334,9 +333,6 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
       const showHero = matches(hero);
       hero.style.display = showHero ? "" : "none";
       if (showHero) visibleCount++;
-      // The ad banner is anchored directly beneath the hero card — without
-      // the hero above it, it ends up looking like the page opens on an ad.
-      if (heroAdBanner) heroAdBanner.style.display = showHero ? "" : "none";
     }
 
     let sorted;
