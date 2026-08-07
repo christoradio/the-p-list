@@ -34,7 +34,7 @@ photos:
   - src: https://images.theplist.com.au/west3.webp
     caption: The home theatre — velvet armchairs, a taxidermy lion, and a Titanic model standing guard over movie night
 date: '2026-04-02'
-order: 37
+order: 38
 ---
 
 Somewhere behind a perfectly ordinary country verandah home in Yandoit, Victoria, there is an entire town. Not a cubby house. Not a shed with a sign on it. An actual town — a general store, a blacksmith, a Cobb & Co booking office, a courthouse, a jail, a saddlery, a grain store, a theatre, and a church with its own white picket fence — all built by hand over 23 years by an owner who, by all accounts, really likes Westerns. The town has a name. It's called Cross Creek, after the setting of the 1956 film The Fastest Gun Alive, because if you're going to commit to a bit, you commit properly.

@@ -33,7 +33,7 @@ photos:
   - src: https://images.theplist.com.au/stives7.jpg
     caption: The kitchen — white cabinetry, granite benchtops, gold pendant light, opening straight out to the dining and the pool beyond
 date: '2026-08-03'
-order: 0
+order: 1
 ---
 
 Here we go again. Another house, another full lap pool installed dead centre of the floor plan, another family who looked at "build a pool in the backyard like everyone else" and said no, put it in the living room. This is the second one of these we've found. We're now fairly confident it's not a trend, it's a cult, and we would like to know where the recruitment meetings are held.

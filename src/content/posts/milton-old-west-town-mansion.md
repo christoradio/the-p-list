@@ -52,7 +52,7 @@ photos:
   - src: https://images.theplist.com.au/milton-old-west-mansion-garage.jpg
     caption: A slice of the 35-space garage — temperature-controlled, 220-volt wired, and currently home to a Ferrari, a hot rod and a vintage pickup, with room to spare
 date: '2026-07-28'
-order: 3
+order: 4
 ---
 
 Look, we've seen big houses. We've seen tacky houses. We've seen houses with home casinos and houses with life-size Jesus statues and houses that appear to have been decorated entirely out of a floristry warehouse's returns bin. None of them prepared us for a 24,000-square-foot neoclassical estate on nine-plus acres in Milton, Georgia that, behind a completely unassuming interior door, is concealing an entire simulated 1880s frontier town, because someone with a 125KVA emergency generator and 22 individually zoned HVAC systems looked around one day and thought: still not quite Tombstone enough in here.
