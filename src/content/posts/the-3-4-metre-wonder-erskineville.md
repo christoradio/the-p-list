@@ -33,7 +33,7 @@ photos:
   - src: https://images.theplist.com.au/blue2.jpg
     caption: The rear garden — quietly a bit dreamy
 date: '2026-06-22'
-order: 27
+order: 28
 ---
 
 Erskineville is already a suburb that rewards people who are comfortable with compact. This particular terrace takes compact and makes it a personality trait. At 3.4 metres wide, the floorplan is less a rectangle and more an extended corridor with ambitions, and the agent’s description of ‘separate living, dining and kitchen’ is doing some of the heaviest lifting in recent NSW real estate history.

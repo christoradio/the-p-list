@@ -49,7 +49,7 @@ photos:
   - src: https://images.theplist.com.au/newport15.jpg
     caption: Another deck — ivy-covered walls, sandstone steps, and outdoor dining tucked into the curve of the house
 date: '2026-08-07'
-order: 0
+order: 1
 ---
 
 Somewhere in Newport, a grade 2 student was asked to draw their dream house, and instead of pinning it to the fridge, someone handed it to a builder and said "make it real." We are calling that person a visionary. We are also calling this house exactly what it looks like: Flintstones meets The Jetsons, with nobody in the room willing to pick a lane.

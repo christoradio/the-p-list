@@ -40,7 +40,7 @@ photos:
   - src: https://images.theplist.com.au/greendale-church-loft-gallery-speakers.jpg
     caption: A mezzanine gallery — built-in speaker cabinets, polished timber flooring, and a staircase up to what was very possibly once a choir loft
 date: '2026-07-08'
-order: 17
+order: 18
 ---
 
 St Mark's, at 1120 Greendale Road in the foothills of the Blue Mountains, is a genuine Edmund Blacket church — the same colonial architect behind St Andrew's Cathedral and parts of the University of Sydney — built between 1848 and 1849 to serve a farming community of over 200 people. Wheat rust, a cyclone in 1903, and the slow decline of the village did what a century of Sundays couldn't, and the church closed as a place of worship in 1929. It's spent the decades since being sympathetically, and enthusiastically, converted into somebody's actual home. Is it a church, is it a house? It's a chouse.

@@ -42,7 +42,7 @@ photos:
   - src: https://images.theplist.com.au/faulconbridge11.jpg
     caption: The sunroom — butterfly chairs, a vintage display cabinet, and canopy views straight into the treetops
 date: '2026-07-30'
-order: 3
+order: 4
 ---
 
 Faulconbridge sits high in the Blue Mountains, elevated enough that the trees start at eye level — which is handy, because it gives you something to look at that isn't the honeycomb wallpaper. 5 Shirlow Avenue had a view worth selling on its own. It sold on the wallpaper instead.

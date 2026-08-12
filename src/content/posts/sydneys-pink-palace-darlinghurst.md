@@ -32,7 +32,7 @@ photos:
   - src: https://images.theplist.com.au/darlinghurst-pink-palace-balcony-harbour-view.jpg
     caption: The balcony — curved glass balustrade, a fire pit lounge setting, and one of the best skyline-to-harbour views this high up in Darlinghurst
 date: '2026-07-04'
-order: 41
+order: 42
 ---
 
 This apartment sits high in the Horizon Building — the Harry Seidler-designed tower on the Darlinghurst, Elizabeth Bay and Kings Cross border — and it has views over the city skyline and the harbour that most renovations would be smart enough to let speak for themselves. This one had other plans. Every wall, and several ceilings, have been painted in a single unwavering shade of pink, as though someone opened a tin of Taubman's Canyon Pink on the top floor and simply let physics take over from there.

@@ -29,7 +29,7 @@ photos:
   - src: https://images.theplist.com.au/geelong4.jpg
     caption: The glass bath ensuite — transparent sides, stained glass window, Versace chair
 date: '2026-06-23'
-order: 26
+order: 27
 ---
 
 The lions meet you first. Two of them, stone, flanking the approach to the portico as you come up the circular flagstone path. By the time you’ve counted fourteen of them across the property — in bronze, stone, ceramic, painted and gilded — you understand that lions are not a decorative accent here. Lions are a commitment. This is a home that made a decision about lions sometime around 1930 and has never once revisited it.

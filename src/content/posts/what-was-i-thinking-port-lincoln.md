@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/port2.jpg
     caption: The blue bathroom — hand-painted floral tiles, gold accessories, sauna door. Peak daggy.
 date: '2026-06-23'
-order: 35
+order: 36
 ---
 
 Port Lincoln sits at the bottom of Eyre Peninsula on Spencer Gulf, and from an elevated position on the Lincoln Highway you get panoramic harbour views that would sell a garden shed. What 78 Lincoln Highway has chosen to do with that view is considerably more ambitious than a garden shed. It has chosen to build two entirely separate houses, stacked vertically, with an ornate staircase between them featuring a golden nude figure on the newel post who watches everything.
