@@ -48,7 +48,7 @@ photos:
   - src: https://images.theplist.com.au/bligh-park-clutter-house-floor-plan.jpg
     caption: The floor plan — six bedrooms, four bathrooms, a rumpus, a workshop and a triple garage, none of which, on the evidence, currently contain a single empty shelf
 date: '2026-07-26'
-order: 6
+order: 7
 ---
 
 From the street, 1 Ann Place gives away absolutely nothing. Two storeys of brick, a manicured lawn, a paved driveway wide enough for the triple garage — every real estate photo of the facade could belong to any one of a thousand quietly respectable homes in Bligh Park. Then you go inside, and the facade turns out to have been doing an enormous amount of lying.

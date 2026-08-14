@@ -38,7 +38,7 @@ photos:
   - src: https://images.theplist.com.au/robertson-bar-house-second-living-room-red-accent-wallpaper.jpg
     caption: Another angle upstairs, mostly so you can confirm the geometric wallpaper really does follow you the entire way up the staircase. It does. It's committed. Respect it
 date: '2026-07-15'
-order: 12
+order: 13
 ---
 
 Every house on this list earns its spot somehow, but the red bar at the heart of this 1981 Mater Prize Home in Robertson might be the most honest floor plan decision we've seen yet. It's built-in, it's confident, and it sits at the centre of the living space like the one thing the architect refused to compromise on — as though the whole house got designed backwards from that exact spot, ideally with a drink already in hand. Everything downstream from it, gloriously, follows that same energy.

@@ -45,7 +45,7 @@ photos:
   - src: https://images.theplist.com.au/bayview-heights-round-house-portal-window-ocean-view-detail.jpg
     caption: One of those portal windows up close — round hole in the wall, square window mounted inside it, coastline and palms visible through both layers at once
 date: '2026-07-13'
-order: 14
+order: 15
 ---
 
 Twenty Hilltop Close sits right at the pinnacle of Bayview Heights, on a 2,526m² block with nothing above it, and the house that got built up there decided the only sensible response to a 360-degree view was a 360-degree floor plan. It's circular. All of it. The upper level wraps a full loop of glass and wraparound veranda, the ground floor is ringed with round porthole windows, and somewhere in the design brief someone clearly decided that corners were the enemy and won that argument comprehensively.

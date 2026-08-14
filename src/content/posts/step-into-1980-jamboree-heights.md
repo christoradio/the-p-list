@@ -39,7 +39,7 @@ photos:
   - src: https://images.theplist.com.au/jamboree-10-balcony.jpg
     caption: The upstairs balcony, arched brick and all
 date: '2026-06-21'
-order: 32
+order: 33
 ---
 
 “Step Into 1980” was the YouTube title, and for once it underpromises. This dual-level brick home in Jamboree Heights hasn't just kept its retro details — by the agent's own account, it hasn't been meaningfully touched in forty years, and every room is here to prove it.
