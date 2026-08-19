@@ -45,7 +45,7 @@ photos:
   - src: https://images.theplist.com.au/kenthurst-robson-road-bbq-pavilion.jpg
     caption: A round brick BBQ pavilion with its own chimney column, because obviously the entertaining didn't stop at the disco, the pool or the tennis court
 date: '2026-07-10'
-order: 17
+order: 18
 ---
 
 Nine Robson Road, Kenthurst, sits on 5 arable acres with dual road frontage about 45 minutes out of Sydney, and it does not do subtle. The agent's copy calls it 'a great entertainer'; we'd call it an actual venue that happens to have bedrooms attached. Seven double bedrooms, full brick, built with the kind of budget and imagination that produces a round entry portico held up by columns you could wrap both arms around, a Juliet-style balcony wrapping the whole upper level, and a driveway wide enough to double as a function car park.

@@ -33,7 +33,7 @@ photos:
   - src: https://images.theplist.com.au/lanecove7.jpg
     caption: The bathroom — pink suite, pink tile, and a green toilet lid that nobody in fifty years thought needed replacing
 date: '2026-08-12'
-order: 1
+order: 2
 ---
 
 Do not touch this house. We mean that sincerely. Somewhere in the Lane Cove real estate machine there is an agent typing "scope to renovate, extend or rebuild" and we would like to formally submit a counter-offer: scope to leave it exactly as it is and start charging admission.

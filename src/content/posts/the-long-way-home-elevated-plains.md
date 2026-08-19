@@ -51,7 +51,7 @@ photos:
   - src: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-aerial-driveway-loop.jpg
     caption: The approach by drone — a driveway that curls in on itself like a comma, giving you plenty of time to reconsider how far you're about to have to walk once you park
 date: '2026-07-13'
-order: 16
+order: 17
 ---
 
 The Longhouse sits on the elevated plains just outside Daylesford, and from a distance it reads exactly as advertised: one continuous 110-metre shed running along the ridgeline, clad in corrugated steel, with views out to Mount Franklin on one side and Hepburn Springs and Daylesford on the other. It's the kind of scale that needed a drone to photograph properly, because no lens on earth was fitting the whole sales pitch into one frame. Day to day, it means the walk from the front door to the far bedroom is a genuine 30-minute round trip — this is not a 'pop to the kitchen for a snack' house, it's a 'log it in your step count' house. Somewhere in there is a home. Somewhere in there is also a farm, a cooking school, and a greenhouse the length of a city block, all of which you will be personally responsible for.

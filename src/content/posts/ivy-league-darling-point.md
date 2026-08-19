@@ -47,7 +47,7 @@ photos:
   - src: https://images.theplist.com.au/darling-point-eastbourne-road-sunroom-balloon-harbour-view.jpg
     caption: A bay-window sunroom — cane furniture, a full harbour view, and, floating in the corner, a green sculptural piece that reads less like considered art and more like a balloon that gave up halfway through
 date: '2026-03-18'
-order: 46
+order: 47
 ---
 
 Fifteen Eastbourne Road sits on one of Darling Point's more exclusive pockets, and from the back garden it barely reads as a house at all — ivy has worked its way up almost every available surface of the red brick, curling round the chimneys and colonising the upper windows like the garden simply refused to stop. It's undeniably romantic. It also raises an obvious question about what, exactly, is living in there with it. We're going to go ahead and assume spiders. A great many spiders.

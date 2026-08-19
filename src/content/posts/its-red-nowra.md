@@ -37,7 +37,7 @@ photos:
   - src: https://images.theplist.com.au/nowra9.jpg
     caption: The bathroom — red tile, black trim, a red ceramic cat, and absolutely no ambiguity about the colour scheme
 date: '2026-08-14'
-order: 0
+order: 1
 ---
 
 It's red. Not "striking red," which is the phrase the agent has chosen, like there's a version of this bathroom that whispers. There is no whispering. It is red, wall to wall, floor to ceiling, with a red ceramic cat standing guard over the sink in case anyone was still unsure. People driving through the mountains nearby can see that it's red. There is no other information you need about this bathroom.
