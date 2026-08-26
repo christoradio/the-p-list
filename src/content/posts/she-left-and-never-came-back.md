@@ -46,12 +46,32 @@ date: '2026-07-24'
 order: 11
 ---
 
-32 Charleroi Road, Belrose is being marketed under the banner "demolish & dominate" — a genuinely brutal piece of real estate branding for a house that has spent the last however-many years being lovingly, meticulously, unmistakably itself. Five bedrooms, three bathrooms, a 689sqm block and, per the agent, "exceptional scope to maximise the site's potential." What the dot points don't mention: every wall is still wearing the wallpaper it was born in, the lounge room is a full avocado velvet chesterfield suite, and there's an entire wet bar just sitting there, glassware still stacked, waiting for a dinner party that never quite eventuated.
+32 Charleroi Road, Belrose is being marketed under the banner "demolish & dominate" — a genuinely brutal piece of real estate branding for a house that has spent the last however-many years being lovingly, meticulously, unmistakably itself. We have questions about this listing. Actual, unresolved questions. So instead of the usual walkthrough, here's everything we still need answered, in the order they occurred to us standing in the driveway.
 
-Here's the part that actually explains it. Per the agent: the owner ran a business in Dee Why, bought an apartment in North Sydney, and decided to move — so she bought all new furniture for it and brought precisely none of the old stuff with her. Didn't rent the Belrose house out. Didn't clear it. Just packed her young kids into the car and left, and by all accounts hasn't been back since. That's not a renovation story. That's a woman who looked at an entire fully-furnished five-bedroom house and decided the easier option was simply acquiring a second one.
+**Why is all of the furniture still here?**
 
-So what she left behind is, genuinely, a full time capsule. Timber-panelled kitchen, a red hexagonal tile floor, and a splashback that's shedding its tiles in a pattern too deliberate-looking to be accidental — which tracks, because the agent's note on the photos says they've "been digitally cleaned up a little bit using AI." The walkthrough video hasn't had the same treatment. It's not bad, to be fair — just a little more lived-in than the listing photos let on. The dining room goes one further, with a fully wallpapered ceiling in gold damask and curtains the colour of a traffic cone, because apparently the walls alone weren't going to cut it.
+Per the agent: the owner ran a business in Dee Why, bought an apartment in North Sydney, and decided to move — so she bought an entire new apartment's worth of furniture and brought precisely none of the old stuff with her. Didn't rent the Belrose house out. Didn't clear it. Just packed her young kids into the car and, by all accounts, never came back. That's not a renovation story. That's a woman who looked at a fully-furnished five-bedroom house and decided the easier option was simply acquiring a second one. We'd love to know what the removalist quote looked like, and whether "leave literally everything" was ever actually discussed or just quietly happened by default.
 
-Upstairs holds the real heartbreak: a pink boudoir of a master bedroom with a cathedral ceiling and floor-to-ceiling red velvet drapes, and, next door, a child's room in dusty-rose floral wallpaper with a teddy bear still propped on the pillow — presumably the one thing that didn't make the cut for the new place. Five bedrooms in total, all still dressed, all still waiting.
+**Was avocado always going to end up in a chesterfield?**
 
-The two bathrooms complete the story less romantically: one in heavy yellow florals with a bathtub that's taken on a rust stain shaped disturbingly like a river system, the other in blue florals with a shower recess and a section of wall tile that's given up entirely. Nobody's pretending this needs a light refresh. But 689sqm in Belrose with a double lock-up garage, room for a granny flat (STCA) and "demolish & dominate" already in the marketing copy tells you exactly how this ends — new build, no trace, gone. Which is, if you ask us, exactly why it's worth a proper look first. No auction date confirmed yet, just a listing portal and a driveway that hasn't changed in decades.
+The formal lounge is a full avocado velvet suite under gold damask wallpaper and a crystal chandelier, and none of it reads as ironic — it reads as someone's Saturday-best. Avocado green swept through Australian homes in the 1970s the same way it did in the US and UK, pushed hard by appliance makers marketing whole "harvest gold and avocado" kitchen sets as the height of modern taste. Fifty years on it's the single most reliable visual shorthand for "this room has not been touched," and Belrose has apparently kept the reference sample.
+
+**What happened to the splashback, and why does the video know more than the photos?**
+
+The listing photos show a timber-panelled kitchen with clean red hexagonal tile. The agent's own note admits the photos have "been digitally cleaned up a little bit using AI." The walkthrough video has had no such treatment, and the splashback behind the stove is very obviously shedding tile in real time. We're not mad about the AI touch-up — we're just fascinated that a five-bedroom time capsule needed airbrushing before a knockdown listing, as if anyone shopping this as a teardown was ever going to be put off by a loose tile.
+
+**Did the ceiling really need wallpaper too?**
+
+Yes. The dining room ceiling is fully wallpapered in gold damask, with curtains in a colour we can only describe as traffic cone. Wallpapering a ceiling was a genuine "total room" decorating trend of the era — the idea being that walls alone left the design job half-finished. It has not aged the way anyone hoped.
+
+**Whose teddy bear is that, and are we allowed to be sad about it?**
+
+Upstairs, past a pink boudoir of a master bedroom with a cathedral ceiling and floor-to-ceiling red velvet drapes, sits a child's room in dusty-rose florals, with a single teddy bear still propped on the pillow. Presumably the one thing that didn't make the cut for the new apartment. Yes, we're allowed to be sad about it. We are choosing to be sad about it.
+
+**Are the bathrooms as bad as the photos suggest?**
+
+Worse, slightly, and more artistically. One is committed entirely to heavy yellow florals, with a bathtub that's rust-stained itself into something resembling a river delta on a topographic map. The other goes blue floral wall-to-wall, with a section of tile above the vanity that's simply given up. Nobody's pretending either needs a light refresh.
+
+**So — save it or demolish it?**
+
+689sqm in Belrose, a suburb wedged against Garigal National Park on Sydney's Northern Beaches where knockdown-rebuild is already a well-worn play, a double lock-up garage, room for a granny flat (STCA), and "demolish & dominate" already sitting in the marketing copy. We know exactly how this ends: new build, no trace, gone. Which is precisely why it's worth a proper look now, teddy bear and all, before somebody very sensibly bulldozes the last of it.
