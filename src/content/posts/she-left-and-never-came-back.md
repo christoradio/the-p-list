@@ -43,7 +43,7 @@ photos:
   - src: https://images.theplist.com.au/belrose-floor-plan-demolish-dominate.jpg
     caption: The floor plan — five bedrooms, three bathrooms and a store room are all present and accounted for, right next to the words "OUTSTANDING KNOCK-DOWN & REBUILD OPPORTUNITY" in the exact same typeface
 date: '2026-07-24'
-order: 11
+order: 12
 ---
 
 32 Charleroi Road, Belrose is being marketed under the banner "demolish & dominate" — a genuinely brutal piece of real estate branding for a house that has spent the last however-many years being lovingly, meticulously, unmistakably itself. We have questions about this listing. Actual, unresolved questions. So instead of the usual walkthrough, here's everything we still need answered, in the order they occurred to us standing in the driveway.
