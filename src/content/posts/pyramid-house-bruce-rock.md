@@ -41,7 +41,7 @@ photos:
   - src: https://images.theplist.com.au/brucerock11.jpg
     caption: Upstairs, bedroom two — teal headboard, sloped pyramid ceiling, and a window that gazes out over the property in all directions, as advertised
 date: '2026-08-19'
-order: 3
+order: 4
 ---
 
 Somewhere in Bruce Rock, Western Australia, population somewhere south of a thousand people, there is a two-bedroom house shaped like a pyramid. Not pyramid-*inspired*. Not a nod to pyramids. An actual, structurally load-bearing pyramid, with a matching pyramid garage next to it, on a few acres with its own dam and its own pontoon, in case the main event wasn't already enough. We have seen a lot of houses on this list. We have never before had to open with "so, ancient Egypt, but the wheatbelt."
