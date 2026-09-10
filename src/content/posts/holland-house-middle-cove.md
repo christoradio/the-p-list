@@ -43,7 +43,7 @@ photos:
   - src: https://images.theplist.com.au/middlecove12.jpg
     caption: The house from below — a cluster of glass-walled pavilions cantilevered off the cliff face over Sugarloaf Bay, doing an extremely convincing impression of a resort nobody's checked into yet
 date: '2026-08-27'
-order: 1
+order: 2
 ---
 
 Some houses have a feature wall. Holland House, at 31 Rembrandt Drive, Middle Cove, decided against walls almost entirely and went with a feature house instead. Designed by architect Neville Gruzman and completed in 1962, this is a genuine, heritage-adjacent piece of Australian mid-century modernism — published in architecture books, held up as a masterclass in indoor-outdoor living, and perched on a cliff over Sugarloaf Bay with water views that no future development will ever be able to touch. It is, by any serious measure, a landmark. It is also, by our measure, an absolute unit of a fishbowl, and we have questions.
