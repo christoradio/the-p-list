@@ -40,7 +40,7 @@ photos:
   - src: https://images.theplist.com.au/collingwood10.jpg
     caption: The rooftop terrace at the end of the catwalk — the reward, allegedly, for the three flights and the tightrope walk to get there
 date: '2026-08-26'
-order: 4
+order: 5
 ---
 
 Nothing says "warehouse living" quite like discovering your future home also functions as a StairMaster you can't cancel the membership to. Welcome to the top floor — sorry, "Level 3, no lift" — of the old Foy and Gibson complex on Oxford Street, Collingwood, where the listing photos promise soaring ceilings and heritage romance, and the floor plan promises you'll need a Ventolin puffer and possibly a sherpa just to get the mail.
