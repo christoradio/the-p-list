@@ -45,7 +45,7 @@ photos:
   - src: https://images.theplist.com.au/kenthurst-robson-road-bbq-pavilion.jpg
     caption: A round brick BBQ pavilion with its own chimney column, because obviously the entertaining didn't stop at the disco, the pool or the tennis court
 date: '2026-07-10'
-order: 24
+order: 25
 ---
 
 VENUE REVIEW: 9 ROBSON ROAD, KENTHURST. Sold, but some venues demand a write-up regardless. Real Studio 54, for the uninitiated, ran in Manhattan from 1977 to 1980 — seventeen hundred people a night, a clientele that ran from Bianca Jagger to Andy Warhol, and an ending delivered not by fire code or noise complaint but by a very thorough tax evasion charge against its owners. This Kenthurst version has none of that scandal on the books yet. Give it time.

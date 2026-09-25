@@ -42,7 +42,7 @@ photos:
   - src: https://images.theplist.com.au/lambton12.jpg
     caption: Bedroom three — pink florals, a built-in timber bedhead, and a wardrobe with the kind of veneer that outlives everything
 date: '2026-08-26'
-order: 4
+order: 5
 ---
 
 Some houses get renovated. Some get "updated." This one, somewhere around 1978, got finished, and everyone involved apparently agreed to never speak of it again. Welcome to Lambton, Newcastle, where a Kentucky Blue weatherboard bungalow sits behind a lawn so tidy it looks mowed with nail scissors, hiding an interior that has not blinked once in nearly fifty years.

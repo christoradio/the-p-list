@@ -51,7 +51,7 @@ photos:
   - src: https://images.theplist.com.au/art18.jpg
     caption: A fully marbled bathroom — gold tapware, mirrored surrounds, and a walk-in shower that looks like it was lifted straight off the vessel this house is named after
 date: '2026-09-11'
-order: 0
+order: 1
 ---
 
 Shut the front gate behind you on the way in, because 18 Cascade Street is one lawn ornament short of needing a ticket booth. This is Balwyn North's own slice of the Art Deco "Ocean Liner" style — all curved brick, porthole windows and a soaring central chimney standing in for a funnel — and it has been kept in such immaculate condition that walking through it feels less like an inspection and more like a museum visit. We'd happily pay the entry fee. We'd also happily hire the security guard, because something this well preserved deserves a proper velvet rope.
