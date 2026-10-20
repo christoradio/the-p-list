@@ -56,7 +56,7 @@ photos:
   - src: https://images.theplist.com.au/wool17.jpg
     caption: The pool and spa under a shade sail, right next to the tennis court. You could host a small festival out here and still have room for the support act
 date: '2026-10-09'
-order: 0
+order: 1
 ---
 
 There is a red, heart-shaped spa bath in the master bedroom of 6 Wolomina Court. Not in the ensuite. Not behind a frosted glass screen. In the bedroom, on a raised plinth of black marble tile, roughly an arm's length from the end of the bed, positioned so that whoever is in the bed has a clear, uninterrupted view of whoever is in the tub. So we have to ask the obvious question: is that a cuck tub? Because it has every hallmark of a cuck tub. This house has a lot of love in it. It also has, judging by that tub, a *lot* of love in it. More love than a lot of houses could reasonably handle.

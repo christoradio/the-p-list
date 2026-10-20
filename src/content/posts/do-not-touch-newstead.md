@@ -55,7 +55,7 @@ photos:
   - src: https://images.theplist.com.au/penquite18.jpg
     caption: Knotty pine cupboards with timber knobs set in the knots, a stacked wall oven, a lead-light door to the courtyard and a hanging copper lantern
 date: '2026-09-25'
-order: 1
+order: 2
 ---
 
 The agent says "a home with incredible potential." How dare you, sir or madam. How *dare* you. This house has no potential. Potential is what a house has when it isn't finished yet, and 34 Penquite Road was finished in about 1965, with the olive carpet, the ship's-hull ceiling and the reel-to-reel deck in its own little cubby all exactly where they were meant to be. The only thing this place could possibly "reach" from here is the Tasmanian heritage register. Anyone who walks through it with a tape measure and a paint chart should be escorted from the premises.
