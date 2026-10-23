@@ -43,7 +43,7 @@ photos:
   - src: https://images.theplist.com.au/day13.jpg
     caption: The sunroom from the doorway, carpet still going, next to a wall clock shaped like a novelty item nobody can quite place anymore
 date: '2026-09-10'
-order: 5
+order: 6
 ---
 
 The blue carpet cannot be ignored. We tried. We looked at the wood stove, we looked at the gold velvet armchairs, we looked at the mint green bathroom suite, and every single time our eyes slid straight back to that teal shagpile glowing away in the sunroom like it's been plugged into the mains. It's not subtle. It's not trying to be subtle. It has been laid wall to wall with the quiet confidence of something that knows it isn't going anywhere, and by the end of the gallery neither were we.

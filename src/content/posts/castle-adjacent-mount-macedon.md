@@ -63,7 +63,7 @@ photos:
   - src: https://images.theplist.com.au/willowmount24.jpg
     caption: Turritable Creek tumbling through the ferns at the bottom of the garden
 date: '2026-10-22'
-order: 0
+order: 1
 ---
 
 It's not a castle. Let's get that out of the way. Nobody is pouring boiling oil off the parapet. But 739 Mount Macedon Road is definitely *castle adjacent*. It has sandstone-coloured block walls, a chimney stack standing up like a turret, a parapet on the roof, and a curving stone staircase that wraps up the outside of the house and appears to lead straight to the sky. It looks grand. It also looks like it hasn't seen a pressure washer since the Hawke government. And it looks, more than anything, like the best party house in the Macedon Ranges.

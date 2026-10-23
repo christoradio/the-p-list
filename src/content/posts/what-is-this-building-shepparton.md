@@ -35,7 +35,7 @@ photos:
   - src: https://images.theplist.com.au/shep8.jpg
     caption: A second living room — chesterfield lounge, floor-to-ceiling drapery, and carpet pulling double duty as both flooring and wallpaper
 date: '2026-09-10'
-order: 6
+order: 7
 ---
 
 Nobody at 158 Nixon Street ever got the memo that houses in Shepparton are supposed to look like houses. Somewhere in the 1980s, somebody stood on this corner block, looked at the intersection of Nixon and Skene Streets, and decided the only appropriate response was a five-arch colonnaded portico flanked by two full towers of decorative brick lattice, the whole thing capped with a balustraded terrace that would not look out of place hosting a coronation. It has since spent decades being mistaken, by us and presumably half the town, for a church, a TAFE campus, or the regional headquarters of an organisation nobody's allowed to ask questions about.
