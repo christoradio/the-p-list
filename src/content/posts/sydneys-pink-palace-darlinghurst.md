@@ -14,6 +14,7 @@ quirk: 4
 verdict: Made the list for looking exactly like a tin of Taubman's Canyon Pink fell off a high shelf, rolled through every room of a Harry Seidler high-rise, and nobody was handed a rag in time. The kitchen took a can of Monument Black to the face in the same accident. There are enough monogrammed pink throw pillows in here to fill a delivery truck, and we say that with love, and also a small amount of side-eye.
 youtubeId: HkNlsu99Ifo
 heroImage: https://images.theplist.com.au/darlinghurst-pink-palace-living-dining-chandeliers.jpg
+status: Not currently for sale
 listingUrl: https://www.realestate.com.au/property-apartment-nsw-darlinghurst-149944976
 listingLabel: View listing
 photos:

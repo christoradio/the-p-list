@@ -14,6 +14,7 @@ quirk: 4
 verdict: Made the list for an upstairs landing dressed in full gold leaf and marble columns, a blue bathroom going head to head with a rust bathroom for supremacy, and a basement bar with its own five-stool lineup and granite wet bar. R3 zoning included, decor not included.
 youtubeId: NgpHHpa058w
 heroImage: https://images.theplist.com.au/rand5.jpg
+status: Not currently for sale
 listingUrl: https://www.realestate.com.au/property-house-nsw-randwick-151234356
 photos:
   - src: https://images.theplist.com.au/rand5.jpg

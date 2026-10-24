@@ -14,7 +14,9 @@ quirk: 5
 verdict: Made the list for being three bedrooms with three completely different colour philosophies — and not one of them is white.
 youtubeId: GhyEfPR_2_4
 heroImage: https://images.theplist.com.au/nambucca-02-pink-bedroom.jpg
-listingUrl: https://www.realestate.com.au/property-apartment-nsw-nambucca+heads-149832992
+status: Not currently for sale
+listingUrl: https://www.realestate.com.au/property/unit-7-4-small-st-nambucca-heads-nsw-2448/
+listingLabel: View property profile
 photos:
   - src: https://images.theplist.com.au/nambucca-05-exterior.jpg
     caption: The building itself — hard to miss from the street

@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for having functional drawbridges, a cascading indoor waterfall, a secret room behind the wine cellar, and a living grass roof you can do yoga on while overlooking the valley. Among other things.
 youtubeId: WB0rurjRV7E
 heroImage: https://images.theplist.com.au/earth1.jpg
+status: Not currently for sale
 listingUrl: https://www.realestate.com.au/property-house-wa-bullsbrook-150881832
 photos:
   - src: https://images.theplist.com.au/earth1.jpg

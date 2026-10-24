@@ -12,12 +12,12 @@ baths: 2
 cars: 4
 quirk: 5
 funStat: 'Round portal windows: lost count somewhere past a dozen'
-status: Auction
 verdict: Made the list for being a cluster of concrete domes on a riverfront block that reads less like a floor plan and more like a lunar landing that decided to stay and start a cult. You enter through an actual tunnel. There's a star medallion set into the floor, which either means someone loved geometry or someone loved a secret handshake, we genuinely cannot rule either out. There's a bathroom where the spa is so aggressively front-and-centre the toilet looks like it's been demoted to a witness. There's a fireplace hanging from the ceiling like it's mid-abduction. There's a slide. An actual slide, inside a library, above a floor plan that also lists an outdoor Golf Tee angled straight at the neighbour's roofline, in a house with a room literally labelled 'Porte Cochere' like we're all fluent in 1980s French real estate flex. The agent's blurb mentions stone benchtops and a sports bar as if this is a normal house that happens to have a nice kitchen. It is not that. It's five domes, a tunnel, a spa throne, a slide and a driving range aimed at the fence line, sitting on 5,109m² of riverfront in Ipswich, heading to auction with an absolutely straight face.
 youtubeId: eBkIFcEfTDk
 heroImage: https://images.theplist.com.au/karalee-dome-house-exterior-wide-driveway-cluster.jpg
-listingUrl: https://www.realestate.com.au/property-house-qld-karalee-151755948
-listingLabel: View listing
+status: Not currently for sale
+listingUrl: https://www.realestate.com.au/property/79-elanora-way-karalee-qld-4306/
+listingLabel: View property profile
 photos:
   - src: https://images.theplist.com.au/karalee-dome-house-exterior-wide-driveway-cluster.jpg
     caption: The full cluster from the driveway — five-plus concrete domes clustered together like they're huddling for warmth, with a garden of red and gold cordyline doing its level best to distract you
