@@ -11,12 +11,12 @@ beds: 3
 baths: 1
 cars: 8
 quirk: 5
-status: For Sale
 verdict: 'Made the list for a bathroom the agent describes as "striking red" when the correct description is simply red — floor to ceiling, no negotiation, visible from the mountains nearby. Add avocado-green patterned carpet, a kitchen in raw timber with red-and-yellow cupboard doors, and an eight-car garage nobody asked for, and you have a genuine, unrenovated slice of 1970s Nowra.'
 youtubeId: 0U9_nr2aDB0
 heroImage: https://images.theplist.com.au/nowra1.jpg
+status: Sold
 listingUrl: https://www.domain.com.au/174-mckay-street-nowra-nsw-2541-2021030145
-listingLabel: View listing
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/nowra1.jpg
     caption: The exterior — timber-clad, raked roofline, a deck out front and a driveway leading to considerably more garage than one house needs

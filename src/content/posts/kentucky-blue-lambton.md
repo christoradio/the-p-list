@@ -11,13 +11,12 @@ beds: 3
 baths: 1
 cars: 3
 quirk: 5
-status: For Sale
-price: Guide $1,120,000
 verdict: Made the list for a house that has not so much been preserved as sealed in amber — floral wallpaper in three different patterns, a ceiling-hatch attic reached by a wooden library ladder and lit by a single ominous red bulb, an orange vinyl-tufted kitchen island doing its best 1970s diner impression, and a pink-tiled bathroom starring a powder-blue bathtub. Every surface has a pattern. Every pattern has a friend. We have no notes, only questions, starting with the attic light.
 youtubeId: xIOWXqEFV3U
 heroImage: https://images.theplist.com.au/lambton1.jpg
-listingUrl: https://www.realestate.com.au/property-house-nsw-lambton-152031660
-listingLabel: View listing
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-nsw-lambton-152031660
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/lambton1.jpg
     caption: The Kentucky Blue exterior, freshly painted, entirely unbothered by the idea of blending in

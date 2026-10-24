@@ -11,13 +11,12 @@ beds: 5
 baths: 2
 cars: 4
 quirk: 5
-status: For sale
-price: '$1,249,000 - $1,300,000'
 verdict: 'Made the list for treating "greige" as a personal insult and responding with a green kitchen, a teal atrium, a black-and-lime lounge, and a bedroom that has committed fully to cobalt blue. Bonus points for the vintage bar, the tiki corner, and a starburst clock population we lost count of somewhere past three.'
 youtubeId: OjbnSPcrJfs
 heroImage: https://images.theplist.com.au/faulconbridge1.jpg
-listingUrl: https://www.realestate.com.au/property-house-nsw-faulconbridge-150942928
-listingLabel: View listing
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-nsw-faulconbridge-150942928
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/faulconbridge1.jpg
     caption: The front elevation — white cladding, sandstone base, and a primary-colour front door arrangement that reads more Mondrian than Mountains

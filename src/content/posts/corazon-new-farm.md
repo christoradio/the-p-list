@@ -14,7 +14,9 @@ quirk: 5
 verdict: Made the list for a staircase that spirals through three storeys like a piece of sculpture, a bedroom with its own indoor climbing wall, and a “wellness retreat” tucked inside the garage.
 youtubeId: GtWTnvXZSs4
 heroImage: https://images.theplist.com.au/corazon-04-staircase.jpg
-listingUrl: https://www.realestate.com.au/property-house-qld-new+farm-151221944
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-qld-new+farm-151221944
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/corazon-01-street.jpg
     caption: The street view — Queenslander bones, full renovation

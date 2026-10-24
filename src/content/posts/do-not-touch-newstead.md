@@ -11,12 +11,12 @@ beds: 3
 baths: 2
 cars: 2
 quirk: 3
-status: For sale
 verdict: 'Made the list for a vaulted timber ceiling that bends like a ship''s hull, a sunken lounge with a curved carpeted stage and its own mirrored home bar, wall-to-wall olive carpet in every room that will hold still long enough, and knotty pine kitchen cabinetry with the knobs set right in the knots. Never before offered to the market.'
 youtubeId: oQ4V0uDtX0c
 heroImage: https://images.theplist.com.au/penquite1.jpg
-listingUrl: https://www.realestate.com.au/property-house-tas-newstead-152338556
-listingLabel: View listing
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-tas-newstead-152338556
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/penquite1.jpg
     caption: The main living room. Folded timber ceiling panels, olive carpet from one end to the other, bar stools on the left and a Louis XV armchair on the right, and everyone gets along

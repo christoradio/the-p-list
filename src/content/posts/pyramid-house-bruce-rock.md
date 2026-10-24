@@ -11,12 +11,12 @@ beds: 2
 baths: 1
 cars: 1
 quirk: 5
-status: For Sale
 verdict: 'Made the list for being a genuine, structurally-committed pyramid — matching pyramid garage included — sitting on a few acres of wheatbelt WA with its own dam and pontoon. There is a load-bearing pole running straight through the middle of the living areas holding the whole apex up. We have questions for the original owner, and we do not think we are entitled to answers, and we are asking anyway.'
 youtubeId: zF3I2YItg4g
 heroImage: https://images.theplist.com.au/brucerock1.jpg
-listingUrl: https://www.realestate.com.au/property-house-wa-bruce+rock-149368852
-listingLabel: View listing
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-wa-bruce+rock-149368852
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/brucerock1.jpg
     caption: The dam, with pontoon, and the pyramid rising behind the gum trees like something that got lost on its way to Giza

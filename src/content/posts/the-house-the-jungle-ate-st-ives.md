@@ -11,13 +11,13 @@ beds: 5
 baths: 2
 cars: 2
 quirk: 4
-status: For sale
 noVideo: true
 verdict: 'Made the list for presenting real estate''s three great questions all at once: demolish, renovate, or hand the keys straight to a disaster-movie location scout. Behind a high walled frontage in St Ives, the garden won this fight years ago — palms and vines have swallowed the brick facade so completely that the red double front doors now look less like an entrance and more like the sealed hatch in the opening scene of something with zombies in it. Inside, a genuine time capsule: mirrored stairwell, pastel formal lounge with an upright piano nobody has touched since the Howard government, a mint-tiled kitchen doing its best 1980s brochure impression, and a rumpus room with a pool table quietly waiting under a sheet for a game that isn''t coming. Out back the pool has gone fully, aggressively green — not tinted, not algae-flecked, actually green, actively photosynthesising, possibly unionised. A 929.5sqm block with genuinely good bones under all of it, if you can get a structural engineer in there before the building decides for you.'
 youtubeId: ''
 heroImage: https://images.theplist.com.au/st-ives-jungle-house-exterior-overgrown-front-garden.jpg
-listingUrl: https://www.realestate.com.au/property-house-nsw-st+ives-151667792
-listingLabel: View listing
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-nsw-st+ives-151667792
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/st-ives-jungle-house-exterior-overgrown-front-garden.jpg
     caption: The front facade, mostly hidden behind its own garden — palms, vines and a full tree canopy doing their best to reclaim the brickwork, with a pair of handsome red double doors just visible underneath it all

@@ -14,7 +14,9 @@ quirk: 5
 verdict: Made the list for a matador mural behind the home bar and roughly half an acre of teal-and-gold carpet that has no intention of going anywhere.
 youtubeId: __pQZIQGMw0
 heroImage: https://images.theplist.com.au/hamilton-hill-03-dining-bar.jpg
-listingUrl: https://www.realestate.com.au/property-house-wa-hamilton+hill-150340500
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-wa-hamilton+hill-150340500
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/hamilton-hill-01-exterior.jpg
     caption: The street view that started it all

@@ -11,12 +11,12 @@ beds: 7
 baths: 5
 cars: 6
 quirk: 4
-status: For sale
 verdict: Made the list for a 1022sqm Gold Coast mansion that the listing calls 'a canvas for your dreams' and the photos call 'a very large project.' The pool is brown. Half the tennis court is dirty. The mouldy walls have uninterrupted ocean views. There are six garages, a billiard room, a wine cellar, a sauna, a gym, a home cinema, and a helipad. It needs a few million dollars of work. But it's got a helipad.
 youtubeId: k9PLmio-i8Q
 heroImage: https://images.theplist.com.au/mansh8.jpg
-listingUrl: https://www.realestate.com.au/property-house-qld-worongary-148448748
-listingLabel: View listing
+status: Sold
+listingUrl: https://www.realestate.com.au/sold/property-house-qld-worongary-148448748
+listingLabel: View sold listing
 photos:
   - src: https://images.theplist.com.au/mansh8.jpg
     caption: Quambone Castle from the air — terracotta roof, sandstone balconies, seven-plus east-facing balconies, a helipad in the forecourt, and a pool that the drone camera is being deliberately diplomatic about
