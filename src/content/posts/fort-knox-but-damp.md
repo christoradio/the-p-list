@@ -44,7 +44,7 @@ photos:
   - src: https://images.theplist.com.au/bridgeman-downs-castle-small-bathroom.jpg
     caption: One of six bathrooms that, mercifully, does not look directly at the pool — included here as proof that at least one room in this house respects a closed door
 date: '2026-07-19'
-order: 23
+order: 24
 ---
 
 SECURITY ASSESSMENT: 121 RIDLEY ROAD, BRIDGEMAN DOWNS. Commissioned after the agent's blurb opened with the line "every man's home is his castle" and then, unusually, meant it with your actual wallet. This is a genuine sandstone-clad, double-brick castle: seven bedrooms, six bathrooms, three lounge rooms, two offices, and a hand-drawn floor plan that labels its own centrepiece — in the architect's handwriting — as "VOID." Findings below, filed by threat category.

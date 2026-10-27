@@ -57,7 +57,7 @@ photos:
   - src: https://images.theplist.com.au/braemar18.jpg
     caption: The block, 2,273 square metres of it, wedged between Braemar Terrace and the cycle path
 date: '2026-10-23'
-order: 0
+order: 1
 ---
 
 We don't want to be insulting to anyone. But is it a carpet, or a putting green that went a little too far?

@@ -54,7 +54,7 @@ photos:
   - src: https://images.theplist.com.au/karalee-dome-house-exterior-terrace-purple-domes.jpg
     caption: The terrace level, ringed in mauve-rendered domes with a round timber door glowing amber from the inside — built-in barbeque included, presumably for entertaining fellow Storm Troopers
 date: '2026-07-17'
-order: 24
+order: 25
 ---
 
 MISSION LOG — 79 ELANORA WAY, KARALEE. Filed ahead of auction, because somebody needs to get this on the record before the hammer falls.
