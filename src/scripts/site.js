@@ -393,3 +393,44 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   if (!row || row.scrollWidth <= row.clientWidth) return;
   row.scrollLeft = active.offsetLeft - (row.clientWidth - active.offsetWidth) / 2;
 })();
+
+/* ---------- post page: collapse the write-up after the opening paragraphs.
+   The full text is always in the HTML (Google and AdSense see all of it);
+   this only clips it visually until the reader asks for the rest. ---------- */
+(function () {
+  const body = document.querySelector(".post-body");
+  if (!body) return;
+  const paragraphs = body.querySelectorAll(":scope > p");
+  if (paragraphs.length < 4) return;
+  const cut = paragraphs[1];
+
+  const wrap = document.createElement("div");
+  wrap.className = "keep-reading";
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "btn keep-reading-btn";
+  btn.setAttribute("aria-expanded", "false");
+  btn.innerHTML = "Keep reading &darr;";
+  wrap.appendChild(btn);
+  body.insertAdjacentElement("afterend", wrap);
+
+  function clip() {
+    if (!body.classList.contains("is-collapsed")) return;
+    // Show through the end of paragraph 2, plus a sliver of what's next under the fade.
+    body.style.maxHeight = cut.offsetTop + cut.offsetHeight + 56 + "px";
+  }
+  body.classList.add("is-collapsed");
+  clip();
+  window.addEventListener("resize", clip);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(clip);
+
+  btn.addEventListener("click", () => {
+    body.classList.remove("is-collapsed");
+    body.style.maxHeight = "";
+    btn.setAttribute("aria-expanded", "true");
+    wrap.remove();
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "keep_reading", { page_path: location.pathname });
+    }
+  });
+})();
