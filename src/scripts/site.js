@@ -276,8 +276,8 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
    the server-rendered grid — all posts are always in the markup so search
    engines see everything regardless of client-side filter state) ---------- */
 (function () {
-  const filterBar = document.querySelector(".filter-bar");
-  if (!filterBar) return;
+  const stateSelect = document.getElementById("stateSelect");
+  if (!stateSelect) return;
 
   const grid = document.getElementById("postGrid");
   const cards = grid ? Array.from(grid.querySelectorAll(".card[data-order]")) : [];
@@ -287,22 +287,16 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   const sortSelect = document.getElementById("sortSelect");
   const bestOf = document.getElementById("bestOf");
 
-  let filter = "all";
   let state = "all";
   let sort = "newest";
 
   function matches(card) {
-    const tags = (card.getAttribute("data-tags") || "").split("|").filter(Boolean);
     const cState = card.getAttribute("data-state") || "";
     const country = card.getAttribute("data-country") || "";
 
-    let ok = filter === "all" || tags.some((t) => t.toLowerCase() === filter.toLowerCase());
-
-    if (ok && state !== "all") {
-      if (state === "international") ok = !!country;
-      else ok = cState === state && !country;
-    }
-    return ok;
+    if (state === "all") return true;
+    if (state === "international") return !!country;
+    return cState === state && !country;
   }
 
   function apply() {
@@ -336,24 +330,13 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
     if (noMatch) noMatch.style.display = visibleCount === 0 ? "" : "none";
     // The greatest-hits strip ignores filters, so get it out of the way
     // once the visitor is hunting for something specific.
-    if (bestOf) bestOf.style.display = filter === "all" && state === "all" ? "" : "none";
+    if (bestOf) bestOf.style.display = state === "all" ? "" : "none";
   }
 
-  document.querySelectorAll(".filter-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".filter-tab").forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      filter = btn.dataset.filter;
-      apply();
-    });
+  stateSelect.addEventListener("change", (e) => {
+    state = e.target.value;
+    apply();
   });
-  const stateSelect = document.getElementById("stateSelect");
-  if (stateSelect) {
-    stateSelect.addEventListener("change", (e) => {
-      state = e.target.value;
-      apply();
-    });
-  }
   if (sortSelect) {
     sortSelect.addEventListener("change", (e) => {
       sort = e.target.value;
@@ -400,4 +383,13 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
     e.preventDefault();
     window.location.href = "/post/" + slugs[Math.floor(Math.random() * slugs.length)];
   });
+})();
+
+/* ---------- category bar: on phones the tabs scroll sideways, so bring the
+   current category into view (horizontally only, never moving the page) ---------- */
+(function () {
+  const active = document.querySelector(".filter-tab.active");
+  const row = active && active.parentElement;
+  if (!row || row.scrollWidth <= row.clientWidth) return;
+  row.scrollLeft = active.offsetLeft - (row.clientWidth - active.offsetWidth) / 2;
 })();

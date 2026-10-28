@@ -877,7 +877,11 @@
     transition: color .2s ease, border-color .2s ease;
     white-space: nowrap; flex-shrink: 0;
   }
+  a.filter-tab{ display:inline-block; text-decoration:none; }
   .filter-tab:hover{ color: var(--paper); }
+  .category-bar{ background: var(--ink); }
+  .category-hero{ padding-top: 40px; }
+  .filter-bar-inner{ position: relative; }
   .filter-tab.active{ color: var(--paper); border-bottom-color: var(--rust); }
 
   /* state / country row */

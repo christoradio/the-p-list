@@ -7,7 +7,7 @@ import Tags from "../components/Tags.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import NewsletterBand from "../components/NewsletterBand.astro";
 import PostStrip from "../components/PostStrip.astro";
-import { TAG_DEFS } from "../data/tags";
+import CategoryTabs from "../components/CategoryTabs.astro";
 import {
   sortedByOrder,
   cardMediaSrc,
@@ -27,15 +27,6 @@ const heroSrc = hero ? cardMediaSrc(hero) : undefined;
 
 const hasIntl = allPosts.some((p) => p.data.country);
 
-// One tab per category that actually has posts, biggest first.
-const filterTabs = [
-  { f: "all", label: "All" },
-  ...TAG_DEFS
-    .map((d) => ({ f: d.tag, label: d.label, n: allPosts.filter((p) => p.data.tags.includes(d.tag)).length }))
-    .filter((t) => t.n > 0)
-    .sort((a, b) => b.n - a.n),
-];
-
 const states = ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"].filter((s) =>
   allPosts.some((p) => p.data.state === s && !p.data.country)
 );
@@ -53,14 +44,7 @@ const chunkSize = 7;
       <p class="tagline" data-reveal style="transition-delay:140ms">But should have.</p>
     </div>
 
-    <div class="filter-bar">
-      <div class="wrap filter-bar-inner">
-        <span class="filter-label">Filter:</span>
-        {filterTabs.map((t) => (
-          <button class={`filter-tab${t.f === "all" ? " active" : ""}`} data-filter={t.f}>{t.label}</button>
-        ))}
-      </div>
-    </div>
+    <CategoryTabs posts={allPosts} active="all" />
   </section>
 
   <section class="listings-section">

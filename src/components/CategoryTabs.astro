@@ -1,0 +1,34 @@
+---
+// Category links shared by the homepage hero and every /tag page, so a tap
+// lands on the category's own page (intro + its houses) instead of quietly
+// filtering a grid further down the screen.
+import { TAG_DEFS } from "../data/tags";
+import type { Post } from "../lib/utils";
+
+interface Props {
+  posts: Post[];
+  active: string; // "all" or a tag slug
+}
+const { posts, active } = Astro.props;
+
+const tabs = [
+  { key: "all", href: "/", label: "All" },
+  ...TAG_DEFS
+    .map((d) => ({ d, n: posts.filter((p) => p.data.tags.includes(d.tag)).length }))
+    .filter(({ n }) => n > 0)
+    .sort((a, b) => b.n - a.n)
+    .map(({ d }) => ({ key: d.slug, href: `/tag/${d.slug}`, label: d.label })),
+];
+---
+<nav class="filter-bar" aria-label="Browse by category">
+  <div class="wrap filter-bar-inner">
+    <span class="filter-label">Browse:</span>
+    {tabs.map((t) => (
+      <a
+        class={`filter-tab${t.key === active ? " active" : ""}`}
+        href={t.href}
+        aria-current={t.key === active ? "page" : undefined}
+      >{t.label}</a>
+    ))}
+  </div>
+</nav>
