@@ -13,10 +13,6 @@ import {
   postSeoDescription,
   locationLabel,
   randomPosts,
-  nextPost,
-  cardMediaSrc,
-  cardTeaser,
-  UP_NEXT_LABELS,
 } from "../../lib/utils";
 import { TAG_DEFS } from "../../data/tags";
 import { postJsonLd } from "../../lib/structuredData";
@@ -32,10 +28,7 @@ export async function getStaticPaths() {
 const { post, allPosts } = Astro.props;
 const { Content } = await render(post);
 const sorted = sortedByOrder(allPosts);
-const upNext = nextPost(sorted, post);
-const upNextLabel = UP_NEXT_LABELS[Math.floor(Math.random() * UP_NEXT_LABELS.length)];
-const upNextSrc = upNext ? cardMediaSrc(upNext) : undefined;
-const skip = [post.data.slug, ...(upNext ? [upNext.data.slug] : [])];
+const skip = [post.data.slug];
 const others = randomPosts(sorted, 4, skip);
 // Every other slug, so "Surprise me" can pick fresh on each click.
 const surpriseSlugs = sorted.map((p) => p.data.slug).filter((s) => s !== post.data.slug);
@@ -154,20 +147,6 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
           <a href={post.data.listingUrl} target="_blank" rel="noopener" class="btn agent-btn">Contact the agent (brave of you)</a>
         )}
       </div>
-
-      {upNext && (
-        <a class="up-next" href={`/post/${upNext.data.slug}`} data-reveal>
-          <div class="up-next-media">
-            {upNextSrc && <img src={upNextSrc} alt="" loading="lazy" />}
-          </div>
-          <div class="up-next-body">
-            <span class="eyebrow">{upNextLabel}</span>
-            <h3>{upNext.data.title}</h3>
-            <p>{cardTeaser(upNext)}</p>
-            <span class="up-next-go">{locationLabel(upNext)} &middot; Open the file &rarr;</span>
-          </div>
-        </a>
-      )}
     </div>
 
     <div class="sidebar-col">

@@ -76,12 +76,6 @@ export function randomPosts(all: Post[], count: number, exclude: string[] = []):
     .slice(0, count);
 }
 
-// The next-oldest post in list order, wrapping back to the newest at the end.
-export function nextPost(sorted: Post[], post: Post): Post | undefined {
-  if (sorted.length < 2) return undefined;
-  const i = sorted.findIndex((p) => p.data.slug === post.data.slug);
-  return sorted[(i + 1) % sorted.length];
-}
 
 // Homepage "greatest hits" strip — the most-viewed posts per GA4 (last 90
 // days to 27 Oct 2026). Hand-picked so it doesn't shuffle on every build.
@@ -90,13 +84,6 @@ export const BEST_OF_SLUGS = [
   "moon-base-karalee",
   "fort-knox-but-damp",
   "do-not-touch-newstead",
-];
-
-export const UP_NEXT_LABELS = [
-  "Up next, against our better judgement",
-  "Your next bad decision",
-  "Next house. No, you can't leave yet.",
-  "Brace yourself, there's another one",
 ];
 
 export const GRID_CHUNK_HEADERS = [

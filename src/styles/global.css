@@ -1072,38 +1072,6 @@
     .foot-main{ grid-template-columns: 1fr; gap: 24px; }
   }
 
-  /* ---------- post page: "up next" teaser at the end of the article ---------- */
-  .up-next{
-    display:grid; grid-template-columns: 180px 1fr;
-    margin-top: 28px;
-    background: var(--avocado); color: var(--paper);
-    border-radius: var(--radius); overflow:hidden;
-    text-decoration:none;
-    transition: box-shadow .3s ease, transform .4s cubic-bezier(.16,.8,.3,1);
-  }
-  .up-next:hover{ box-shadow: var(--shadow); transform: translateY(-2px); }
-  .up-next-media{ background: var(--avocado-deep); min-height: 150px; overflow:hidden; }
-  .up-next-media img{ width:100%; height:100%; object-fit:cover; transition: transform .7s cubic-bezier(.16,.8,.3,1); }
-  .up-next:hover .up-next-media img{ transform: scale(1.06); }
-  .up-next-body{ padding: 18px 22px; display:flex; flex-direction:column; gap:8px; justify-content:center; }
-  .up-next .eyebrow{ color: var(--gold); font-size: 11px; }
-  .up-next h3{ font-size: clamp(22px, 2.4vw, 28px); color: var(--paper); }
-  .up-next p{ margin:0; font-size: 14.5px; line-height:1.5; opacity:0.85; }
-  .up-next-go{
-    font-family: var(--mono); font-size: 12px; font-weight:700;
-    letter-spacing: 0.04em; text-transform: uppercase; color: var(--gold);
-  }
-  @media (max-width: 860px){
-    .post-body-col .up-next{ order:6; }
-  }
-  /* Stack image over text whenever the article column itself is narrow,
-     not just on phones (tablet / small-laptop widths squash it otherwise). */
-  .post-body-col{ container-type: inline-size; }
-  @container (max-width: 520px){
-    .up-next{ grid-template-columns: 1fr; }
-    .up-next-media{ aspect-ratio: 16/9; min-height: 0; }
-  }
-
   /* ---------- post page: greatest-hits style strip at the bottom ---------- */
   .post-strip-wrap{ padding-bottom: 48px; }
   .post-strip-wrap .best-of{ margin-bottom: 0; }
