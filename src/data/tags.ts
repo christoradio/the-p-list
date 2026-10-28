@@ -13,7 +13,7 @@ export const TAG_DEFS: TagDef[] = [
     label: "Time Capsule",
     h1: "Time Capsule Homes: Australia's Best-Preserved Interiors",
     intro:
-      "A Time Capsule house is one that's never been “refreshed,” never been “modernised,” and never had an open-plan renovation inflicted on it. The original kitchen is still the kitchen. The original bathroom, tile for tile, is still the bathroom. Somewhere between the 1950s and the 1980s, the owner stopped renovating and the house simply stopped ageing along with the rest of the street. These are the listings where the agent's photos accidentally become historical documents — avocado bathroom suites, laminate kitchens in colours nobody makes anymore, wallpaper chosen with total conviction and zero regrets. We don't find these houses because they're falling apart. We find them because somebody, somewhere, quietly refused to change a thing, and forty years later that decision looks like genius. Below are the best-preserved interiors we've come across — real listings, real photos, real décor nobody had to style for the shoot.",
+      "A time capsule house is one nobody ever renovated. The kitchen is still the original kitchen. The bathroom is still avocado, or pink, or powder blue. At some point between the 1950s and the 1980s the owners decided they were done, and the house stopped ageing with them. Agents tend to write “scope to renovate.” We'd rather you didn't. These are the best-preserved interiors we've found in Australian listings, from a Belrose home left fully furnished to a Lane Cove house where the teal shag matches the wallpaper. Real listings, real photos, nothing styled for the shoot.",
   },
   {
     slug: "luxury-excess",
@@ -21,7 +21,7 @@ export const TAG_DEFS: TagDef[] = [
     label: "Luxury Excess",
     h1: "Luxury Excess: Australia's Most Over-The-Top Mansions",
     intro:
-      "Some houses have money. These houses have money and no interest in hiding it. Luxury Excess is our category for the mansions, manors and mega-builds where restraint was never part of the brief — gold leaf on the walls, marble by the truckload, wine cellars, home theatres, six-car garages, chandeliers doing far more work than any chandelier should reasonably be asked to do. This isn't a dig. We love it. There's something genuinely admirable about a house that commits fully to more, more, and then a bit more on top, and these are the Australian properties that took that brief and ran with it in every direction at once. If your idea of a good real estate listing includes the words “imported Italian marble” or “full-size indoor bar,” you're in the right place.",
+      "Some houses have money. These ones want you to know about it. Luxury Excess is for the Australian mansions where nobody ever said “that's probably enough”: gold ceilings, marble everywhere, indoor pools, garages for fifteen cars, and at least one home casino on the Gold Coast. We're not having a go. Anyone who puts a roulette wheel in the lounge room has our full respect. If your idea of a great listing includes the words “imported Italian marble,” start scrolling.",
   },
   {
     slug: "out-of-the-ordinary",
@@ -29,7 +29,7 @@ export const TAG_DEFS: TagDef[] = [
     label: "Out Of The Ordinary",
     h1: "Out Of The Ordinary Homes: Australia's Weirdest Real Estate",
     intro:
-      "This is the widest net we cast, and it catches the strangest fish. Out Of The Ordinary is our catch-all for the properties that don't fit anywhere else — castles built by hand over a decade, a Wild West town hidden behind an ordinary verandah house, statues of religious figures standing sentry in bedrooms, indoor rock pools, cheetah-skin stair runners, and every other architectural decision that made us stop scrolling and start filming. These are the listings where the real estate agent's dot points genuinely cannot capture what's going on, and where a description like “unique opportunity” turns out to be the understatement of the year. If you've ever wanted proof that Australian real estate is far weirder and more wonderful than the display-home estates suggest, start here.",
+      "This is where the houses that don't fit anywhere else end up. A Wild West town behind a normal country house. A pyramid in the WA wheatbelt. A castle with a lap pool in the middle. A cave in a Warners Bay backyard. When the agent writes “unique opportunity” and it turns out to be an understatement, it goes here. If you need proof that Australian real estate is far weirder than the display homes suggest, this is it.",
   },
   {
     slug: "statement-piece",
@@ -37,7 +37,7 @@ export const TAG_DEFS: TagDef[] = [
     label: "Statement Piece",
     h1: "Statement Piece Homes: Bold Architecture & Design Across Australia",
     intro:
-      "A Statement Piece house has one big idea and commits to it completely — a design language, a material, a theme, a single dramatic gesture that defines the whole build rather than one room of it. Think entire homes built around a doll collection, a jukebox obsession, or a design brief that clearly began and ended with “make it bold.” Unlike our more scattergun Out Of The Ordinary category, these properties tend to have a coherent, if occasionally alarming, vision running through them from the front gate to the back fence. They're the houses that would photograph beautifully for a design magazine, provided the design magazine was willing to run the photos completely straight-faced.",
+      "A Statement Piece house picks one big idea and refuses to let it go. A circular house with a disco-ball column up the middle. A Paradise Point home that went gold in every room. Two rooms of dolls, floor to ceiling. Out Of The Ordinary is for the random stuff. These are the homes where someone had a vision and followed it all the way to the back fence. Bold architecture and design from across Australia, whether or not it was a good idea.",
   },
   {
     slug: "daggy-delight",
@@ -45,7 +45,7 @@ export const TAG_DEFS: TagDef[] = [
     label: "Daggy Delight",
     h1: "Daggy Delight: The Best Uncool-But-We-Love-It Homes",
     intro:
-      "Not every great house on this list is dripping in marble or built like a castle. Some of our favourite finds are just properly, unapologetically daggy — the kind of home that was never trying to impress anyone, and is somehow more charming for it. Think fibro beach shacks with decor from three decades ago, backyard additions that solved a problem in the most direct way possible, and interiors that were clearly decorated with love and a very tight budget. Daggy Delight is our tribute to the houses that never made a design magazine and never wanted to. They made us smile instead, which counts for more.",
+      "Not every house on the list is a marble palace. Some are just properly daggy, and we love them for it. A house that seems to have been designed around its bar. A backyard with a hand-built cave. A Belrose home still wearing its 1970s best. These places were never trying to impress anyone, and they're more charming because of it. They never made a design magazine. They made us smile instead.",
   },
   {
     slug: "retro",
@@ -53,6 +53,6 @@ export const TAG_DEFS: TagDef[] = [
     label: "Retro",
     h1: "Retro Homes For Sale: Mid-Century & Vintage Interiors Australia",
     intro:
-      "Retro is our home for the mid-century modern gems, the Palm Springs fantasies, and the full-commitment 1970s and '80s interiors that Australian real estate quietly does better than almost anywhere else. Terrazzo, breeze block, curved banquettes, statement wallpaper, kitchens in colours that have since been discontinued for a reason nobody can quite explain — if a listing looks like it was styled by a time machine rather than an agent, it lives here. These are the properties for anyone hunting mid-century modern real estate in Australia, whether you're after the real thing to renovate sympathetically or just want to look at beautifully preserved terrazzo for five minutes and feel something.",
+      "Retro is for mid-century modern homes, Palm Springs fantasies and 1970s and '80s interiors that went all in. Terrazzo, breeze block, curved banquettes, wallpaper with conviction, and kitchens in colours nobody makes anymore. If a listing looks like it was styled by a time machine, it lives here. If you're hunting for mid-century modern real estate in Australia, whether to restore or just to look at, start with these.",
   },
 ];
