@@ -61,15 +61,48 @@ export function sortedByOrder(posts: Post[]): Post[] {
   return [...posts].sort((a, b) => a.data.order - b.data.order);
 }
 
-export function relatedPosts(all: Post[], post: Post, count: number): Post[] {
-  const pool = all.filter((p) => p.data.slug !== post.data.slug);
-  const shuffled = pool.slice().sort(() => Math.random() - 0.5);
-  const tagged = shuffled.filter((p) =>
-    p.data.tags?.some((t) => post.data.tags?.includes(t))
-  );
-  const untagged = shuffled.filter((p) => !tagged.includes(p));
-  return tagged.concat(untagged).slice(0, count);
+// Best match first: shared primary tag counts most, then any shared tag,
+// then same state. Shuffled before sorting so equal scores vary per build.
+export function relatedPosts(all: Post[], post: Post, count: number, exclude: string[] = []): Post[] {
+  const skip = new Set([post.data.slug, ...exclude]);
+  const pool = all.filter((p) => !skip.has(p.data.slug));
+  const score = (p: Post) => {
+    let s = 0;
+    if (p.data.tags?.[0] && p.data.tags[0] === post.data.tags?.[0]) s += 3;
+    s += p.data.tags?.filter((t) => post.data.tags?.includes(t)).length ?? 0;
+    if (p.data.state && p.data.state === post.data.state && !p.data.country) s += 1;
+    return s;
+  };
+  return pool
+    .sort(() => Math.random() - 0.5)
+    .map((p) => ({ p, s: score(p) }))
+    .sort((a, b) => b.s - a.s)
+    .slice(0, count)
+    .map(({ p }) => p);
 }
+
+// The next-oldest post in list order, wrapping back to the newest at the end.
+export function nextPost(sorted: Post[], post: Post): Post | undefined {
+  if (sorted.length < 2) return undefined;
+  const i = sorted.findIndex((p) => p.data.slug === post.data.slug);
+  return sorted[(i + 1) % sorted.length];
+}
+
+// Homepage "greatest hits" strip — the most-viewed posts per GA4 (last 90
+// days to 27 Oct 2026). Hand-picked so it doesn't shuffle on every build.
+export const BEST_OF_SLUGS = [
+  "she-left-and-never-came-back",
+  "moon-base-karalee",
+  "fort-knox-but-damp",
+  "do-not-touch-newstead",
+];
+
+export const UP_NEXT_LABELS = [
+  "Up next, against our better judgement",
+  "Your next bad decision",
+  "Next house. No, you can't leave yet.",
+  "Brace yourself, there's another one",
+];
 
 export const GRID_CHUNK_HEADERS = [
   "Keep Scrolling, We Dare You",

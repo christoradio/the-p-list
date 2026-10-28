@@ -286,6 +286,7 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   const noMatch = document.getElementById("noMatch");
   const chunkHeaders = grid ? Array.from(grid.querySelectorAll(".grid-chunk-header")) : [];
   const sortSelect = document.getElementById("sortSelect");
+  const bestOf = document.getElementById("bestOf");
 
   let filter = "all";
   let state = "all";
@@ -350,6 +351,9 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
         visibleCount === 0 ? "No properties match this filter" : `Showing ${visibleCount} ${plural}`;
     }
     if (noMatch) noMatch.style.display = visibleCount === 0 ? "" : "none";
+    // The greatest-hits strip ignores filters, so get it out of the way
+    // once the visitor is hunting for something specific.
+    if (bestOf) bestOf.style.display = filter === "all" && state === "all" ? "" : "none";
   }
 
   document.querySelectorAll(".filter-tab").forEach((btn) => {

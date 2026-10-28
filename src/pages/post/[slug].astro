@@ -13,7 +13,12 @@ import {
   postSeoDescription,
   locationLabel,
   relatedPosts,
+  nextPost,
+  cardMediaSrc,
+  firstSentence,
+  UP_NEXT_LABELS,
 } from "../../lib/utils";
+import { TAG_DEFS } from "../../data/tags";
 import { postJsonLd } from "../../lib/structuredData";
 
 export async function getStaticPaths() {
@@ -26,7 +31,14 @@ export async function getStaticPaths() {
 
 const { post, allPosts } = Astro.props;
 const { Content } = await render(post);
-const others = relatedPosts(sortedByOrder(allPosts), post, 3);
+const sorted = sortedByOrder(allPosts);
+const upNext = nextPost(sorted, post);
+const upNextLabel = UP_NEXT_LABELS[Math.floor(Math.random() * UP_NEXT_LABELS.length)];
+const upNextSrc = upNext ? cardMediaSrc(upNext) : undefined;
+const others = relatedPosts(sorted, post, 6, upNext ? [upNext.data.slug] : []);
+const moreTags = post.data.tags
+  .map((t) => TAG_DEFS.find((d) => d.tag === t))
+  .filter((d) => d !== undefined);
 
 const RELATED_HEADINGS = [
   "Still Here? Brave Of You.",
@@ -145,6 +157,20 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
           <a href={post.data.listingUrl} target="_blank" rel="noopener" class="btn agent-btn">Contact the agent (brave of you)</a>
         )}
       </div>
+
+      {upNext && (
+        <a class="up-next" href={`/post/${upNext.data.slug}`} data-reveal>
+          <div class="up-next-media">
+            {upNextSrc && <img src={upNextSrc} alt="" loading="lazy" />}
+          </div>
+          <div class="up-next-body">
+            <span class="eyebrow">{upNextLabel}</span>
+            <h3>{upNext.data.title}</h3>
+            <p>{firstSentence(upNext.data.verdict)}</p>
+            <span class="up-next-go">{locationLabel(upNext)} &middot; Open the file &rarr;</span>
+          </div>
+        </a>
+      )}
     </div>
 
     <div class="sidebar-col">
@@ -175,6 +201,15 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
       <div class="grid">
         {others.map((p, i) => <PostCard post={p} index={i} />)}
       </div>
+      {moreTags.length > 0 && (
+        <div class="more-tags" data-reveal>
+          <span class="eyebrow">Still not sick of it?</span>
+          <div class="more-tags-btns">
+            {moreTags.map((d) => <a class="btn" href={`/tag/${d.slug}`}>Every {d.label} house we've got &rarr;</a>)}
+            <a class="btn btn-solid" href="/">The whole sorry list &rarr;</a>
+          </div>
+        </div>
+      )}
     </div>
   </section>
 

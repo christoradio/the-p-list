@@ -13,11 +13,15 @@ import {
   locationLabel,
   READ_MORE_LABELS,
   GRID_CHUNK_HEADERS,
+  BEST_OF_SLUGS,
 } from "../lib/utils";
 
 const allPosts = sortedByOrder(await getCollection("posts"));
 const hero = allPosts[0];
 const rest = allPosts.slice(1);
+const bestOf = BEST_OF_SLUGS
+  .map((slug) => allPosts.find((p) => p.data.slug === slug))
+  .filter((p) => p !== undefined);
 
 const readMoreLabel = READ_MORE_LABELS[Math.floor(Math.random() * READ_MORE_LABELS.length)];
 const heroSrc = hero ? cardMediaSrc(hero) : undefined;
@@ -119,6 +123,33 @@ const chunkSize = 7;
             <div class="read-more">{readMoreLabel} &rarr;</div>
           </div>
         </a>
+      )}
+
+      {bestOf.length > 0 && (
+        <section class="best-of" id="bestOf" aria-labelledby="bestOfHeading" data-reveal>
+          <div class="best-of-head">
+            <span class="eyebrow">Greatest hits</span>
+            <h2 id="bestOfHeading">The Ones You Lot Can't Stop Gawking At</h2>
+            <p>Ranked by sheer volume of people who should have been working.</p>
+          </div>
+          <ol class="best-of-list">
+            {bestOf.map((p, i) => {
+              const src = cardMediaSrc(p);
+              return (
+                <li>
+                  <a href={`/post/${p.data.slug}`} class="best-of-item">
+                    <div class="best-of-media">
+                      {src && <img src={src} alt="" loading="lazy" />}
+                      <span class="best-of-rank">No.{i + 1}</span>
+                    </div>
+                    <h3>{p.data.title}</h3>
+                    <span class="place">{locationLabel(p)}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
       )}
 
       <div class="grid" id="postGrid">
