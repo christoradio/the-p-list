@@ -6,6 +6,7 @@ import AdUnit from "../components/AdUnit.astro";
 import Tags from "../components/Tags.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import NewsletterBand from "../components/NewsletterBand.astro";
+import PostStrip from "../components/PostStrip.astro";
 import {
   sortedByOrder,
   cardMediaSrc,
@@ -125,32 +126,14 @@ const chunkSize = 7;
         </a>
       )}
 
-      {bestOf.length > 0 && (
-        <section class="best-of" id="bestOf" aria-labelledby="bestOfHeading" data-reveal>
-          <div class="best-of-head">
-            <span class="eyebrow">Greatest hits</span>
-            <h2 id="bestOfHeading">The Ones You Lot Can't Stop Gawking At</h2>
-            <p>Ranked by sheer volume of people who should have been working.</p>
-          </div>
-          <ol class="best-of-list">
-            {bestOf.map((p, i) => {
-              const src = cardMediaSrc(p);
-              return (
-                <li>
-                  <a href={`/post/${p.data.slug}`} class="best-of-item">
-                    <div class="best-of-media">
-                      {src && <img src={src} alt="" loading="lazy" />}
-                      <span class="best-of-rank">No.{i + 1}</span>
-                    </div>
-                    <h3>{p.data.title}</h3>
-                    <span class="place">{locationLabel(p)}</span>
-                  </a>
-                </li>
-              );
-            })}
-          </ol>
-        </section>
-      )}
+      <PostStrip
+        id="bestOf"
+        posts={bestOf}
+        ranked
+        eyebrow="Greatest hits"
+        heading="The Ones You Lot Can't Stop Gawking At"
+        sub="Ranked by sheer volume of people who should have been working."
+      />
 
       <div class="grid" id="postGrid">
         {rest.map((post, i) => {

@@ -1,0 +1,46 @@
+---
+// Dark "greatest hits" style strip of post tiles. Used on the homepage
+// (ranked) and at the bottom of every post (random picks).
+import type { Post } from "../lib/utils";
+import { cardMediaSrc, locationLabel } from "../lib/utils";
+
+interface Props {
+  posts: Post[];
+  eyebrow: string;
+  heading: string;
+  sub?: string;
+  ranked?: boolean;
+  id?: string;
+}
+const { posts, eyebrow, heading, sub, ranked = false, id } = Astro.props;
+const headingId = `${id ?? "strip"}Heading`;
+---
+{posts.length > 0 && (
+  <section class="best-of" id={id} aria-labelledby={headingId} data-reveal>
+    <div class="best-of-head">
+      <span class="eyebrow">{eyebrow}</span>
+      <h2 id={headingId}>{heading}</h2>
+      {Astro.slots.has("action") && <div class="best-of-action"><slot name="action" /></div>}
+      {sub && <p>{sub}</p>}
+    </div>
+    <ol class="best-of-list">
+      {posts.map((p, i) => {
+        const src = cardMediaSrc(p);
+        const badge = ranked ? `No.${i + 1}` : p.data.tags?.[0];
+        return (
+          <li>
+            <a href={`/post/${p.data.slug}`} class="best-of-item">
+              <div class="best-of-media">
+                {src && <img src={src} alt="" loading="lazy" />}
+                {badge && <span class="best-of-rank">{badge}</span>}
+              </div>
+              <h3>{p.data.title}</h3>
+              <span class="place">{locationLabel(p)}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+    {Astro.slots.has("footer") && <div class="best-of-foot"><slot name="footer" /></div>}
+  </section>
+)}

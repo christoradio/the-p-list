@@ -5,6 +5,7 @@ import Stamp from "../../components/Stamp.astro";
 import Tags from "../../components/Tags.astro";
 import QuirkDots from "../../components/QuirkDots.astro";
 import NewsletterBand from "../../components/NewsletterBand.astro";
+import PostStrip from "../../components/PostStrip.astro";
 import AdUnit from "../../components/AdUnit.astro";
 import {
   sortedByOrder,
@@ -35,7 +36,7 @@ const upNext = nextPost(sorted, post);
 const upNextLabel = UP_NEXT_LABELS[Math.floor(Math.random() * UP_NEXT_LABELS.length)];
 const upNextSrc = upNext ? cardMediaSrc(upNext) : undefined;
 const skip = [post.data.slug, ...(upNext ? [upNext.data.slug] : [])];
-const others = randomPosts(sorted, 3, skip);
+const others = randomPosts(sorted, 4, skip);
 // Every other slug, so "Surprise me" can pick fresh on each click.
 const surpriseSlugs = sorted.map((p) => p.data.slug).filter((s) => s !== post.data.slug);
 const surpriseFallback = randomPosts(sorted, 1, skip)[0];
@@ -189,36 +190,23 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
     </div>
   </div>
 
-  <section class="wrap more-box-wrap">
-    <div class="more-box" data-reveal>
-      <div class="more-box-head">
-        <span class="eyebrow">Three more, picked at random</span>
-        {surpriseFallback && (
-          <a class="btn btn-rust surprise-btn" href={`/post/${surpriseFallback.data.slug}`} data-surprise={JSON.stringify(surpriseSlugs)}>Surprise me &rarr;</a>
-        )}
-      </div>
-      <ul class="more-box-list">
-        {others.map((p) => {
-          const src = cardMediaSrc(p);
-          return (
-            <li>
-              <a href={`/post/${p.data.slug}`} class="more-box-item">
-                <div class="more-box-thumb">{src && <img src={src} alt="" loading="lazy" />}</div>
-                <div>
-                  <span class="more-box-title">{p.data.title}</span>
-                  <span class="place">{locationLabel(p)}</span>
-                </div>
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-      <div class="more-box-links">
+  <div class="wrap post-strip-wrap">
+    <PostStrip
+      id="moreFromList"
+      posts={others}
+      eyebrow="Picked at random"
+      heading="Don't Leave. It Gets Worse."
+      sub="Four more from the list. We take no responsibility."
+    >
+      {surpriseFallback && (
+        <a slot="action" class="btn btn-rust surprise-btn" href={`/post/${surpriseFallback.data.slug}`} data-surprise={JSON.stringify(surpriseSlugs)}>Surprise me &rarr;</a>
+      )}
+      <Fragment slot="footer">
         {moreTags.map((d) => <a href={`/tag/${d.slug}`}>More {d.label}</a>)}
         <a href="/">The whole list</a>
-      </div>
-    </div>
-  </section>
+      </Fragment>
+    </PostStrip>
+  </div>
 
   <div class="wrap ad-banner-wrap">
     <a href="https://amzn.asia/d/0iG0b5iB" target="_blank" rel="noopener sponsored" class="home-ad-banner" aria-label="Advertisement">
