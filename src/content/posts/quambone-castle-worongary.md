@@ -5,7 +5,6 @@ suburb: Worongary
 state: QLD
 tags:
   - Luxury Excess
-  - For Sale
 era: 1998 Gold Coast hillside estate, 1022sqm, 1.5 hectares
 beds: 7
 baths: 5

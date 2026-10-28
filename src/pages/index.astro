@@ -7,6 +7,7 @@ import Tags from "../components/Tags.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import NewsletterBand from "../components/NewsletterBand.astro";
 import PostStrip from "../components/PostStrip.astro";
+import { TAG_DEFS } from "../data/tags";
 import {
   sortedByOrder,
   cardMediaSrc,
@@ -26,20 +27,18 @@ const heroSrc = hero ? cardMediaSrc(hero) : undefined;
 
 const hasIntl = allPosts.some((p) => p.data.country);
 
-const filterTabs: Array<{ f: string; label: string } | null> = [
-  { f: "all", label: "All listings" },
-  { f: "for-sale", label: "For Sale" },
-  { f: "sold", label: "Sold" },
-  { f: "not-for-sale", label: "Not for Sale" },
-  null,
-  { f: "Time Capsule", label: "Time Capsule" },
-  { f: "Luxury Excess", label: "Luxury Excess" },
-  { f: "Out Of The Ordinary", label: "Out of the Ordinary" },
-  { f: "Retro", label: "Retro" },
-  { f: "international", label: "O.S." },
+// One tab per category that actually has posts, biggest first.
+const filterTabs = [
+  { f: "all", label: "All" },
+  ...TAG_DEFS
+    .map((d) => ({ f: d.tag, label: d.label, n: allPosts.filter((p) => p.data.tags.includes(d.tag)).length }))
+    .filter((t) => t.n > 0)
+    .sort((a, b) => b.n - a.n),
 ];
 
-const states = ["NSW", "VIC", "QLD", "WA", "SA"];
+const states = ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"].filter((s) =>
+  allPosts.some((p) => p.data.state === s && !p.data.country)
+);
 
 // Each chunk is 1 wide featured card + this many normal cards. Since the
 // grid is 3 columns, this needs to be a multiple of 3 so the normal cards
@@ -57,21 +56,9 @@ const chunkSize = 7;
     <div class="filter-bar">
       <div class="wrap filter-bar-inner">
         <span class="filter-label">Filter:</span>
-        {filterTabs.map((t) =>
-          t ? (
-            <button class={`filter-tab${t.f === "all" ? " active" : ""}`} data-filter={t.f}>{t.label}</button>
-          ) : (
-            <div class="filter-divider"></div>
-          )
-        )}
-      </div>
-    </div>
-    <div class="state-row">
-      <div class="wrap state-row-inner">
-        <span class="state-row-label">State:</span>
-        <button class="state-pill active" data-state="all">All</button>
-        {states.map((s) => <button class="state-pill" data-state={s}>{s}</button>)}
-        {hasIntl && <button class="state-pill" data-state="international">O.S.</button>}
+        {filterTabs.map((t) => (
+          <button class={`filter-tab${t.f === "all" ? " active" : ""}`} data-filter={t.f}>{t.label}</button>
+        ))}
       </div>
     </div>
   </section>
@@ -80,11 +67,18 @@ const chunkSize = 7;
     <div class="wrap">
       <div class="listings-header" data-reveal>
         <span class="listings-count" id="listingsCount">Showing {allPosts.length} properties</span>
-        <select class="sort-select" id="sortSelect">
+        <div class="listings-controls">
+        <select class="sort-select" id="stateSelect" aria-label="Filter by state">
+          <option value="all">All states</option>
+          {states.map((s) => <option value={s}>{s}</option>)}
+          {hasIntl && <option value="international">Overseas</option>}
+        </select>
+        <select class="sort-select" id="sortSelect" aria-label="Sort listings">
           <option value="newest">Newest first</option>
           <option value="quirk">Quirk rating</option>
           <option value="beds-desc">Most bedrooms</option>
         </select>
+        </div>
       </div>
 
       {hero && (

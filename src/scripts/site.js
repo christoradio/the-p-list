@@ -293,16 +293,10 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
 
   function matches(card) {
     const tags = (card.getAttribute("data-tags") || "").split("|").filter(Boolean);
-    const status = (card.getAttribute("data-status") || "").toLowerCase();
     const cState = card.getAttribute("data-state") || "";
     const country = card.getAttribute("data-country") || "";
 
-    let ok = true;
-    if (filter === "for-sale") ok = !status || ["for sale", "auction", "under contract"].includes(status);
-    else if (filter === "sold") ok = status === "sold";
-    else if (filter === "not-for-sale") ok = status.includes("not");
-    else if (filter === "international") ok = !!country;
-    else if (filter !== "all") ok = tags.some((t) => t.toLowerCase() === filter.toLowerCase());
+    let ok = filter === "all" || tags.some((t) => t.toLowerCase() === filter.toLowerCase());
 
     if (ok && state !== "all") {
       if (state === "international") ok = !!country;
@@ -353,14 +347,13 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
       apply();
     });
   });
-  document.querySelectorAll(".state-pill").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".state-pill").forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      state = btn.dataset.state;
+  const stateSelect = document.getElementById("stateSelect");
+  if (stateSelect) {
+    stateSelect.addEventListener("change", (e) => {
+      state = e.target.value;
       apply();
     });
-  });
+  }
   if (sortSelect) {
     sortSelect.addEventListener("change", (e) => {
       sort = e.target.value;
