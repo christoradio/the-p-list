@@ -12,8 +12,6 @@ import {
   cardMediaSrc,
   cardTeaser,
   locationLabel,
-  READ_MORE_LABELS,
-  GRID_CHUNK_HEADERS,
   BEST_OF_SLUGS,
 } from "../lib/utils";
 
@@ -24,7 +22,6 @@ const bestOf = BEST_OF_SLUGS
   .map((slug) => allPosts.find((p) => p.data.slug === slug))
   .filter((p) => p !== undefined);
 
-const readMoreLabel = READ_MORE_LABELS[Math.floor(Math.random() * READ_MORE_LABELS.length)];
 const heroSrc = hero ? cardMediaSrc(hero) : undefined;
 
 const hasIntl = allPosts.some((p) => p.data.country);
@@ -121,7 +118,7 @@ const chunkSize = 7;
               <span>{hero.data.era}</span>
             </div>
             <p class="verdict-text">{cardTeaser(hero)}</p>
-            <div class="read-more">{readMoreLabel} &rarr;</div>
+            <div class="read-more">Read the full file &rarr;</div>
           </div>
         </a>
       )}
@@ -140,13 +137,6 @@ const chunkSize = 7;
           const isBreakAnchor = i % chunkSize === 0;
           const nodes = [];
           if (i > 0 && i % chunkSize === 0) {
-            const headerIndex = Math.floor(i / chunkSize) - 1;
-            nodes.push(
-              <div class="grid-chunk-header" data-reveal>
-                <span class="eyebrow">The list continues</span>
-                <h2>{GRID_CHUNK_HEADERS[headerIndex % GRID_CHUNK_HEADERS.length]}</h2>
-              </div>
-            );
             nodes.push(<AdUnit slot="3173466971" className="grid-ad" />);
           }
           nodes.push(<PostCard post={post} index={i} wide={isBreakAnchor} />);

@@ -85,22 +85,3 @@ export const BEST_OF_SLUGS = [
   "fort-knox-but-damp",
   "do-not-touch-newstead",
 ];
-
-export const GRID_CHUNK_HEADERS = [
-  "Keep Scrolling, We Dare You",
-  "Deeper Into The List",
-  "Certified Unhinged Territory",
-  "Still With Us? Good.",
-  "The Plot Thickens",
-  "You've Earned A Weirder One",
-  "One More For The Road",
-  "Nearly The Bottom (Allegedly)",
-];
-
-export const READ_MORE_LABELS = [
-  "Read the full file",
-  "See what we're dealing with",
-  "Dive in, we dare you",
-  "Get the full damage report",
-  "Unpack this one",
-];

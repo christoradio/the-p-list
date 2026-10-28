@@ -284,14 +284,12 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   const hero = document.querySelector(".hero-listing");
   const countLabel = document.getElementById("listingsCount");
   const noMatch = document.getElementById("noMatch");
-  const chunkHeaders = grid ? Array.from(grid.querySelectorAll(".grid-chunk-header")) : [];
   const sortSelect = document.getElementById("sortSelect");
   const bestOf = document.getElementById("bestOf");
 
   let filter = "all";
   let state = "all";
   let sort = "newest";
-  let headersRemoved = false;
 
   function matches(card) {
     const tags = (card.getAttribute("data-tags") || "").split("|").filter(Boolean);
@@ -314,15 +312,6 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   }
 
   function apply() {
-    // Chunk headers ("Keep Scrolling, We Dare You" etc.) only make sense
-    // interleaved through the untouched, full-order grid. Once the visitor
-    // touches any filter/sort control we drop them for good rather than
-    // trying to keep them correctly positioned through repeated reordering.
-    if (!headersRemoved) {
-      chunkHeaders.forEach((h) => h.remove());
-      headersRemoved = true;
-    }
-
     let visibleCount = 0;
     cards.forEach((card) => {
       const show = matches(card);
