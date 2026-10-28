@@ -16,6 +16,7 @@ price: $1,100,000 - $1,200,000
 verdict: Made the list for a two-storey warehouse apartment that photographs like a Berlin gallery and lives like a fire drill — soaring vaulted ceilings, a wall of sawtooth skylight glass, and a steel-grate catwalk strung across a two-storey void from the mezzanine bedroom to the balcony, because somebody looked at a normal hallway and decided against it. It's on the top floor. There is no lift. Bring an inhaler, bring your balance, and accept that "popping down for milk" is now a cardio session with a side of structural vertigo.
 youtubeId: X2gO0EKSmZ0
 heroImage: https://images.theplist.com.au/collingwood1.jpg
+hook: 'Photographs like a Berlin gallery. Lives like a fire drill. No lift.'
 listingUrl: https://www.jelliscraig.com.au/property-details-19-93-Oxford-Street-Collingwood/1950255
 listingLabel: View listing
 photos:

@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for a 12.8kW solar system running 32 panels, a 20kW battery bank, floodlights and security cameras bolted to every shed on the property, and not one but several fully self-contained outbuildings with their own plumbing, power, and living space. The house itself is white, more white, and then a bit more white again, to the point where we'd suggest sunglasses indoors. Somewhere on this property there is almost certainly a bunker stocked floor to ceiling with Watties tins and Pineapple Lumps, and we are prepared to die on that hill.
 youtubeId: YIMdBJlDmww
 heroImage: https://images.theplist.com.au/pakaraka-aerial-solar-panels-roof.jpg
+hook: 'Floodlights, cameras, a battery bank and backup houses. Expecting something?'
 listingUrl: https://www.barfoot.co.nz/property/residential/far-north-district/pakaraka/lifestyle/929119
 listingLabel: View sold listing
 photos:

@@ -15,6 +15,7 @@ status: Not currently for sale
 verdict: 'Made the list for building an entire two-storey house around a full lap pool sitting dead centre of the floor plan, complete with a retractable glass sky-dome overhead so it can be an indoor pool and, on request, a slightly-less-indoor pool. This is the second house we have found on this exact premise. We are starting to suspect a cult.'
 youtubeId: mt1rKBrr_FA
 heroImage: https://images.theplist.com.au/stives1.jpg
+hook: 'The second house we''ve found with a lap pool in the lounge. We''re worried.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-st+ives-120798689
 listingLabel: View property profile
 photos:

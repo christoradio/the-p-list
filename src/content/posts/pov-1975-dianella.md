@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for amber cathedral-glass doors, a powder-blue bathroom suite, and a real estate blurb that name-checks Yiayia, Nonna and Pappous before it gets to the floor plan.
 youtubeId: 6yIxD6rL1Dw
 heroImage: https://images.theplist.com.au/dianella-02-verandah.jpg
+hook: 'The listing mentions Yiayia, Nonna and Pappous before the floor plan.'
 listingUrl: https://www.realestate.com.au/sold/property-house-wa-dianella-149824580
 listingLabel: View the sold listing
 status: Sold

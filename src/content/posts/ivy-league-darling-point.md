@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for being a genuine c1920s Darling Point trophy home, renovated by a celebrity interior designer and sold for $21 million, that still found room for a rooster portrait hung with pride in the one room dedicated to eating things that used to have feathers, a kitchen bench that looks like the marble ran out halfway through the pour, and a staircase runner striped enough to double as a field sobriety test. There's a green sculpture doing duty as art in the sunroom, a fireplace flanked by the words “Because” and “Effort” like the house is mid-argument with itself, and, just above it, a second stack of leftover marble propped up like more art. Ivy climbs the whole back facade, which we can only assume comes with a complimentary spider population. Money well spent, mostly.
 youtubeId: priOFETuKLs
 heroImage: https://images.theplist.com.au/darling-point-eastbourne-road-exterior-ivy-facade-pool.jpg
+hook: 'Sold for $21 million. Still has a rooster portrait in the dining room.'
 listingUrl: https://www.realestate.com.au/property/15-eastbourne-rd-darling-point-nsw-2027/
 listingLabel: View sold listing
 photos:

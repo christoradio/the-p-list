@@ -15,6 +15,7 @@ status: Not currently for sale
 verdict: 'Made the list for being internationally recognised organic architecture that also looks exactly like what happens when a grade 2 student is asked to draw their dream house and a licensed builder takes them literally. Every wall is curved, every floor is a different level, and the sunken lounge comes with a drop we would like an incident report on.'
 youtubeId: tnRL04cWh1c
 heroImage: https://images.theplist.com.au/newport1.jpg
+hook: 'A grade 2 student drew their dream house. Somebody built it.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-newport-143509976
 listingLabel: View property profile
 photos:

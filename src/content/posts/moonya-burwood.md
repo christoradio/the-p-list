@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for stained-glass doors that belong in a cathedral, a kitchen frozen somewhere between 1955 and the invention of wallpaper, and the fact that a developer wants to knock the whole thing down and build something beige. We riot at dawn.
 youtubeId: 4WwoFyqr6BA
 heroImage: https://images.theplist.com.au/heri1.jpg
+hook: 'A developer wants to knock her down for something beige. We riot at dawn.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-burwood-147164768
 listingLabel: View the sold listing
 status: Sold

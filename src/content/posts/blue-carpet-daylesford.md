@@ -15,6 +15,7 @@ status: Sold
 verdict: 'Made the list for a teal-blue shagpile so aggressive it colour-corrects the entire house around it, a chartreuse and mustard lounge suite still standing its ground, and an original wood stove kitchen that has clearly never once considered an upgrade. Held by the same family and never before offered to the market, until now.'
 youtubeId: AxddZXyDpu8
 heroImage: https://images.theplist.com.au/day1.jpg
+hook: 'The blue carpet cannot be ignored. We tried.'
 listingUrl: https://www.domain.com.au/12-jamieson-street-daylesford-vic-3460-2020863734
 listingLabel: View listing
 photos:

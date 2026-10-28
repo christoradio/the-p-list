@@ -18,6 +18,7 @@ status: Not for sale
 verdict: It's an overseas house, it's not for sale, and it has a WESTERN TOWN BUILT INSIDE OF IT, so frankly the rest of this listing was always going to be a formality. Somebody in Milton, Georgia looked at a 24,000-square-foot neoclassical mansion — the sauna, the steam room, the 35-space garage, the 8 bathrooms serving a positively monastic 4 bedrooms (did they not like guests, or just not like sharing?) — and decided the one thing it was missing was Tombstone, Arizona, circa 1880, complete with a WORKING SALOON, a cigar shop and a general store, apparently designed by an actual Six Flags person. There is a domed 27-foot living room ceiling directly upstream of a saloon. We have so many questions and none of them are about the marble.
 youtubeId: jOi90pg1moc
 heroImage: https://images.theplist.com.au/milton-old-west-mansion-tombstone-street.jpg
+hook: 'It has a Western town built inside it. The rest is a formality.'
 listingUrl: https://www.priceypads.com/this-24000-sq-ft-manor-has-its-own-old-west-town-in-milton-georgia-2/
 listingLabel: Read the full story
 photos:

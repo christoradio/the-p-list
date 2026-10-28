@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for being, quite literally, a house made of windows — wraparound glass walls on every side, a sunken lounge under a floating timber ceiling, three courtyards and a cliffside perch over Sugarloaf Bay with views that will genuinely never be built out. It's a certified piece of Australian architectural history, designed by Neville Gruzman in 1962 and published in more architecture books than most of us have read in our lives. It is also, structurally, a greenhouse with a mortgage. We have so many questions about the Windex budget.
 youtubeId: CPwFgeWmU4Y
 heroImage: https://images.theplist.com.au/middlecove1.jpg
+hook: 'Some houses have a feature wall. This one skipped walls altogether.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-middle+cove-152044480
 listingLabel: View sold listing
 photos:

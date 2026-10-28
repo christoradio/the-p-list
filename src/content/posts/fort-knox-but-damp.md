@@ -16,6 +16,7 @@ status: For Sale
 verdict: Made the list because somewhere in the design process, someone looked at a two-storey void running through the middle of a castle and thought 'yes, that's where the pool goes' and nobody in the room disagreed. This is a genuine sandstone-clad, double-brick castle — barn doors, chandeliers, the works — built around seven bedrooms, six bathrooms, and one full lap pool sitting wide open in the middle of it all, visible from the kitchen bench, from at least one shower, and from the entire upstairs hallway on your way to bed. The agent calls it 'as secure as Fort Knox,' which is true right up until you remember Fort Knox has never had a shower door that opens directly onto a swimming pool. This is a house that spent its whole budget on turrets and sandstone and simply forgot that pools and plumbing don't usually share a wall with the good towels.
 youtubeId: oEyGKy2axk8
 heroImage: https://images.theplist.com.au/bridgeman-downs-castle-pool-mezzanine-overview.jpg
+hook: 'A double-brick castle with a lap pool where the middle should be.'
 listingUrl: https://www.realestate.com.au/property-house-qld-bridgeman+downs-147711016
 listingLabel: View listing
 photos:

@@ -15,6 +15,7 @@ status: Not currently for sale
 verdict: 'Made the list for a level of gold we did not know was structurally possible — gold ceilings, gold curtains, gold bathroom, gold everything, punctuated by a marble statue of a man mid-brawl with two women that we are choosing to call the attack possum. Sold for $6,000,000 in 2009 and, as far as we can tell, untouched since.'
 youtubeId: L65_vxiXK9o
 heroImage: https://images.theplist.com.au/paradisepoint1.jpg
+hook: 'Who did this? We need a name.'
 listingUrl: https://www.realestate.com.au/property/23-brittanic-cres-paradise-point-qld-4216/
 listingLabel: View property profile
 photos:

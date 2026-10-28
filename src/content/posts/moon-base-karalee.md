@@ -16,6 +16,7 @@ verdict: Made the list for being a cluster of concrete domes on a riverfront blo
 youtubeId: eBkIFcEfTDk
 heroImage: https://images.theplist.com.au/karalee-dome-house-exterior-wide-driveway-cluster.jpg
 status: Not currently for sale
+hook: 'You enter through a tunnel. It gets less normal from there.'
 listingUrl: https://www.realestate.com.au/property/79-elanora-way-karalee-qld-4306/
 listingLabel: View property profile
 photos:

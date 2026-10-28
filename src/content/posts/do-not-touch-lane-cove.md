@@ -15,6 +15,7 @@ status: For Sale
 verdict: 'Made the list for surviving fifty-plus years in one family without a single renovation, which means teal damask wallpaper matched to teal shag carpet, a kitchen wallpapered floor to ceiling in yellow flowers, a pink bedroom, and a bathroom with a green toilet lid we are choosing to admire rather than question. The agent says renovate, extend or rebuild. We say: do not touch a single thing.'
 youtubeId: T1zSgpvxPx4
 heroImage: https://images.theplist.com.au/lanecove1.jpg
+hook: 'Fifty years, one family, zero renovations. Do not touch it.'
 listingUrl: https://www.domain.com.au/9b-grace-street-lane-cove-nsw-2066-2020984462
 listingLabel: View listing
 photos:

@@ -14,6 +14,7 @@ quirk: 5
 verdict: 'Made the list for being two completely different houses stacked on top of each other: a gold-and-marble chandelier palace upstairs, and a full 1970s brick entertainment bunker downstairs, united only by a staircase with a golden nude on the newel post.'
 youtubeId: IWMWlvPBmoI
 heroImage: https://images.theplist.com.au/port1.jpg
+hook: 'Two houses stacked on top of each other, joined by a golden nude.'
 listingUrl: https://www.realestate.com.au/property-house-sa-port+lincoln-130817762
 photos:
   - src: https://images.theplist.com.au/port1.jpg

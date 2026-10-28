@@ -16,6 +16,7 @@ price: Asking $15,900,000+
 verdict: Made the list for having a fully operational casino in the living room — roulette wheel, card tables, custom bar stools embroidered with 'Baltimore Casino' in gold, and a carpet that could only have been chosen by someone who had just returned from a very good time at Star City. There is also a 17-metre indoor pool, a 6,000-litre freshwater aquarium, a 1,500-bottle red wine cellar, and a 15-car basement garage currently occupied by three Ferraris, a Maserati, a blue sports car and a yellow Porsche. The house seats twelve at dinner and approximately the whole suburb at the roulette table.
 youtubeId: XMFJaULrvWc
 heroImage: https://images.theplist.com.au/casino1.jpg
+hook: 'There''s a casino in this house. A real one.'
 listingUrl: https://www.realestate.com.au/property-house-qld-sovereign+islands-150550676
 listingLabel: View listing
 photos:

@@ -15,6 +15,7 @@ status: Not for sale
 verdict: Made the list for a spiral staircase so dramatic it needed a compass rose inlaid into the marble floor beneath it, a ceiling that appears to have been designed by someone who had just discovered what a computer could do, a life-size Jesus statue standing vigil in the master bedroom, and a crucifix mounted directly behind the dining table so that every family dinner is technically a Last Supper.
 youtubeId: fldmzDNdPCg
 heroImage: https://images.theplist.com.au/oran10.jpg
+hook: 'There''s a life-size Jesus in the main bedroom. Every dinner is a Last Supper.'
 listingUrl: https://www.realestate.com.au/property/10-davidson-st-oran-park-nsw-2570/
 listingLabel: View property
 photos:

@@ -15,6 +15,7 @@ verdict: Made the list for a staircase that spirals through three storeys like a
 youtubeId: GtWTnvXZSs4
 heroImage: https://images.theplist.com.au/corazon-04-staircase.jpg
 status: Sold
+hook: 'Six ensuites, and one bedroom has its own climbing wall.'
 listingUrl: https://www.realestate.com.au/sold/property-house-qld-new+farm-151221944
 listingLabel: View sold listing
 photos:

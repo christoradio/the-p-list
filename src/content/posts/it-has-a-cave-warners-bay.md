@@ -16,6 +16,7 @@ status: For Sale
 verdict: 'Made the list for a hand-built cave in the backyard, complete with stalactites, a moulded stone bench and a table for entertaining, reached through a mesh orchid tunnel with WELCOME pressed into the floor. The agent wrote six paragraphs about this property and did not mention the cave once. Also for a floor-to-ceiling hand-painted alpine mural in the dining nook, and a blue art studio with a hole in the ceiling.'
 youtubeId: I8i4J0O5XzU
 heroImage: https://images.theplist.com.au/cave1.jpg
+hook: 'IT''S GOT A CAVE.'
 listingUrl: https://www.domain.com.au/12-campbell-street-warners-bay-nsw-2282-2021226707
 listingLabel: View on Domain
 photos:

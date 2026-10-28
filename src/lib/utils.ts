@@ -37,6 +37,11 @@ export function firstSentence(text: string | undefined): string {
   return match ? match[0] : text;
 }
 
+// Card teaser: the short hook if there is one, else the verdict's opener.
+export function cardTeaser(post: Post): string {
+  return post.data.hook || firstSentence(post.data.verdict);
+}
+
 export function locationLabel(post: Post): string {
   const { suburb, state, country } = post.data;
   if (country) return `${suburb.toUpperCase()}, ${country.toUpperCase()}`;
@@ -61,24 +66,14 @@ export function sortedByOrder(posts: Post[]): Post[] {
   return [...posts].sort((a, b) => a.data.order - b.data.order);
 }
 
-// Best match first: shared primary tag counts most, then any shared tag,
-// then same state. Shuffled before sorting so equal scores vary per build.
-export function relatedPosts(all: Post[], post: Post, count: number, exclude: string[] = []): Post[] {
-  const skip = new Set([post.data.slug, ...exclude]);
-  const pool = all.filter((p) => !skip.has(p.data.slug));
-  const score = (p: Post) => {
-    let s = 0;
-    if (p.data.tags?.[0] && p.data.tags[0] === post.data.tags?.[0]) s += 3;
-    s += p.data.tags?.filter((t) => post.data.tags?.includes(t)).length ?? 0;
-    if (p.data.state && p.data.state === post.data.state && !p.data.country) s += 1;
-    return s;
-  };
-  return pool
+// A random handful, skipping the given slugs. Picked at build time, so the
+// selection changes with each deploy rather than each visit.
+export function randomPosts(all: Post[], count: number, exclude: string[] = []): Post[] {
+  const skip = new Set(exclude);
+  return all
+    .filter((p) => !skip.has(p.data.slug))
     .sort(() => Math.random() - 0.5)
-    .map((p) => ({ p, s: score(p) }))
-    .sort((a, b) => b.s - a.s)
-    .slice(0, count)
-    .map(({ p }) => p);
+    .slice(0, count);
 }
 
 // The next-oldest post in list order, wrapping back to the newest at the end.

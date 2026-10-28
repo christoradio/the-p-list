@@ -15,6 +15,7 @@ status: Not for sale
 verdict: Made the list for an indoor rock pool with a waterfall, under a glass rotunda dome, overlooked by a second-storey balcony strung entirely in coloured fairy lights, which is either the greatest thing we have ever seen in a private residence or the second greatest thing, depending on how you feel about wagon wheel furniture.
 youtubeId: lXhOA6bhKcc
 heroImage: https://images.theplist.com.au/mon1.jpg
+hook: 'An indoor rock pool with a waterfall. And wagon wheel furniture.'
 listingUrl: https://www.realestate.com.au/sold/property-house-vic-olinda-142038116
 listingLabel: View sold listing
 photos:

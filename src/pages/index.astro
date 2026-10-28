@@ -9,7 +9,7 @@ import NewsletterBand from "../components/NewsletterBand.astro";
 import {
   sortedByOrder,
   cardMediaSrc,
-  firstSentence,
+  cardTeaser,
   locationLabel,
   READ_MORE_LABELS,
   GRID_CHUNK_HEADERS,
@@ -119,7 +119,7 @@ const chunkSize = 7;
               <span>{hero.data.cars} car</span>
               <span>{hero.data.era}</span>
             </div>
-            <p class="verdict-text">{firstSentence(hero.data.verdict)}</p>
+            <p class="verdict-text">{cardTeaser(hero)}</p>
             <div class="read-more">{readMoreLabel} &rarr;</div>
           </div>
         </a>

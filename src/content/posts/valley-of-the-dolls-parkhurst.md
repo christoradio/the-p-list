@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for a doll collection so large it has its own floor-to-ceiling shelving system in not one but two rooms, a doll perched on the kitchen bench supervising breakfast, and at least two jukeboxes we counted before we stopped being able to focus on anything except the eyes. So many eyes.
 youtubeId: x27jyf872iI
 heroImage: https://images.theplist.com.au/doll1.jpg
+hook: 'Two rooms of dolls, floor to ceiling. So many eyes.'
 listingUrl: https://www.realestate.com.au/property-house-qld-parkhurst-150430900
 photos:
   - src: https://images.theplist.com.au/doll1.jpg

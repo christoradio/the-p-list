@@ -15,6 +15,7 @@ verdict: Made the list for a matador mural behind the home bar and roughly half 
 youtubeId: __pQZIQGMw0
 heroImage: https://images.theplist.com.au/hamilton-hill-03-dining-bar.jpg
 status: Sold
+hook: 'A matador mural behind the bar. Half an acre of teal-and-gold carpet.'
 listingUrl: https://www.realestate.com.au/sold/property-house-wa-hamilton+hill-150340500
 listingLabel: View sold listing
 photos:

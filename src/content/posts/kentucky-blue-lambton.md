@@ -15,6 +15,7 @@ verdict: Made the list for a house that has not so much been preserved as sealed
 youtubeId: xIOWXqEFV3U
 heroImage: https://images.theplist.com.au/lambton1.jpg
 status: Sold
+hook: 'Finished in 1978. Everyone agreed never to speak of it again.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-lambton-152031660
 listingLabel: View sold listing
 photos:

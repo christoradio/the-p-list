@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for fourteen lion statues, a billiard room where the photos have colonised the ceiling, a garage named The Stables with a coat of arms above the door, and a wine cellar with a porthole window looking up through the floor of the pool.
 youtubeId: b8RgDzq3QJA
 heroImage: https://images.theplist.com.au/geelong1.jpg
+hook: 'Fourteen lions. We counted. Then we found the cellar window into the pool.'
 listingUrl: https://www.realestate.com.au/property-house-vic-geelong-150235116
 photos:
   - src: https://images.theplist.com.au/geelong1.jpg

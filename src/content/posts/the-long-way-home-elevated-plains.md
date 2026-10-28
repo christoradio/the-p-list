@@ -15,6 +15,7 @@ status: For sale
 verdict: 'Made the list for being a 110-metre certified Passivhaus that also runs as a working farm, a greenhouse and a cooking school for 120 people — a concept so ambitious the marketing copy needed the phrase ''architecture of enduring significance'' just to keep a straight face. There''s over 60 metres of internal garden that needs watering daily whether you feel like it or not, a herd of cattle, goats and pigs that don''t care that you just spent $7 million, and a walk from one end of the house to the other long enough to register as a workout on your fitness tracker. Buy this and the ''27kW solar array, dual bores and gas reserves'' stop being a flex and start being a job description. And after a decade of architectural restraint, cypress pine and considered gravitas, someone stood in one specific bedroom and said: salmon-pink walls, three copper disco balls, done. Somewhere, a Robin Boyd judge is having a moment.'
 youtubeId: zbcAeiAbQOM
 heroImage: https://images.theplist.com.au/daylesford-longhouse-elevated-plains-exterior-110m-shed-hillside.jpg
+hook: '110 metres long, and the indoor garden needs watering daily. Like it or not.'
 listingUrl: https://www.realestate.com.au/property-house-vic-elevated+plains-149148864
 listingLabel: View listing
 photos:

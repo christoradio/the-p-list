@@ -15,6 +15,7 @@ verdict: 'Made the list for a vaulted timber ceiling that bends like a ship''s h
 youtubeId: oQ4V0uDtX0c
 heroImage: https://images.theplist.com.au/penquite1.jpg
 status: Sold
+hook: 'The agent says it has incredible potential. How dare you.'
 listingUrl: https://www.realestate.com.au/sold/property-house-tas-newstead-152338556
 listingLabel: View sold listing
 photos:

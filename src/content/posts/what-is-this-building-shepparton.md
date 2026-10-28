@@ -15,6 +15,7 @@ status: For sale
 verdict: 'Made the list for genuinely defying categorisation — an arched, colonnaded corner landmark that could pass for a church, a TAFE campus, or the headquarters of a mid-tier cult, sitting in the middle of residential Shepparton like nobody told it what a house is supposed to look like. Held by the same family for decades and now on the market for the first time.'
 youtubeId: IE-fWJqQh7w
 heroImage: https://images.theplist.com.au/shep1.jpg
+hook: 'Church, TAFE or cult HQ? Shepparton is still deciding.'
 listingUrl: https://www.realestate.com.au/property-house-vic-shepparton-152091736
 listingLabel: View listing
 photos:

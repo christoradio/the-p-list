@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for winning the 2020 Wilkinson Award for Residential Architecture, a prize we can only assume is judged by people who have never needed the toilet at 2am next to someone else's boyfriend. There is no door on the primary ensuite. None. Just an open archway between the bed and the loo, which the architects have presumably filed under 'poetic'. Add a two-storey arch you could reverse a car through, an inverted-arch window doing its best impression of a cartoon ghost, and an Instagram comments section that turned into a genuine civil war over 'genius' versus 'cry for help', and you've got the most divisive $5.5 million Glebe has ever produced. It's since sold, so somewhere out there, someone has made their peace with visible toilet privileges.
 youtubeId: '-u12eIsLAVg'
 heroImage: https://images.theplist.com.au/glebe-ferry-road-exterior-arch-twilight.jpg
+hook: 'Award-winning architecture. No door on the ensuite. None.'
 listingUrl: https://www.realestate.com.au/property-house-nsw-glebe-147980108
 listingLabel: View sold listing
 photos:

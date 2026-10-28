@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for an entire hand-built Wild West town — saloon, jail, church, courthouse, general store, theatre and brothel included — sitting on 12.5 acres behind a perfectly normal modern three-bedroom home. Yee. Haw.
 youtubeId: ySPKtp_pZSw
 heroImage: https://images.theplist.com.au/west2.webp
+hook: 'Normal house out front. A whole Wild West town out back, brothel included.'
 listingUrl: https://www.domain.com.au/35-mystic-drive-yandoit-vic-3461-2018435291
 listingLabel: Listing has since been removed — read the original news coverage
 photos:

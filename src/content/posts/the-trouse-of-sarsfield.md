@@ -16,6 +16,7 @@ status: For Sale
 verdict: Made the list for being a genuine ex-Victorian Railways Hitachi motor carriage that's swapped the Frankston line for two acres of East Gippsland bush and never looked back. From 1981 to 2004 this thing shuttled Melbourne commuters through peak hour with the enthusiasm you'd expect from public transport; now it just shuttles you from the kitchen to the bedroom, a nine-metre commute you'll never once complain about. The original driver's cab is still fully intact — buttons, gauges, the works — so you can sit down and pretend to drive to the shops without technically going anywhere. Someone has clearly poured a small fortune into converting this thing properly, with an induction cooktop, dishwasher, ducted comfort and a wood heater for the cold nights, plus a bathroom that owes nothing at all to whatever facilities it ran with in commuter service. There's also a cleared, elevated homesite next door with room for a second dwelling, presumably for whoever gets tired of living in a carriage but isn't ready to leave the platform behind. It's a train. It's a house. Sorry, it's a Trouse, and there is no walking that pun back now.
 youtubeId: zDq9uilMIsk
 heroImage: https://images.theplist.com.au/sarsfield-train-house-sunset-platform.jpg
+hook: 'A retired Frankston line train, now living its best life in the bush.'
 listingUrl: https://www.realestate.com.au/property-house-vic-sarsfield-149853844
 listingLabel: View listing
 photos:

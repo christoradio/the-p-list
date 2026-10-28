@@ -17,6 +17,7 @@ verdict: Made the list for being, without question, the most spectacular buildin
 youtubeId: ''
 noVideo: true
 heroImage: https://images.theplist.com.au/theatre-royal-lithgow-facade-exterior.jpg
+hook: 'It''s been a cinema, a boxing ring and a nightclub. Now it''s a listing.'
 listingUrl: https://www.realcommercial.com.au/for-sale/property-208-main-street-lithgow-nsw-2790-505154172
 listingLabel: View listing
 photos:

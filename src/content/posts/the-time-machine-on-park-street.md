@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for a swirling green-and-gold carpet that runs uninterrupted from the front hallway clean through to the formal lounge, a built-in red leather bar still standing at attention for guests who stopped arriving decades ago, a bathroom committed head to toe in peach floral tile with gold tapware and a bidet on standby, and a backyard so vast the agent had to mention the rear laneway just to give it an exit. There is, we assume, a hills hoist back there somewhere, quietly waiting to launch someone's kid into low orbit.
 youtubeId: rQ45EsOrX2w
 heroImage: https://images.theplist.com.au/moonee-ponds-californian-bungalow-facade.jpg
+hook: 'The red leather bar is still waiting for guests who stopped coming decades ago.'
 listingUrl: https://www.realestate.com.au/sold/property-house-vic-moonee+ponds-150427800
 listingLabel: View sold listing
 photos:

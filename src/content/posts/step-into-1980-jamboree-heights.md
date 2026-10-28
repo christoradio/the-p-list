@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for a mustard-yellow kitchen, a gold shag-pile study, and not a single fitting that's been touched since the Hawke government.
 youtubeId: wdqmeQU2Bz4
 heroImage: https://images.theplist.com.au/jamboree-03-kitchen-upstairs.jpg
+hook: 'Untouched since the Hawke government, and the study is gold shag pile.'
 listingUrl: https://www.realestate.com.au/sold/property-house-qld-jamboree+heights-150896312
 listingLabel: View the sold listing
 status: Sold

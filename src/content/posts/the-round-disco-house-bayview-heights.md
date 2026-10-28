@@ -15,6 +15,7 @@ status: Sold
 verdict: 'Made the list for being a genuine roller-skating house: a circular floor plan, a helical floating ramp instead of a staircase, and a mirrored disco-ball column running straight up the middle of it, all wrapped in enough silver birch wallpaper to relocate an entire Scandinavian forest indoors. Perched at the very top of a 2,526m² block in Bayview Heights, it delivers genuine uninterrupted 360-degree views — mountains, Green Island, the Coral Sea, and the Cairns city lights doing their best runway impression after dark. Throw in a retro bar, round portal windows with actual windows built inside them, and a downstairs games room in a green so committed it reads as a decor decision rather than an accident, and you''ve got 1980s architectural flair operating at full, glorious volume. Furnishing a circular house is apparently its own genre of problem, and we''d love to know who solved it first.'
 youtubeId: GO2iYwBw5kM
 heroImage: https://images.theplist.com.au/bayview-heights-round-house-exterior-dusk-circular-facade.jpg
+hook: 'Somebody built a house for roller skating. Mirror ball included.'
 listingUrl: https://www.realestate.com.au/sold/property-house-qld-bayview+heights-149157856
 listingLabel: View sold listing
 photos:

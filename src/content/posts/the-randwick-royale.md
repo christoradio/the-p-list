@@ -15,6 +15,7 @@ verdict: Made the list for an upstairs landing dressed in full gold leaf and mar
 youtubeId: NgpHHpa058w
 heroImage: https://images.theplist.com.au/rand5.jpg
 status: Not currently for sale
+hook: 'A blue bathroom and a rust bathroom, fighting for supremacy.'
 listingUrl: https://www.realestate.com.au/property-house-nsw-randwick-151234356
 photos:
   - src: https://images.theplist.com.au/rand5.jpg

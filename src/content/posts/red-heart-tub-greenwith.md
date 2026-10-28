@@ -16,6 +16,7 @@ status: Not for sale
 verdict: 'Made the list for a red heart-shaped spa bath installed in the master bedroom, about a metre from the bed, with no door, no wall and no explanation. Also for a three-tier fountain held aloft by three white horses, tufted blush velvet lounge suites in every direction, wall-to-wall floral carpet upstairs, a tennis court, a pool with a slide, a spa, and approximately four square metres of actual garden.'
 youtubeId: GsBk-BJTcwo
 heroImage: https://images.theplist.com.au/wool1.jpg
+hook: 'There''s a red heart-shaped spa in the bedroom. No door. No wall.'
 listingUrl: https://www.realestate.com.au/property/6-wolomina-ct-greenwith-sa-5125/
 listingLabel: View property
 photos:

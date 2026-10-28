@@ -15,6 +15,7 @@ verdict: 'Made the list for a bathroom the agent describes as "striking red" whe
 youtubeId: 0U9_nr2aDB0
 heroImage: https://images.theplist.com.au/nowra1.jpg
 status: Sold
+hook: 'It''s red. Not striking red. Just red.'
 listingUrl: https://www.domain.com.au/174-mckay-street-nowra-nsw-2541-2021030145
 listingLabel: View sold listing
 photos:

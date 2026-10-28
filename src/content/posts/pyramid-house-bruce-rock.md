@@ -15,6 +15,7 @@ verdict: 'Made the list for being a genuine, structurally-committed pyramid — 
 youtubeId: zF3I2YItg4g
 heroImage: https://images.theplist.com.au/brucerock1.jpg
 status: Sold
+hook: 'Someone built a pyramid in the wheatbelt. Then they built it a garage.'
 listingUrl: https://www.realestate.com.au/sold/property-house-wa-bruce+rock-149368852
 listingLabel: View sold listing
 photos:

@@ -3,7 +3,7 @@ import Stamp from "./Stamp.astro";
 import Tags from "./Tags.astro";
 import StatusBadge from "./StatusBadge.astro";
 import type { Post } from "../lib/utils";
-import { cardMediaSrc, firstSentence } from "../lib/utils";
+import { cardMediaSrc, cardTeaser } from "../lib/utils";
 
 interface Props {
   post: Post;
@@ -47,7 +47,7 @@ const ytThumb = post.data.youtubeId
   </div>
   <div class="card-body">
     <h3>{post.data.title}</h3>
-    <p class="verdict">{firstSentence(post.data.verdict)}</p>
+    <p class="verdict">{cardTeaser(post)}</p>
     <Tags tags={post.data.tags} />
     <div class="card-foot">Read the file &rarr;</div>
   </div>

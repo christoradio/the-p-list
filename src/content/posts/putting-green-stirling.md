@@ -17,6 +17,7 @@ price: '$1,800,000 – $1,900,000'
 youtubeId: MKAqs6p6vCs
 verdict: 'Made the list for wall-to-wall emerald carpet with matching green curtains, an entire attic floor painted what can only be described as Heinz Mustard, a candy-striped main bedroom with striped pelmets to match, and a cocktail bar with a brick wall, toile wallpaper, a mounted cricket bat and a model yacht. The agent wrote about 800 words on generational living and did not mention a single colour.'
 heroImage: https://images.theplist.com.au/braemar1.jpg
+hook: 'Is it a carpet, or a putting green that went a little too far?'
 listingUrl: https://www.realestate.com.au/property-house-sa-stirling-151997716
 listingLabel: View listing
 photos:

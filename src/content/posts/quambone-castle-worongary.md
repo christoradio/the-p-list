@@ -15,6 +15,7 @@ verdict: Made the list for a 1022sqm Gold Coast mansion that the listing calls '
 youtubeId: k9PLmio-i8Q
 heroImage: https://images.theplist.com.au/mansh8.jpg
 status: Sold
+hook: 'The pool is brown. The walls are mouldy. But it''s got a helipad.'
 listingUrl: https://www.realestate.com.au/sold/property-house-qld-worongary-148448748
 listingLabel: View sold listing
 photos:

@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for a hand-corbelled limestone turret nobody wanted to build, a moat you cross on stepping stones because apparently the drawbridge budget ran out, gothic light fittings the owner spotted at Disneyland and simply had to have, and a cheetah-skin runner laid down the spiral stair for reasons the listing does not attempt to explain. Also there is a Great Dane gazing out to sea like a ship's figurehead, and no, before you ask, he does not come with the house.
 youtubeId: WZxI6v_AKfc
 heroImage: https://images.theplist.com.au/branksome10.jpg
+hook: 'She wanted a castle. The builders, the council and her architect dad all lost.'
 listingUrl: https://www.realestate.com.au/property/64-branksome-gdns-city-beach-wa-6015/
 listingLabel: View property
 photos:

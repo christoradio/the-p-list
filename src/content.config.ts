@@ -19,6 +19,8 @@ const posts = defineCollection({
     status: z.string().optional(),
     price: z.string().optional(),
     verdict: z.string(),
+    // Short teaser for cards; the full verdict stays for SEO descriptions.
+    hook: z.string().optional(),
     youtubeId: z.string().optional(),
     noVideo: z.boolean().optional(),
     videoImage: z.string().optional(),

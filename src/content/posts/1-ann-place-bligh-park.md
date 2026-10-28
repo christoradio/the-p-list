@@ -16,6 +16,7 @@ status: Not for sale
 verdict: Made the list for being an entirely normal-looking two-storey brick home in Bligh Park that someone has since filled, floor to ceiling, with what appears to be the combined stock of every florist, craft fair and doily factory in New South Wales. Six bedrooms, four bathrooms, and not one visible flat surface, because every bench, shelf, windowsill and spare centimetre of wall is doing overtime as a display plinth for flowers, wreaths, mirrors and ornaments shaped like flowers. The pool out back is the single moderately breathable space on the whole property, which tracks, since it's also the only spot the decorator apparently couldn't hang anything from. We're not questioning the taste here so much as the structural logistics of it. Somewhere under all this is, we're assured, a lovely pink house. We'll take their word for it, because from here we genuinely cannot see it.
 youtubeId: chBfKE2PSMY
 heroImage: https://images.theplist.com.au/bligh-park-clutter-house-kitchen.jpg
+hook: 'Normal brick house outside. Every doily in New South Wales inside.'
 listingUrl: https://www.realestate.com.au/property/1-ann-pl-bligh-park-nsw-2756/
 listingLabel: View property
 photos:

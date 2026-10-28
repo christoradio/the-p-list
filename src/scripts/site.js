@@ -405,3 +405,17 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   }
   paragraphs[1].insertAdjacentElement("afterend", figure);
 })();
+
+/* ---------- post page: "Surprise me" picks a fresh random post per click
+   (the href is a build-time fallback for when JS doesn't run) ---------- */
+(function () {
+  const btn = document.querySelector("[data-surprise]");
+  if (!btn) return;
+  btn.addEventListener("click", (e) => {
+    let slugs;
+    try { slugs = JSON.parse(btn.getAttribute("data-surprise") || "[]"); } catch (_) { return; }
+    if (!slugs.length) return;
+    e.preventDefault();
+    window.location.href = "/post/" + slugs[Math.floor(Math.random() * slugs.length)];
+  });
+})();

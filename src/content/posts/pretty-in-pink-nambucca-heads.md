@@ -15,6 +15,7 @@ verdict: Made the list for being three bedrooms with three completely different 
 youtubeId: GhyEfPR_2_4
 heroImage: https://images.theplist.com.au/nambucca-02-pink-bedroom.jpg
 status: Not currently for sale
+hook: 'Three bedrooms, three colour philosophies, none of them white.'
 listingUrl: https://www.realestate.com.au/property/unit-7-4-small-st-nambucca-heads-nsw-2448/
 listingLabel: View property profile
 photos:

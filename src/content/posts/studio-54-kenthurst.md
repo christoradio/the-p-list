@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for being an actual functioning nightclub that also happens to come with 5 acres, a tennis court and a cricket practice wicket. Red carpet climbs two matching curved staircases under crystal chandeliers hung low enough to touch, there's a full disco with dance floor, mirror ball and its own bar, and — because apparently that wasn't enough entertaining — a recording studio next door. Two kitchens, one of them frozen somewhere around 1988. Bathrooms tiled by someone we can only assume was denied access to a colour wheel, including a red hexagonal spa bath that looks like it's been poached from a wedding cake. There's also a squash court. We have questions about the squash court.
 youtubeId: CJJ4SDqV3yA
 heroImage: https://images.theplist.com.au/kenthurst-robson-road-exterior-porte-cochere.jpg
+hook: 'A working nightclub. Also five acres and a cricket wicket.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-kenthurst-114413451
 listingLabel: View sold listing
 photos:

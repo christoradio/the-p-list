@@ -15,6 +15,7 @@ verdict: Made the list for two bars (one with a keg, one with banana-leaf wallpa
 youtubeId: pCPzqygV3G8
 heroImage: https://images.theplist.com.au/palm8.jpg
 status: Not currently for sale
+hook: 'Two bars, a yellow water slide and brolgas on the kitchen walls.'
 listingUrl: https://www.realestate.com.au/property-house-nsw-palm+beach-143896328
 photos:
   - src: https://images.theplist.com.au/palm8.jpg

@@ -15,6 +15,7 @@ verdict: 'Made the list for treating "greige" as a personal insult and respondin
 youtubeId: OjbnSPcrJfs
 heroImage: https://images.theplist.com.au/faulconbridge1.jpg
 status: Sold
+hook: 'Takes greige as a personal insult. We lost count of the starburst clocks.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-faulconbridge-150942928
 listingLabel: View sold listing
 photos:

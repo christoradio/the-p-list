@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for a fully themed Crusader meeting room — armour, banners and a round table built for chivalry — and that's before you even reach the private theatre.
 youtubeId: zMRxeAtvh2c
 heroImage: https://images.theplist.com.au/priestdale-02-crusader-room.jpg
+hook: 'A Crusader meeting room with a round table. Then there''s the theatre.'
 listingUrl: https://www.domain.com.au/property-profile/437-441-ford-road-priestdale-qld-4127
 listingLabel: View property history on Domain
 status: Not currently for sale

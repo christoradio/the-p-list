@@ -15,6 +15,7 @@ status: For sale
 verdict: 'Made the list for a curved, porthole-windowed Art Deco facade so intact it belongs behind a velvet rope, a sunken rumpus room with its own built-in bar for entertaining on an ocean-liner scale, and interiors so meticulously preserved you half expect a docent to appear. First time offered in the prestigious Riverside Estate.'
 youtubeId: AWLa2JNGj5M
 heroImage: https://images.theplist.com.au/art1.jpg
+hook: 'One lawn ornament short of needing a ticket booth.'
 listingUrl: https://www.realestate.com.au/property-house-vic-balwyn+north-149016964
 listingLabel: View listing
 photos:

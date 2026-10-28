@@ -4,7 +4,6 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Stamp from "../../components/Stamp.astro";
 import Tags from "../../components/Tags.astro";
 import QuirkDots from "../../components/QuirkDots.astro";
-import PostCard from "../../components/PostCard.astro";
 import NewsletterBand from "../../components/NewsletterBand.astro";
 import AdUnit from "../../components/AdUnit.astro";
 import {
@@ -12,10 +11,10 @@ import {
   postSeoTitle,
   postSeoDescription,
   locationLabel,
-  relatedPosts,
+  randomPosts,
   nextPost,
   cardMediaSrc,
-  firstSentence,
+  cardTeaser,
   UP_NEXT_LABELS,
 } from "../../lib/utils";
 import { TAG_DEFS } from "../../data/tags";
@@ -35,18 +34,15 @@ const sorted = sortedByOrder(allPosts);
 const upNext = nextPost(sorted, post);
 const upNextLabel = UP_NEXT_LABELS[Math.floor(Math.random() * UP_NEXT_LABELS.length)];
 const upNextSrc = upNext ? cardMediaSrc(upNext) : undefined;
-const others = relatedPosts(sorted, post, 6, upNext ? [upNext.data.slug] : []);
+const skip = [post.data.slug, ...(upNext ? [upNext.data.slug] : [])];
+const others = randomPosts(sorted, 3, skip);
+// Every other slug, so "Surprise me" can pick fresh on each click.
+const surpriseSlugs = sorted.map((p) => p.data.slug).filter((s) => s !== post.data.slug);
+const surpriseFallback = randomPosts(sorted, 1, skip)[0];
 const moreTags = post.data.tags
   .map((t) => TAG_DEFS.find((d) => d.tag === t))
   .filter((d) => d !== undefined);
 
-const RELATED_HEADINGS = [
-  "Still Here? Brave Of You.",
-  "Somehow, There's More.",
-  "You Made It This Far. Don't Stop Now.",
-  "Congratulations, Here's More Bad Carpet",
-];
-const relatedHeading = RELATED_HEADINGS[Math.floor(Math.random() * RELATED_HEADINGS.length)];
 
 const funStat = post.data.funStat || `Quirk rating: ${post.data.quirk}/5`;
 const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
@@ -166,7 +162,7 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
           <div class="up-next-body">
             <span class="eyebrow">{upNextLabel}</span>
             <h3>{upNext.data.title}</h3>
-            <p>{firstSentence(upNext.data.verdict)}</p>
+            <p>{cardTeaser(upNext)}</p>
             <span class="up-next-go">{locationLabel(upNext)} &middot; Open the file &rarr;</span>
           </div>
         </a>
@@ -193,23 +189,34 @@ const dateLabel = new Date(post.data.date).toLocaleDateString("en-AU", {
     </div>
   </div>
 
-  <section class="section" style="padding-top:0;">
-    <div class="wrap">
-      <div class="section-head related-head" data-reveal>
-        <h2>{relatedHeading}</h2>
+  <section class="wrap more-box-wrap">
+    <div class="more-box" data-reveal>
+      <div class="more-box-head">
+        <span class="eyebrow">Three more, picked at random</span>
+        {surpriseFallback && (
+          <a class="btn btn-rust surprise-btn" href={`/post/${surpriseFallback.data.slug}`} data-surprise={JSON.stringify(surpriseSlugs)}>Surprise me &rarr;</a>
+        )}
       </div>
-      <div class="grid">
-        {others.map((p, i) => <PostCard post={p} index={i} />)}
+      <ul class="more-box-list">
+        {others.map((p) => {
+          const src = cardMediaSrc(p);
+          return (
+            <li>
+              <a href={`/post/${p.data.slug}`} class="more-box-item">
+                <div class="more-box-thumb">{src && <img src={src} alt="" loading="lazy" />}</div>
+                <div>
+                  <span class="more-box-title">{p.data.title}</span>
+                  <span class="place">{locationLabel(p)}</span>
+                </div>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      <div class="more-box-links">
+        {moreTags.map((d) => <a href={`/tag/${d.slug}`}>More {d.label}</a>)}
+        <a href="/">The whole list</a>
       </div>
-      {moreTags.length > 0 && (
-        <div class="more-tags" data-reveal>
-          <span class="eyebrow">Still not sick of it?</span>
-          <div class="more-tags-btns">
-            {moreTags.map((d) => <a class="btn" href={`/tag/${d.slug}`}>Every {d.label} house we've got &rarr;</a>)}
-            <a class="btn btn-solid" href="/">The whole sorry list &rarr;</a>
-          </div>
-        </div>
-      )}
     </div>
   </section>
 

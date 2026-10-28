@@ -15,6 +15,7 @@ verdict: Made the list for looking exactly like a tin of Taubman's Canyon Pink f
 youtubeId: HkNlsu99Ifo
 heroImage: https://images.theplist.com.au/darlinghurst-pink-palace-living-dining-chandeliers.jpg
 status: Not currently for sale
+hook: 'A Harry Seidler tower, and a tin of pink paint that got loose.'
 listingUrl: https://www.realestate.com.au/property-apartment-nsw-darlinghurst-149944976
 listingLabel: View listing
 photos:

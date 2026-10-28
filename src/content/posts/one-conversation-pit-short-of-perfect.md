@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for a lounge room in dusty coral velvet facing a full sandstone fireplace wall, a kitchen wallpapered in orange florals bold enough to read from the rooftop three storeys up, a powder room committed entirely to red damask and a gold-rimmed orange sink basin, and a rooftop terrace over Diamond Bay Reserve so good the agent needed four different words for ‘view.’ Every original surface in this apartment has survived completely intact. Honestly, the only thing missing is a sunken conversation pit — otherwise, this is about as close to perfect as it gets.
 youtubeId: 63hOync81Ow
 heroImage: https://images.theplist.com.au/vaucluse-living-room-coral-velvet-lounge.jpg
+hook: 'Coral velvet, orange florals, a red damask powder room. Nobody touched a thing.'
 listingUrl: https://www.realestate.com.au/sold/property-apartment-nsw-vaucluse-145138032
 listingLabel: View sold listing
 photos:

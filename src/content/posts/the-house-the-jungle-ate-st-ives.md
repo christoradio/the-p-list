@@ -16,6 +16,7 @@ verdict: 'Made the list for presenting real estate''s three great questions all 
 youtubeId: ''
 heroImage: https://images.theplist.com.au/st-ives-jungle-house-exterior-overgrown-front-garden.jpg
 status: Sold
+hook: 'The garden won this fight years ago.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-st+ives-151667792
 listingLabel: View sold listing
 photos:

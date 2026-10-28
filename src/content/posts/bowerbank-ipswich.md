@@ -16,6 +16,7 @@ status: For Sale
 youtubeId: FBvS4LjQ7Kw
 verdict: 'Made the list for a 1914 hilltop mansion sold fully furnished, with a ballroom and a pianola, a crimson dining room under a crystal chandelier, a wall of graduation portraits, school pennants over the bedroom doors, a garden full of terracotta statues and its own turreted lookout over downtown Ipswich. Then there''s the kitchen, which arrived from a different century and never explained itself.'
 heroImage: https://images.theplist.com.au/bowerbank1.jpg
+hook: 'It comes fully furnished. Please do not touch anything. Ever.'
 listingUrl: https://www.realestate.com.au/property-house-qld-ipswich-152456676
 listingLabel: View listing
 photos:

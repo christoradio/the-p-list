@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for being inside Golden Oak, the only residential neighbourhood Disney has ever let anyone actually live in, complete with a home cinema built as a full-scale Millennium Falcon cockpit, an exact replica of the marble fireplace from Cinderella's Castle apartment, and an outdoor pizza oven shaped like Toothless. Disney's own designers reportedly worked on this house, which either means the theming is unimpeachably accurate or that somebody's mouse-eared consultancy fee got very, very out of hand. Disney Adults, Disnerds, Disneyphiles, Park Rats — whatever you're calling yourselves this week, this is your final form.
 youtubeId: lk0NXw67SoQ
 heroImage: https://images.theplist.com.au/golden-oak-disney-mansion-exterior-dusk.webp
+hook: 'A Millennium Falcon cinema and a dragon pizza oven. Inside Disney World.'
 listingUrl: https://www.sothebysrealty.com/eng/sales/detail/180-l-2813406-o6143312/10151-enchanted-oak-drive-golden-oak-fl-32836
 listingLabel: View sold listing
 photos:

@@ -15,6 +15,7 @@ status: Sold
 verdict: Made the list for a living room where the wallpaper and the carpet are both doing maximalist florals simultaneously and somehow neither one blinked first, a home office that appears to have been designed for a Victorian-era villain, and an exterior that promises Beverly Hills California and delivers Beverly Hills NSW, which is its own very specific thing.
 youtubeId: urL8l2vGVkc
 heroImage: https://images.theplist.com.au/bev1.jpg
+hook: 'Beverly Hills, NSW. Not that one. Very much not that one.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-beverly+hills-139138215
 listingLabel: View sold listing
 photos:

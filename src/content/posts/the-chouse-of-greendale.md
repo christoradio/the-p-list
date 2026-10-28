@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for being an actual 1849 church, designed by the same architect as St Andrew's Cathedral, converted into a house without anyone bothering to tone down the vibe. There's a fireplace where an altar could easily have gone, red carpet wall to wall like it's still hosting christenings, a full theatre pipe organ standing in what is now, we assume, a living room, and stained-glass flamingos in a door, which is a combination of words we did not expect to type today. Potential to start your own religion strictly optional.
 youtubeId: p1VSfO8pB9c
 heroImage: https://images.theplist.com.au/greendale-church-exterior-twilight-facade.jpg
+hook: 'An 1849 church with a pipe organ in the living room.'
 listingUrl: https://www.realestate.com.au/property-house-nsw-greendale-150759484
 listingLabel: View listing
 photos:

@@ -14,6 +14,7 @@ quirk: 5
 verdict: Made the list for being so narrow a tape measure is the most alarming thing about the listing — and for hiding a clawfoot bath in the side passage that no plumber could fully explain.
 youtubeId: 0DXkr7tIcoo
 heroImage: https://images.theplist.com.au/blue1.jpg
+hook: '3.4 metres wide. The bath is in the side passage.'
 listingUrl: https://www.realestate.com.au/sold/property-house-nsw-erskineville-150521188
 listingLabel: View the sold listing
 status: Sold

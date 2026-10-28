@@ -15,6 +15,7 @@ verdict: Made the list for having functional drawbridges, a cascading indoor wat
 youtubeId: WB0rurjRV7E
 heroImage: https://images.theplist.com.au/earth1.jpg
 status: Not currently for sale
+hook: 'It has working drawbridges. That''s not even the weirdest part.'
 listingUrl: https://www.realestate.com.au/property-house-wa-bullsbrook-150881832
 photos:
   - src: https://images.theplist.com.au/earth1.jpg

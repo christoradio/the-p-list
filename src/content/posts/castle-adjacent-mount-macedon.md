@@ -17,6 +17,7 @@ price: '$3,200,000'
 youtubeId: 65ziGoPv3Tg
 verdict: 'Made the list for being not quite a castle but definitely castle adjacent: sandstone-coloured block walls, a chimney stack like a turret, a curving outdoor staircase that climbs the side of the house and looks for all the world like it leads to the roof (it does, and the roof is a terrace). Also for a home cinema in acid green and electric blue with egg-crate acoustic foam and a wall of DVDs, a bathroom panelled entirely in timber, and a 1992 Melbourne Zoo poster of a family of badgers keeping watch over the double vanity.'
 heroImage: https://images.theplist.com.au/willowmount4.jpg
+hook: 'Not a castle. Castle adjacent. The stairs on the outside go to the roof.'
 listingUrl: https://www.realestate.com.au/property-house-vic-mount+macedon-152365840
 listingLabel: View listing
 photos:
