@@ -85,3 +85,19 @@ export const BEST_OF_SLUGS = [
   "fort-knox-but-damp",
   "do-not-touch-newstead",
 ];
+
+export type BEdition = CollectionEntry<"blist">;
+export type BHouse = BEdition["data"]["houses"][number];
+
+export function sortedEditions(editions: BEdition[]): BEdition[] {
+  return [...editions].sort((a, b) => b.data.edition - a.data.edition);
+}
+
+export function houseLocation(h: BHouse): string {
+  if (h.country) return `${h.suburb.toUpperCase()}, ${h.country.toUpperCase()}`;
+  return `${h.suburb.toUpperCase()}${h.state ? `, ${h.state}` : ""}`;
+}
+
+export function houseAnchor(h: BHouse): string {
+  return `${h.name}-${h.suburb}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}

@@ -14,9 +14,11 @@ import {
   cardTeaser,
   locationLabel,
   BEST_OF_SLUGS,
+  sortedEditions,
 } from "../lib/utils";
 
 const allPosts = sortedByOrder(await getCollection("posts"));
+const latestB = sortedEditions(await getCollection("blist"))[0];
 const hero = allPosts[0];
 const rest = allPosts.slice(1);
 const bestOf = BEST_OF_SLUGS
@@ -109,6 +111,19 @@ const chunkSize = 7;
         heading="The Ones You Lot Can't Stop Gawking At"
         sub="Ranked by sheer volume of people who should have been working."
       />
+
+      {latestB && (
+        <a class="b-band" id="bBand" href={`/b-list/${latestB.data.slug}`} data-reveal>
+          <div class="b-band-text">
+            <span class="eyebrow">New on The B-List &middot; No.{latestB.data.edition}</span>
+            <h2>{latestB.data.title}</h2>
+            <span class="b-band-go">{latestB.data.houses.length} near-misses, too good to bin &rarr;</span>
+          </div>
+          <div class="b-band-thumbs" aria-hidden="true">
+            {latestB.data.houses.slice(0, 4).map((h) => <img src={h.photos[0].src} alt="" loading="lazy" />)}
+          </div>
+        </a>
+      )}
 
       <div class="grid" id="postGrid">
         {rest.map((post, i) => {

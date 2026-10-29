@@ -1,0 +1,112 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import StatusBadge from "../../components/StatusBadge.astro";
+import PostStrip from "../../components/PostStrip.astro";
+import NewsletterBand from "../../components/NewsletterBand.astro";
+import AdUnit from "../../components/AdUnit.astro";
+import {
+  sortedByOrder,
+  randomPosts,
+  truncateForSEO,
+  houseLocation,
+  houseAnchor,
+  sortedEditions,
+} from "../../lib/utils";
+
+export async function getStaticPaths() {
+  const editions = await getCollection("blist");
+  return editions.map((edition) => ({
+    params: { slug: edition.data.slug },
+    props: { edition, editions },
+  }));
+}
+
+const { edition, editions } = Astro.props;
+const { title, houses, date } = edition.data;
+const { Content } = await render(edition);
+const posts = sortedByOrder(await getCollection("posts"));
+const others = randomPosts(posts, 4);
+
+const sorted = sortedEditions(editions);
+const i = sorted.findIndex((e) => e.data.slug === edition.data.slug);
+const newer = sorted[i - 1];
+const older = sorted[i + 1];
+
+const dateLabel = new Date(date).toLocaleDateString("en-AU", { day: "numeric", month: "short", year: "numeric" });
+const seoTitle = `The B-List #${edition.data.edition}: ${title} | The P List`;
+const seoDesc = truncateForSEO(
+  edition.data.hook || `${houses.length} more Australian houses that nearly made The P List: ${houses.map((h) => `${h.suburb}`).join(", ")}.`,
+  158
+);
+const paragraphs = (text: string) => text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+---
+<BaseLayout title={seoTitle} description={seoDesc} image={houses[0].photos[0].src} path={`/b-list/${edition.data.slug}`}>
+  <div class="wrap b-header">
+    <a href="/b-list" class="back-link">&larr; All B-List editions</a>
+    <span class="eyebrow b-eyebrow">The B-List &middot; No.{edition.data.edition}</span>
+    <h1>{title}</h1>
+    <div class="post-meta">
+      <span class="place">{houses.length} houses &middot; {dateLabel}</span>
+    </div>
+    <div class="b-intro post-body"><Content /></div>
+    <ol class="b-contents">
+      {houses.map((h, n) => (
+        <li><a href={`#${houseAnchor(h)}`}><span class="b-num">{n + 1}</span> {h.name} <span class="place">{houseLocation(h)}</span></a></li>
+      ))}
+    </ol>
+  </div>
+
+  <div class="wrap b-houses">
+    {houses.map((h, n) => (
+      <Fragment>
+      <section class="b-house" id={houseAnchor(h)} data-reveal>
+        <div class="b-house-head">
+          <span class="b-num b-num-lg">{n + 1}</span>
+          <div>
+            <h2>{h.name}</h2>
+            <span class="place">{houseLocation(h)}</span>
+          </div>
+          <StatusBadge status={h.status} />
+        </div>
+        <div class="photo-strip-wrap">
+          <div class="photo-strip">
+            {h.photos.map((p) => (
+              <button type="button" class="ph-tile" data-photo-src={p.src} data-photo-caption={p.caption || h.name} aria-label={`View larger: ${p.caption || h.name}`}>
+                <img src={p.src} alt={p.caption || h.name} loading="lazy" />
+              </button>
+            ))}
+          </div>
+        </div>
+        <div class="post-body b-house-text">
+          {paragraphs(h.text).map((p) => <p>{p}</p>)}
+        </div>
+        <div class="b-house-foot">
+          <a href={h.listingUrl} target="_blank" rel="noopener" class="btn btn-solid">{h.listingLabel || "See the listing"} &rarr;</a>
+          {h.sentBy && <span class="b-sent">Sent in by {h.sentBy}</span>}
+        </div>
+      </section>
+      {n === 1 && <AdUnit slot="3367808018" />}
+      </Fragment>
+    ))}
+
+    {(newer || older) && (
+      <nav class="b-pager" aria-label="Other editions">
+        {older ? <a href={`/b-list/${older.data.slug}`}>&larr; B-List No.{older.data.edition}</a> : <span></span>}
+        {newer && <a href={`/b-list/${newer.data.slug}`}>B-List No.{newer.data.edition} &rarr;</a>}
+      </nav>
+    )}
+  </div>
+
+  <div class="wrap post-strip-wrap">
+    <PostStrip
+      id="moreFromList"
+      posts={others}
+      eyebrow="The A-list, picked at random"
+      heading="Now See The Ones That Made It"
+      sub="Four houses with the full treatment."
+    />
+  </div>
+
+  <NewsletterBand />
+</BaseLayout>

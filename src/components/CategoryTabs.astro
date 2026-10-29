@@ -2,12 +2,13 @@
 // Category links shared by the homepage hero and every /tag page, so a tap
 // lands on the category's own page (intro + its houses) instead of quietly
 // filtering a grid further down the screen.
+import { getCollection } from "astro:content";
 import { TAG_DEFS } from "../data/tags";
 import type { Post } from "../lib/utils";
 
 interface Props {
   posts: Post[];
-  active: string; // "all" or a tag slug
+  active: string; // "all", a tag slug, or "b-list"
 }
 const { posts, active } = Astro.props;
 
@@ -19,6 +20,9 @@ const tabs = [
     .sort((a, b) => b.n - a.n)
     .map(({ d }) => ({ key: d.slug, href: `/tag/${d.slug}`, label: d.label })),
 ];
+if ((await getCollection("blist")).length > 0) {
+  tabs.push({ key: "b-list", href: "/b-list", label: "The B-List" });
+}
 ---
 <nav class="filter-bar" aria-label="Browse by category">
   <div class="wrap filter-bar-inner">
