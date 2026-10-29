@@ -286,6 +286,7 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   const noMatch = document.getElementById("noMatch");
   const sortSelect = document.getElementById("sortSelect");
   const bestOf = document.getElementById("bestOf");
+  const bBand = document.getElementById("bBand");
 
   let state = "all";
   let sort = "newest";
@@ -331,6 +332,7 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
     // The greatest-hits strip ignores filters, so get it out of the way
     // once the visitor is hunting for something specific.
     if (bestOf) bestOf.style.display = state === "all" ? "" : "none";
+    if (bBand) bBand.style.display = state === "all" ? "" : "none";
   }
 
   stateSelect.addEventListener("change", (e) => {
@@ -347,7 +349,7 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
 
 /* ---------- mid-article photo (mobile only; reuses a photo from the strip below) ---------- */
 (function () {
-  const body = document.querySelector(".post-body");
+  const body = document.querySelector(".post-body-col .post-body");
   const strip = document.querySelector(".photo-strip");
   if (!body || !strip) return;
   const paragraphs = body.querySelectorAll(":scope > p");
@@ -398,7 +400,7 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
    The full text is always in the HTML (Google and AdSense see all of it);
    this only clips it visually until the reader asks for the rest. ---------- */
 (function () {
-  const body = document.querySelector(".post-body");
+  const body = document.querySelector(".post-body-col .post-body");
   if (!body) return;
   const paragraphs = body.querySelectorAll(":scope > p");
   if (paragraphs.length < 4) return;

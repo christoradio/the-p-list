@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import NewsletterBand from "../../components/NewsletterBand.astro";
+import { sortedEditions, houseLocation } from "../../lib/utils";
+
+const editions = sortedEditions(await getCollection("blist"));
+const posts = await getCollection("posts");
+---
+<BaseLayout
+  title="The B-List — Australian Houses That Nearly Made The P List"
+  description="The near-misses. Australian houses that didn't get the full P List treatment but were too good to ignore, a handful at a time."
+  path="/b-list"
+>
+  <div class="category-bar">
+    <CategoryTabs posts={posts} active="b-list" />
+  </div>
+  <div class="wrap about-hero category-hero">
+    <span class="eyebrow" data-reveal>The near-misses</span>
+    <h1 data-reveal style="margin-top:14px;transition-delay:60ms">The B-List</h1>
+    <p data-reveal style="transition-delay:120ms">People send us more weird houses than we could ever film. These are the ones that didn't get a video but were too good to throw away. A handful at a time, with the photos and a few words each.</p>
+  </div>
+  <section class="listings-section">
+    <div class="wrap">
+      {editions.length ? (
+        <div class="b-editions">
+          {editions.map((e) => (
+            <a class="b-edition-card" href={`/b-list/${e.data.slug}`} data-reveal>
+              <div class="b-edition-thumbs">
+                {e.data.houses.slice(0, 4).map((h) => <img src={h.photos[0].src} alt="" loading="lazy" />)}
+              </div>
+              <div class="b-edition-body">
+                <span class="eyebrow">No.{e.data.edition} &middot; {e.data.houses.length} houses</span>
+                <h2>{e.data.title}</h2>
+                <p class="place">{e.data.houses.map((h) => houseLocation(h)).join(" · ")}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p style="font-family:var(--mono);font-size:13px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.06em;text-align:center;padding:60px 0;">The first edition is on its way.</p>
+      )}
+    </div>
+  </section>
+  <NewsletterBand />
+</BaseLayout>
