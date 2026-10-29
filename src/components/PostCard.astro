@@ -9,8 +9,9 @@ interface Props {
   post: Post;
   index?: number;
   wide?: boolean;
+  showTags?: boolean;
 }
-const { post, index = 0, wide = false } = Astro.props;
+const { post, index = 0, wide = false, showTags = true } = Astro.props;
 const cover = cardMediaSrc(post);
 const ytThumb = post.data.youtubeId
   ? `https://i.ytimg.com/vi/${post.data.youtubeId}/hqdefault.jpg`
@@ -48,7 +49,7 @@ const ytThumb = post.data.youtubeId
   <div class="card-body">
     <h3>{post.data.title}</h3>
     <p class="verdict">{cardTeaser(post)}</p>
-    <Tags tags={post.data.tags} />
+    {showTags && <Tags tags={post.data.tags} />}
     <div class="card-foot">Read the file &rarr;</div>
   </div>
 </a>

@@ -286,7 +286,10 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
   const noMatch = document.getElementById("noMatch");
   const sortSelect = document.getElementById("sortSelect");
   const bestOf = document.getElementById("bestOf");
-  const bBand = document.getElementById("bBand");
+  // Feature breaks between chunks (B-List band, category tiles, sold strip...)
+  // and the server-rendered order, so "Newest first" can put everything back.
+  const modules = grid ? Array.from(grid.querySelectorAll(".grid-module")) : [];
+  const original = grid ? Array.from(grid.children) : [];
 
   let state = "all";
   let sort = "newest";
@@ -314,14 +317,17 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
       if (showHero) visibleCount++;
     }
 
-    let sorted;
     if (sort === "quirk" || sort === "beds-desc") {
       const key = sort === "quirk" ? "data-quirk" : "data-beds";
-      sorted = cards.slice().sort((a, b) => (parseFloat(b.getAttribute(key)) || 0) - (parseFloat(a.getAttribute(key)) || 0));
+      const sorted = cards.slice().sort((a, b) => (parseFloat(b.getAttribute(key)) || 0) - (parseFloat(a.getAttribute(key)) || 0));
+      sorted.forEach((c) => grid.appendChild(c));
+      // Ads and breaks follow the re-sorted cards rather than piling up on top.
+      original.filter((el) => !el.matches(".card[data-order]")).forEach((el) => grid.appendChild(el));
     } else {
-      sorted = cards.slice().sort((a, b) => (+a.getAttribute("data-order")) - (+b.getAttribute("data-order")));
+      original.forEach((el) => grid.appendChild(el));
     }
-    sorted.forEach((c) => grid.appendChild(c));
+    const plain = state === "all" && sort === "newest";
+    modules.forEach((m) => { m.style.display = plain ? "" : "none"; });
 
     if (countLabel) {
       const plural = visibleCount === 1 ? "property" : "properties";
@@ -332,7 +338,6 @@ document.querySelectorAll(".photo-strip").forEach((strip) => {
     // The greatest-hits strip ignores filters, so get it out of the way
     // once the visitor is hunting for something specific.
     if (bestOf) bestOf.style.display = state === "all" ? "" : "none";
-    if (bBand) bBand.style.display = state === "all" ? "" : "none";
   }
 
   stateSelect.addEventListener("change", (e) => {

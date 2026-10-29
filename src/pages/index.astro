@@ -3,17 +3,18 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import AdUnit from "../components/AdUnit.astro";
-import Tags from "../components/Tags.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import NewsletterBand from "../components/NewsletterBand.astro";
 import PostStrip from "../components/PostStrip.astro";
 import CategoryTabs from "../components/CategoryTabs.astro";
+import CategoryTiles from "../components/CategoryTiles.astro";
 import {
   sortedByOrder,
   cardMediaSrc,
   cardTeaser,
   locationLabel,
   BEST_OF_SLUGS,
+  randomPosts,
   sortedEditions,
 } from "../lib/utils";
 
@@ -26,6 +27,14 @@ const bestOf = BEST_OF_SLUGS
   .filter((p) => p !== undefined);
 
 const heroSrc = hero ? cardMediaSrc(hero) : undefined;
+
+// Breaks in the homepage feed so it isn't sixty houses in a row.
+const soldStrip = randomPosts(
+  allPosts.filter((p) => (p.data.status ?? "").toLowerCase() === "sold"),
+  4,
+  BEST_OF_SLUGS
+);
+const surpriseSlugs = allPosts.map((p) => p.data.slug);
 
 const hasIntl = allPosts.some((p) => p.data.country);
 
@@ -88,7 +97,6 @@ const chunkSize = 7;
           </div>
           <div class="hero-listing-body">
             <div class="hero-listing-eyebrow">&#9733; Featured listing</div>
-            <Tags tags={hero.data.tags} />
             <h2>{hero.data.title}</h2>
             <div class="place">{locationLabel(hero)}</div>
             <div class="specs">
@@ -111,28 +119,58 @@ const chunkSize = 7;
         heading="The Ones You Lot Can't Stop Gawking At"
         sub="Ranked by sheer volume of people who should have been working."
       />
-
-      {latestB && (
-        <a class="b-band" id="bBand" href={`/b-list/${latestB.data.slug}`} data-reveal>
-          <div class="b-band-text">
-            <span class="eyebrow">New on The B-List &middot; No.{latestB.data.edition}</span>
-            <h2>{latestB.data.title}</h2>
-            <span class="b-band-go">{latestB.data.houses.length} near-misses, too good to bin &rarr;</span>
-          </div>
-          <div class="b-band-thumbs" aria-hidden="true">
-            {latestB.data.houses.slice(0, 4).map((h) => <img src={h.photos[0].src} alt="" loading="lazy" />)}
-          </div>
-        </a>
-      )}
-
       <div class="grid" id="postGrid">
         {rest.map((post, i) => {
           const isBreakAnchor = i % chunkSize === 0;
+          const chunk = i / chunkSize;
           const nodes = [];
+          // Between chunks: a feature break for the first few, then just ads.
           if (i > 0 && i % chunkSize === 0) {
+            if (chunk === 1 && latestB) {
+              nodes.push(
+                <div class="grid-module">
+                  <a class="b-band" href={`/b-list/${latestB.data.slug}`} data-reveal>
+                    <div class="b-band-text">
+                      <span class="eyebrow">New on The B-List &middot; No.{latestB.data.edition}</span>
+                      <h2>{latestB.data.title}</h2>
+                      <span class="b-band-go">{latestB.data.houses.length} near-misses, too good to bin &rarr;</span>
+                    </div>
+                    <div class="b-band-thumbs" aria-hidden="true">
+                      {latestB.data.houses.slice(0, 4).map((h) => <img src={h.photos[0].src} alt="" loading="lazy" />)}
+                    </div>
+                  </a>
+                </div>
+              );
+            } else if (chunk === 2) {
+              nodes.push(<div class="grid-module"><CategoryTiles posts={allPosts} avoid={BEST_OF_SLUGS} /></div>);
+            } else if (chunk === 3 && soldStrip.length) {
+              nodes.push(
+                <div class="grid-module">
+                  <PostStrip
+                    id="soldStrip"
+                    posts={soldStrip}
+                    eyebrow="Off the market"
+                    heading="Sold. Gone. Never Forgotten."
+                    sub="Somebody actually bought these. We're still processing it."
+                  />
+                </div>
+              );
+            } else if (chunk === 4) {
+              nodes.push(
+                <div class="grid-module">
+                  <div class="surprise-band" data-reveal>
+                    <div>
+                      <span class="eyebrow">Can't decide?</span>
+                      <h2>Let Fate Pick The House.</h2>
+                    </div>
+                    <a class="btn surprise-band-btn" href={`/post/${surpriseSlugs[0]}`} data-surprise={JSON.stringify(surpriseSlugs)}>Surprise me &rarr;</a>
+                  </div>
+                </div>
+              );
+            }
             nodes.push(<AdUnit slot="3173466971" className="grid-ad" />);
           }
-          nodes.push(<PostCard post={post} index={i} wide={isBreakAnchor} />);
+          nodes.push(<PostCard post={post} index={i} wide={isBreakAnchor} showTags={false} />);
           return nodes;
         })}
       </div>
