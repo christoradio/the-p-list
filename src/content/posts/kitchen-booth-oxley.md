@@ -53,6 +53,8 @@ photos:
     caption: The rear garage and timber shed, reached by two concrete wheel strips through the lawn
   - src: https://images.theplist.com.au/enright20.jpg
     caption: The backyard. Rotary clothesline, garage, carport and a lot of lawn
+  - src: https://images.theplist.com.au/enright-floorplan.jpg
+    caption: The floorplan. 119 square metres inside, and the kitchen gets 6.9 metres of it, which is how you fit two booths
 date: '2026-10-30'
 order: 0
 ---
