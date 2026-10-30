@@ -51,7 +51,7 @@ photos:
   - src: https://images.theplist.com.au/cave3.jpg
     caption: The backyard, with the garage, the clothesline, and the studio and palm trees lurking at the back like they know something
 date: '2026-10-20'
-order: 3
+order: 4
 ---
 
 IT'S GOT A CAVE.

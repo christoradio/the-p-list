@@ -65,7 +65,7 @@ photos:
   - src: https://images.theplist.com.au/bowerbank2.jpg
     caption: And on a clear night, Brisbane on the horizon, a safe distance away
 date: '2026-10-27'
-order: 0
+order: 1
 ---
 
 This house isn't a house. It's an antique wrapped in house's clothing, and it should be behind a velvet rope with a little card that says *please do not touch*.
