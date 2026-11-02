@@ -28,7 +28,7 @@ photos:
   - src: https://images.theplist.com.au/round9.jpg
     caption: The aerial. Every other roof on the street has corners. This one has a hole in the middle
   - src: https://images.theplist.com.au/round8.jpg
-    caption: The back. Same circle, different side, plus a rotary clothesline, which is the only other round thing anyone in Minchinbury owns
+    caption: The back. Same circle, different side, plus a rotary clothesline, which also happens to be round
   - src: https://images.theplist.com.au/round2.jpg
     caption: The sunken living room. A curved white staircase, a balcony that bulges out overhead, a projector screen, and a red cone fireplace with a flue that goes up roughly forever
   - src: https://images.theplist.com.au/round4.jpg
@@ -45,6 +45,8 @@ photos:
     caption: One of the five bedrooms. King size, built-in robes, and four walls that nearly meet at right angles, which in this house counts as daring
   - src: https://images.theplist.com.au/round11.jpg
     caption: The office out by the garage, with shelving, air-conditioning and a filing cabinet. The listing calls it a man cave. It is a room with a filing cabinet
+  - src: https://images.theplist.com.au/round-floorplan.jpg
+    caption: The floorplan. A 9.5 metre round living room in the middle, the bedrooms cut like slices of pie around it, and off to the side the garage. Which is also round
 date: '2026-11-02'
 order: 0
 ---
@@ -69,9 +71,9 @@ Since the listing won't do it, we will. Here is the house, room by room, with a 
 
 **The kitchen.** Corners: a few, under protest. Black granite, white cupboards, a double fridge, a Bosch dishwasher. The ceiling, though, curves along with the outer wall. The house is reminding you, gently, that it's still round.
 
-**The bedrooms.** Corners: four each, roughly. All five sit on the ground floor, each big enough for a king bed with built-in robes, and the main has a walk-in robe with a make-up table and an ensuite. These are the only rooms where someone could stand in a corner as a punishment. They will be the most popular rooms in the house for exactly that reason.
+**The bedrooms.** Corners: technically. All five sit on the ground floor around the living room, and the floorplan shows they are cut like slices of pie, narrow at the inner wall and wide at the curved outer one. Each still takes a king bed with built-in robes, and the main has a walk-in robe with a make-up table and an ensuite. These are the only rooms where you could stand someone in a corner as a punishment, provided you pick the right corner.
 
-**Out the back.** Corners: some. There is a brick garage, an office with shelving and air-conditioning that the listing has named a "man cave", side and rear lawns, and a rotary clothesline. The clothesline is round. It is the only thing on the block that fits in.
+**Out the back.** Corners: you would think so. The listing calls it a "brick, one and a half car garage" and leaves it there. The floorplan tells the truth. The garage is round. It is a second, smaller brick circle, about 6.8 metres across, joined to the house by the carport, with a wedge-shaped storeroom bolted to the side. Somebody built a round house, looked at it, and decided the car deserved one too. Add the side and rear lawns and a rotary clothesline, which is also round, and the block is running at three circles and counting.
 
 The listing also suggests the house could become a doctor's surgery or offices, subject to council approval. Picture it. You come in through the arched French doors, take a number, and wait in the pit by the red fireplace while the receptionist calls you from the balcony.
 
