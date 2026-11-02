@@ -56,7 +56,7 @@ photos:
   - src: https://images.theplist.com.au/enright-floorplan.jpg
     caption: The floorplan. 119 square metres inside, and the kitchen gets 6.9 metres of it, which is how you fit two booths
 date: '2026-10-30'
-order: 0
+order: 1
 ---
 
 Boiling an egg? Sit down. Making a Bombe Alaska? Sit down. This Oxley kitchen has a booth in it. We don't mean a breakfast nook in the next room. There is a teal vinyl bench seat built along the kitchen bench, within reach of the stove, so the cook can take the weight off at any point in the process. Why don't more kitchens have one? Cooking is hard. With a big family it's harder. Every kitchen needs somewhere to look busy, have a rest, sip a glass of wine and pretend something is cooking. This one has had one since the day it was built.
