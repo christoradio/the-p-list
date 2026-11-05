@@ -48,7 +48,7 @@ photos:
   - src: https://images.theplist.com.au/round-floorplan.jpg
     caption: The floorplan. A 9.5 metre round living room in the middle, the bedrooms cut like slices of pie around it, and off to the side the garage. Which is also round
 date: '2026-11-02'
-order: 0
+order: 1
 ---
 
 The house is round. Not roundish. Not curved at the front. It is a circle, a full brick circle, with a second smaller circle stacked on top and a ring of white railing around each one. There are no corners to hide in. Is it a spaceship? Is it a hat Melania Trump will wear to a state dinner in 2028? So many questions, and they all lead back to "why?"
