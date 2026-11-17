@@ -71,7 +71,7 @@ photos:
   - src: https://images.theplist.com.au/croydon-floorplan.jpg
     caption: 'The 2023 floorplan. Six bedrooms, a 7.2 x 8.8 metre pool pavilion, a 2.1 x 3.8 metre sauna, and a bedroom upstairs marked "roof access"'
 date: '2026-11-05'
-order: 1
+order: 2
 ---
 
 If humble is not your thing and you're more into panther wallpaper, a black bathroom, taxidermy and bonsai trees, then 334 Maroondah Highway, Croydon is the place for you. There is a full moose head on the lounge room wall. There is a leopard skin draped over the Chesterfield. Please tell us these are imitation.

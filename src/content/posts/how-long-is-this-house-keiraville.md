@@ -63,7 +63,7 @@ photos:
   - src: https://images.theplist.com.au/keiraville-floorplan.jpg
     caption: 'The floorplan, which looks like a boomerang that has been stretched on a rack. The pool room alone is 27.4 metres long'
 date: 2026-11-12
-order: 0
+order: 1
 ---
 
 How long can a house be? It's not about the length or width, lol. Except here it absolutely is, because 101 Dallas Street, Keiraville is less a house and more a walking track with bedrooms. There are ten of them. Ten bathrooms too, and parking for ten cars. The decor changes from room to room like the house is flicking channels, and at the far end of it all is an indoor pool. Did we say indoor pool? Yes. It has an indoor freakin' pool, with a bar, in a room so big there is a sign on the wall pointing people to the toilets so they don't pee in the pool.
