@@ -52,7 +52,7 @@ photos:
   - src: https://images.theplist.com.au/millers-point-floorplan.jpg
     caption: 'The floorplan. The upstairs sunroom is 4.9 metres long and 1.8 metres wide, which is a hallway with ambitions'
 date: 2026-11-17
-order: 0
+order: 1
 ---
 
 Was it a bar? Was it a cafe? Is it still one of those and nobody has told the furniture? 5 Argyle Place in Millers Point is a heritage terrace with a shop window, a street awning, hanging baskets and a green front door, sitting on the park in one of the oldest corners of Sydney. Can people stagger home from the local and peer straight into your living room? Yes. The Lord Nelson and the Hero of Waterloo are both a short wobble away, and the front window is right there on the footpath. Can you sell coffee from your living room to passers-by and chip away at the staggering mortgage? Weirdly, also yes. It is zoned E1 Local Centre, which the agent says allows mixed use or commercial use throughout. The buyers guide is $3.7 million. That is a lot of flat whites.
